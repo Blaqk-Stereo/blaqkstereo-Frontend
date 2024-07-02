@@ -1,2 +1,2 @@
-# blaqkstereo
-This is a Dapp for music artists and music lovers as well. The one stop platform for everything an artist will require to launch their indie projects to fruition.
+# Blaqk Stereo
+Blaqk Stereo is a music mobile app pioneering Africa's first Music Decentralised Distribution platform, seamlessly merging Web2 convenience with blockchain technology to offer stablecoin royalty payments and instant tokenized earnings for music artists, while providing a rewarding experience for all users.
