@@ -1,0 +1,131 @@
+function SetUpProfile() {
+  return (
+    <Frame
+      name="SetUpProfile"
+      fill="#0D0D0D"
+      width={375}
+      height={812}
+    >
+      <AutoLayout
+        name="Frame 1000000784"
+        x={16}
+        y={68}
+        overflow="visible"
+        direction="vertical"
+        spacing={24}
+        horizontalAlignItems="center"
+      >
+        <AutoLayout
+          name="Frame 1171274863"
+          overflow="visible"
+          direction="vertical"
+          spacing={20}
+          horizontalAlignItems="center"
+        >
+          <AutoLayout
+            name="Frame 1171274862"
+            overflow="visible"
+            direction="vertical"
+          >
+            <Text
+              name="Welcome, Jane!"
+              fill="#FFF"
+              lineHeight={
+                33.6
+              }
+              fontFamily="Rubik"
+              fontSize={20}
+              letterSpacing={
+                -0.7
+              }
+              fontWeight={600}
+            >
+              Welcome, Jane!
+            </Text>
+            <Text
+              name="What artist name would you like to use for your music uploads?"
+              fill="#D4D4D4"
+              width={343}
+              lineHeight={24}
+              fontFamily="Rubik"
+              fontSize={14}
+            >
+              What artist name
+              would you like
+              to use for your
+              music uploads?
+            </Text>
+          </AutoLayout>
+          <AutoLayout
+            name="Frame 1000000784"
+            overflow="visible"
+            direction="vertical"
+            spacing={16}
+          >
+            <InputFieldFieldWithIconDefault name="Input field" />
+            <Text
+              name="If you’ve released music before, please use the same artist name for consistency. If this is your first release, choose a unique and easily searchable name. Avoid using names that are already taken by other artists. (We’ll verify this for you.) Your artist name is permanent, so choose thoughtfully. Please refrain from using emojis in your artist name."
+              fill="#FFF"
+              width={343}
+              lineHeight={24}
+              fontFamily="Rubik"
+              fontSize={12}
+            >
+              If you’ve
+              released music
+              before, please
+              use the same
+              artist name for
+              consistency. If
+              this is your
+              first release,
+              choose a unique
+              and easily
+              searchable name.
+              Avoid using
+              names that are
+              already taken by
+              other artists.
+              (We’ll verify
+              this for you.)
+              Your artist name
+              is permanent, so
+              choose
+              thoughtfully.
+              Please refrain
+              from using
+              emojis in your
+              artist name.
+            </Text>
+          </AutoLayout>
+        </AutoLayout>
+        <AutoLayout
+          name="Button"
+          opacity={0.5}
+          fill="#FFF"
+          cornerRadius={100}
+          overflow="visible"
+          spacing={10}
+          padding={{
+            vertical: 14,
+            horizontal: 118,
+          }}
+          width={335}
+          horizontalAlignItems="center"
+          verticalAlignItems="center"
+        >
+          <Text
+            name="Continue"
+            fill="#000"
+            lineHeight={24}
+            fontFamily="Rubik"
+            fontSize={14}
+            fontWeight={600}
+          >
+            Continue
+          </Text>
+        </AutoLayout>
+      </AutoLayout>
+    </Frame>
+  );
+}
