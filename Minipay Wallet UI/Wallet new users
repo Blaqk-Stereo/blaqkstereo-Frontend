@@ -1,0 +1,173 @@
+function WalletForNewUsers() {
+  return (
+    <Frame
+      name="WalletForNewUsers"
+      fill="#000"
+      width={375}
+      height={812}
+    >
+      <AutoLayout
+        name="Frame 1171274943"
+        x={{
+          type: "center",
+          offset: 0,
+        }}
+        y={{
+          type: "center",
+          offset: 0,
+        }}
+        overflow="visible"
+        direction="vertical"
+        spacing={12}
+        horizontalAlignItems="center"
+      >
+        <Image
+          name="nft-wallet-3664055 1"
+          width={300}
+          height={248}
+          src="<Add image URL here>"
+        />
+        <AutoLayout
+          name="Frame 1000000754"
+          overflow="visible"
+          direction="vertical"
+          spacing={24}
+          horizontalAlignItems="center"
+        >
+          <Text
+            name="To get started, you’ll need to set up your MiniPay wallet"
+            fill="#FFF"
+            width={343}
+            verticalAlignText="center"
+            horizontalAlignText="center"
+            lineHeight={33.6}
+            fontFamily="Rubik"
+            fontSize={20}
+            letterSpacing={
+              -0.7
+            }
+            fontWeight={600}
+          >
+            To get started,
+            you’ll need to set
+            up your MiniPay
+            wallet
+          </Text>
+          <AutoLayout
+            name="Button"
+            fill="#FFF"
+            cornerRadius={100}
+            overflow="visible"
+            spacing={10}
+            padding={{
+              vertical: 14,
+              horizontal: 0,
+            }}
+            width={335}
+            horizontalAlignItems="center"
+            verticalAlignItems="center"
+          >
+            <Text
+              name="Proceed to setup"
+              fill="#000"
+              horizontalAlignText="center"
+              lineHeight={24}
+              fontFamily="Rubik"
+              fontSize={14}
+              fontWeight={600}
+            >
+              Proceed to setup
+            </Text>
+          </AutoLayout>
+        </AutoLayout>
+      </AutoLayout>
+      <Nav
+        name="Nav"
+        x={{
+          type: "center",
+          offset: 0,
+        }}
+        y={{
+          type: "bottom",
+          offset: 0,
+        }}
+      />
+      <Frame
+        name="Header"
+        strokeWidth={0}
+        overflow="visible"
+        width={375}
+        height={80}
+      >
+        <Rectangle
+          name="Rectangle 2828"
+          effect={{
+            blur: 40,
+            type: "background-blur",
+          }}
+          fill="#0000001A"
+          width={375}
+          height={80}
+        />
+        <Text
+          name="Your Wallet"
+          x={20}
+          y={48}
+          fill="#FFF"
+          lineHeight={24}
+          fontFamily="Rubik"
+          fontSize={18}
+          fontWeight={600}
+        >
+          Your Wallet
+        </Text>
+        <Frame
+          name="notification"
+          x={331}
+          y={48}
+          overflow="visible"
+          width={24}
+          height={24}
+        >
+          <Frame
+            name="vuesax/linear/notification"
+            strokeWidth={0}
+            overflow="visible"
+            width={24}
+            height={24}
+          >
+            <Frame
+              name="notification"
+              x={{
+                type: "horizontal-scale",
+                leftOffsetPercent: 0,
+                rightOffsetPercent: 0,
+              }}
+              y={{
+                type: "vertical-scale",
+                topOffsetPercent: 0,
+                bottomOffsetPercent: 0,
+              }}
+              strokeWidth={0}
+              overflow="visible"
+              width={24}
+              height={24}
+            >
+              <SVG
+                name="Vector_Vector_Vector_Vector"
+                height={24}
+                width={24}
+                src="<svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
+<path d='M12.0206 2.91016C8.71058 2.91016 6.02058 5.60016 6.02058 8.91016V11.8002C6.02058 12.4102 5.76058 13.3402 5.45058 13.8602L4.30058 15.7702C3.59058 16.9502 4.08058 18.2602 5.38058 18.7002C9.69058 20.1402 14.3406 20.1402 18.6506 18.7002C19.8606 18.3002 20.3906 16.8702 19.7306 15.7702L18.5806 13.8602C18.2806 13.3402 18.0206 12.4102 18.0206 11.8002V8.91016C18.0206 5.61016 15.3206 2.91016 12.0206 2.91016Z' stroke='white' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/>
+<path d='M13.8699 3.19945C13.5599 3.10945 13.2399 3.03945 12.9099 2.99945C11.9499 2.87945 11.0299 2.94945 10.1699 3.19945C10.4599 2.45945 11.1799 1.93945 12.0199 1.93945C12.8599 1.93945 13.5799 2.45945 13.8699 3.19945Z' stroke='white' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M15.0195 19.0605C15.0195 20.7105 13.6695 22.0605 12.0195 22.0605C11.1995 22.0605 10.4395 21.7205 9.89953 21.1805C9.35953 20.6405 9.01953 19.8805 9.01953 19.0605' stroke='white' stroke-width='1.5' stroke-miterlimit='10'/>
+</svg>
+"
+              />
+            </Frame>
+          </Frame>
+        </Frame>
+      </Frame>
+    </Frame>
+  );
+}
