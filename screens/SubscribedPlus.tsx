@@ -26,12 +26,12 @@ const SubscribedPlus = () => {
         <Image
           style={styles.subscribedplusChild}
           contentFit="cover"
-          source={require("../assets/ellipse-951.png")}
+          source={require("../assets/ellipse-95.png")}
         />
         <View style={[styles.subscribedplusItem, styles.headerPosition]} />
         <FrameComponent7
           pREMIUMPLAN="PLUS PLAN!"
-          blaqkStereowhite300x1={require("../assets/blaqk-stereowhite300x-16.png")}
+          blaqkStereowhite300x1={require("../assets/blaqk-stereowhite300x-141.png")}
         />
         <View style={[styles.frameParent, styles.frameParentLayout]}>
           <View style={[styles.vectorParent, styles.frameChildLayout]}>

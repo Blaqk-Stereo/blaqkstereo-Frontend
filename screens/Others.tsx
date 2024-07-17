@@ -224,7 +224,7 @@ const Others = () => {
           <Image
             style={styles.blaqkStereowhite300x1}
             contentFit="cover"
-            source={require("../assets/blaqk-stereowhite300x-15.png")}
+            source={require("../assets/blaqk-stereowhite300x-17.png")}
           />
           <Text style={[styles.v10, styles.v10FlexBox]}>v1.0</Text>
         </View>

@@ -18,14 +18,14 @@ const UploadMusicOther3 = () => {
           <Image
             style={[styles.eyeIcon, styles.iconLayout1]}
             contentFit="cover"
-            source={require("../assets/eye.png")}
+            source={require("../assets/eye3.png")}
           />
         </View>
         <View style={styles.upload}>
           <Image
             style={styles.rectangle4Icon}
             contentFit="cover"
-            source={require("../assets/rectangle4.png")}
+            source={require("../assets/rectangle41.png")}
           />
           <LinearGradient
             style={[styles.layout, styles.layoutPosition]}
@@ -118,12 +118,12 @@ const UploadMusicOther3 = () => {
             <Image
               style={[styles.vectorIcon, styles.iconLayout1]}
               contentFit="cover"
-              source={require("../assets/vector3.png")}
+              source={require("../assets/vector.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/vector1.png")}
+              source={require("../assets/vector2.png")}
             />
             <Text style={styles.yes}>Yes</Text>
           </View>

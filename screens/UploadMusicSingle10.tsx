@@ -15,14 +15,14 @@ const UploadMusicSingle10 = () => {
       <View style={styles.inputFieldParent}>
         <InputField2
           blinker="Rodo"
-          eye={require("../assets/eye6.png")}
+          eye={require("../assets/eye5.png")}
           blinkerMarginTop="unset"
         />
         <View style={styles.upload}>
           <Image
             style={styles.rectangle4Icon}
             contentFit="cover"
-            source={require("../assets/rectangle4.png")}
+            source={require("../assets/rectangle41.png")}
           />
           <LinearGradient
             style={[styles.layout, styles.layoutPosition]}
@@ -106,12 +106,12 @@ const UploadMusicSingle10 = () => {
             <Image
               style={[styles.vectorIcon, styles.layoutPosition]}
               contentFit="cover"
-              source={require("../assets/vector3.png")}
+              source={require("../assets/vector.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/vector1.png")}
+              source={require("../assets/vector2.png")}
             />
             <Text style={[styles.yes, styles.yesTypo]}>Yes</Text>
           </View>

@@ -80,7 +80,7 @@ const Insights = () => {
               <Image
                 style={styles.frameChild}
                 contentFit="cover"
-                source={require("../assets/ellipse-20902.png")}
+                source={require("../assets/ellipse-2090.png")}
               />
               <View style={styles.groupParentSpaceBlock}>
                 <Text style={[styles.m, styles.mTypo]}>1M</Text>
@@ -91,7 +91,7 @@ const Insights = () => {
               <Image
                 style={styles.frameChild}
                 contentFit="cover"
-                source={require("../assets/ellipse-2090.png")}
+                source={require("../assets/ellipse-20901.png")}
               />
               <View style={styles.groupParentSpaceBlock}>
                 <Text style={[styles.m, styles.mTypo]}>100K</Text>
@@ -102,7 +102,7 @@ const Insights = () => {
               <Image
                 style={styles.frameChild}
                 contentFit="cover"
-                source={require("../assets/ellipse-2091.png")}
+                source={require("../assets/ellipse-20902.png")}
               />
               <View style={styles.groupParentSpaceBlock}>
                 <Text style={[styles.m, styles.mTypo]}>1K</Text>
@@ -128,7 +128,7 @@ const Insights = () => {
                 <Image
                   style={styles.rectangleIcon}
                   contentFit="cover"
-                  source={require("../assets/rectangle-2873.png")}
+                  source={require("../assets/rectangle-28731.png")}
                 />
                 <View style={styles.hardRockParent}>
                   <Text style={[styles.hardRock, styles.textTypo1]}>
@@ -161,7 +161,7 @@ const Insights = () => {
                 <Image
                   style={styles.rectangleIcon}
                   contentFit="cover"
-                  source={require("../assets/rectangle-28731.png")}
+                  source={require("../assets/rectangle-28732.png")}
                 />
                 <View style={styles.hardRockParent}>
                   <Text style={[styles.hardRock, styles.textTypo1]}>
@@ -194,7 +194,7 @@ const Insights = () => {
                 <Image
                   style={styles.rectangleIcon}
                   contentFit="cover"
-                  source={require("../assets/rectangle-28732.png")}
+                  source={require("../assets/rectangle-28734.png")}
                 />
                 <View style={styles.hardRockParent}>
                   <Text style={[styles.hardRock, styles.textTypo1]}>

@@ -21,7 +21,7 @@ const TopUpWallet3 = () => {
             <Image
               style={styles.eyeIcon}
               contentFit="cover"
-              source={require("../assets/eye3.png")}
+              source={require("../assets/eye2.png")}
             />
             <Image
               style={[styles.epcircleCloseFilledIcon, styles.textPosition]}

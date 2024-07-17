@@ -29,7 +29,7 @@ const SelectedContentSingle = () => {
         <Image
           style={[styles.selectedContentsingleChild, styles.navPosition]}
           contentFit="cover"
-          source={require("../assets/rectangle-6672.png")}
+          source={require("../assets/rectangle-6671.png")}
         />
         <View style={[styles.rodoParent, styles.navPosition]}>
           <Text style={styles.rodo}>Rodo</Text>

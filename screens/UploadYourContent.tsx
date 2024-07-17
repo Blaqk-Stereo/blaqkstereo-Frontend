@@ -29,7 +29,7 @@ const UploadYourContent = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-152.png")}
+            source={require("../assets/group-15.png")}
           />
         </Pressable>
         <Pressable
@@ -47,7 +47,7 @@ const UploadYourContent = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-152.png")}
+            source={require("../assets/group-15.png")}
           />
         </Pressable>
         <Pressable
@@ -65,7 +65,7 @@ const UploadYourContent = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-152.png")}
+            source={require("../assets/group-15.png")}
           />
         </Pressable>
       </View>

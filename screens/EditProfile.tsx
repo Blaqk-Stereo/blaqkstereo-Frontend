@@ -30,7 +30,7 @@ const EditProfile = () => {
               <Image
                 style={styles.eyeIcon}
                 contentFit="cover"
-                source={require("../assets/eye2.png")}
+                source={require("../assets/eye.png")}
               />
             </View>
           </View>
@@ -46,7 +46,7 @@ const EditProfile = () => {
               <Image
                 style={styles.eyeIcon}
                 contentFit="cover"
-                source={require("../assets/eye2.png")}
+                source={require("../assets/eye.png")}
               />
               <Image
                 style={[
@@ -81,7 +81,7 @@ const EditProfile = () => {
               <Image
                 style={styles.eyeIcon}
                 contentFit="cover"
-                source={require("../assets/eye2.png")}
+                source={require("../assets/eye.png")}
               />
               <Image
                 style={[

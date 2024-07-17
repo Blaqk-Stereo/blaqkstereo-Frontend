@@ -18,7 +18,7 @@ const UploadMusicAlbum1 = () => {
           <Image
             style={styles.eyeIcon}
             contentFit="cover"
-            source={require("../assets/eye.png")}
+            source={require("../assets/eye3.png")}
           />
         </View>
         <View style={[styles.inputField1, styles.inputLayout]}>
@@ -34,7 +34,7 @@ const UploadMusicAlbum1 = () => {
           <Image
             style={styles.rectangle4Icon}
             contentFit="cover"
-            source={require("../assets/rectangle41.png")}
+            source={require("../assets/rectangle4.png")}
           />
           <LinearGradient
             style={styles.layout}
