@@ -24,7 +24,7 @@ const SelectedContentAlbum = () => {
         <Image
           style={styles.bgIcon}
           contentFit="cover"
-          source={require("../assets/bg1.png")}
+          source={require("../assets/bg.png")}
         />
         <Image
           style={[styles.selectedContentalbumChild, styles.navPosition]}

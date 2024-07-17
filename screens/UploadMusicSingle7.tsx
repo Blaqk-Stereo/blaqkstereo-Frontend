@@ -17,7 +17,7 @@ const UploadMusicSingle7 = () => {
       >
         <InputField2
           blinker="Enter the title of this song"
-          eye={require("../assets/eye4.png")}
+          eye={require("../assets/eye.png")}
           blinkerMarginTop="unset"
         />
         <View style={styles.upload}>
@@ -62,12 +62,12 @@ const UploadMusicSingle7 = () => {
             <Image
               style={[styles.vectorIcon, styles.vectorIconPosition]}
               contentFit="cover"
-              source={require("../assets/vector.png")}
+              source={require("../assets/vector3.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.pressableLayout]}
               contentFit="cover"
-              source={require("../assets/vector1.png")}
+              source={require("../assets/vector4.png")}
             />
             <Text style={[styles.no, styles.noTypo]}>No</Text>
           </View>

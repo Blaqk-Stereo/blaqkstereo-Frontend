@@ -22,7 +22,7 @@ const UploadMusicSingle9 = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-15.png")}
+            source={require("../assets/group-152.png")}
           />
         </View>
         <View style={[styles.publicParent, styles.parentFlexBox]}>
@@ -30,7 +30,7 @@ const UploadMusicSingle9 = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-151.png")}
+            source={require("../assets/group-16.png")}
           />
         </View>
         <View style={[styles.privateParent, styles.parentFlexBox]}>
@@ -38,7 +38,7 @@ const UploadMusicSingle9 = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-15.png")}
+            source={require("../assets/group-152.png")}
           />
         </View>
       </View>

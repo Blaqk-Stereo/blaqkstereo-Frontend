@@ -56,7 +56,7 @@ const UploadMusicSingle6 = () => {
               <Image
                 style={styles.eyeIcon}
                 contentFit="cover"
-                source={require("../assets/eye4.png")}
+                source={require("../assets/eye.png")}
               />
             </View>
           </View>

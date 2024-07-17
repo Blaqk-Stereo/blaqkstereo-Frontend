@@ -38,7 +38,7 @@ const TopUpWallet1 = () => {
             <Image
               style={styles.vectorIcon}
               contentFit="cover"
-              source={require("../assets/vector9.png")}
+              source={require("../assets/vector.png")}
             />
             <Image
               style={[styles.qrCardIcon, styles.qrCardIconPosition]}

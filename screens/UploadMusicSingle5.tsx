@@ -22,7 +22,7 @@ const UploadMusicSingle5 = () => {
             <Image
               style={styles.pressableLayout}
               contentFit="cover"
-              source={require("../assets/filearrowup.png")}
+              source={require("../assets/filearrowup3.png")}
             />
           </View>
           <View style={styles.frame}>

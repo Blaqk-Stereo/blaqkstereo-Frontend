@@ -5,8 +5,8 @@ export const FontFamily = {
   mobileH3HeadingPage: "Rubik-SemiBold",
   mobileH1HeadingDisplay: "Rubik-Bold",
   rubikLight: "Rubik-Light",
-  btnSmallNormal: "Poppins-Bold",
   rubikMediumItalic: "Rubik-MediumItalic",
+  btnSmallNormal: "Poppins-Bold",
 };
 /* font sizes */
 export const FontSize = {
@@ -37,12 +37,12 @@ export const Color = {
   colorGray_300: "#1b1b1b",
   colorGray_400: "#1a1a1a",
   colorGray_500: "#0d0d0d",
-  colorGray_900: "rgba(22, 22, 22, 0.8)",
-  colorTextPrimary: "rgba(255, 255, 255, 0.93)",
-  colorGray_600: "rgba(255, 255, 255, 0.68)",
   colorGray_700: "rgba(0, 0, 0, 0)",
-  colorGray_1100: "rgba(255, 255, 255, 0.72)",
+  colorGray_600: "rgba(255, 255, 255, 0.68)",
+  colorTextPrimary: "rgba(255, 255, 255, 0.93)",
   colorGray_1400: "rgba(255, 255, 255, 0.6)",
+  colorGray_900: "rgba(22, 22, 22, 0.8)",
+  colorGray_1100: "rgba(255, 255, 255, 0.72)",
   colorGray_1300: "rgba(0, 0, 0, 0.72)",
   colorGray_800: "rgba(255, 253, 249, 0.5)",
   colorGray_1200: "rgba(0, 0, 0, 0.25)",
@@ -67,11 +67,11 @@ export const Color = {
   gray5: "#f8fafc",
   colorWhitesmoke_100: "#f3f7f9",
   text0: "#f1f1f1",
-  colorMediumaquamarine: "rgba(65, 209, 157, 0.1)",
   colorMediumseagreen: "#0cc993",
+  colorMediumaquamarine: "rgba(65, 209, 157, 0.1)",
   brand5: "#eef2ff",
-  gray60: "#475569",
   destructive5: "#fff1f2",
+  gray60: "#475569",
 };
 /* Paddings */
 export const Padding = {
@@ -91,10 +91,10 @@ export const Padding = {
   p_5xl: 24,
   p_81xl: 100,
   p_2xs: 11,
-  p_8xs: 5,
-  p_29xl: 48,
   p_34xl: 53,
   p_33xl: 52,
+  p_8xs: 5,
+  p_29xl: 48,
   p_7xs: 6,
 };
 /* border radiuses */
@@ -113,11 +113,11 @@ export const Border = {
   br_1215xl: 1234,
   br_104xl: 123,
   br_3xs: 10,
+  br_sm: 14,
+  br_31xl: 50,
   br_4xl: 23,
   br_9xs: 4,
   br_17xl_5: 37,
   br_18xl: 37,
-  br_sm: 14,
   br_101xl: 120,
-  br_31xl: 50,
 };

@@ -27,7 +27,7 @@ const UploadMusicAlbumSongAdded = () => {
           <Text style={[styles.song1, styles.song1Typo]}>Song 1</Text>
           <InputField2
             blinker="Miller"
-            eye={require("../assets/eye4.png")}
+            eye={require("../assets/eye.png")}
             blinkerMarginTop={16}
           />
           <View
@@ -38,7 +38,7 @@ const UploadMusicAlbumSongAdded = () => {
                 <Image
                   style={styles.addCircleIcon}
                   contentFit="cover"
-                  source={require("../assets/filearrowup1.png")}
+                  source={require("../assets/filearrowup4.png")}
                 />
               </View>
               <View style={styles.frame}>
@@ -87,7 +87,7 @@ const UploadMusicAlbumSongAdded = () => {
             <Image
               style={styles.eyeIcon}
               contentFit="cover"
-              source={require("../assets/eye4.png")}
+              source={require("../assets/eye.png")}
             />
           </View>
           <View
@@ -98,7 +98,7 @@ const UploadMusicAlbumSongAdded = () => {
                 <Image
                   style={styles.addCircleIcon}
                   contentFit="cover"
-                  source={require("../assets/filearrowup.png")}
+                  source={require("../assets/filearrowup3.png")}
                 />
               </View>
               <View style={styles.frame}>
@@ -137,7 +137,7 @@ const UploadMusicAlbumSongAdded = () => {
           <Text style={[styles.song1, styles.song1Typo]}>Song 3</Text>
           <InputField2
             blinker="Skelewu"
-            eye={require("../assets/eye4.png")}
+            eye={require("../assets/eye.png")}
             blinkerMarginTop={16}
           />
           <View
@@ -148,7 +148,7 @@ const UploadMusicAlbumSongAdded = () => {
                 <Image
                   style={styles.addCircleIcon}
                   contentFit="cover"
-                  source={require("../assets/filearrowup2.png")}
+                  source={require("../assets/filearrowup5.png")}
                 />
               </View>
               <View style={styles.frame}>
@@ -200,7 +200,7 @@ const UploadMusicAlbumSongAdded = () => {
             <Image
               style={styles.eyeIcon}
               contentFit="cover"
-              source={require("../assets/eye4.png")}
+              source={require("../assets/eye.png")}
             />
           </View>
           <View
@@ -211,7 +211,7 @@ const UploadMusicAlbumSongAdded = () => {
                 <Image
                   style={styles.addCircleIcon}
                   contentFit="cover"
-                  source={require("../assets/filearrowup.png")}
+                  source={require("../assets/filearrowup3.png")}
                 />
               </View>
               <View style={styles.frame}>

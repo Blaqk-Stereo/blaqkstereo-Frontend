@@ -29,7 +29,7 @@ const UploadYourMusic = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-15.png")}
+            source={require("../assets/group-152.png")}
           />
         </Pressable>
         <View style={[styles.frameContainer, styles.frameFlexBox]}>
@@ -44,7 +44,7 @@ const UploadYourMusic = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-151.png")}
+            source={require("../assets/group-16.png")}
           />
         </View>
         <Pressable
@@ -62,7 +62,7 @@ const UploadYourMusic = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-15.png")}
+            source={require("../assets/group-152.png")}
           />
         </Pressable>
       </View>

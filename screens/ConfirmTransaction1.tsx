@@ -19,7 +19,7 @@ const ConfirmTransaction1 = () => {
         <Image
           style={styles.eyeIcon}
           contentFit="cover"
-          source={require("../assets/eye3.png")}
+          source={require("../assets/eye4.png")}
         />
       </View>
       <Pressable

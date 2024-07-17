@@ -128,7 +128,7 @@ const Insights = () => {
                 <Image
                   style={styles.rectangleIcon}
                   contentFit="cover"
-                  source={require("../assets/rectangle-28731.png")}
+                  source={require("../assets/rectangle-2873.png")}
                 />
                 <View style={styles.hardRockParent}>
                   <Text style={[styles.hardRock, styles.textTypo1]}>
@@ -161,7 +161,7 @@ const Insights = () => {
                 <Image
                   style={styles.rectangleIcon}
                   contentFit="cover"
-                  source={require("../assets/rectangle-28732.png")}
+                  source={require("../assets/rectangle-28731.png")}
                 />
                 <View style={styles.hardRockParent}>
                   <Text style={[styles.hardRock, styles.textTypo1]}>
@@ -194,7 +194,7 @@ const Insights = () => {
                 <Image
                   style={styles.rectangleIcon}
                   contentFit="cover"
-                  source={require("../assets/rectangle-28734.png")}
+                  source={require("../assets/rectangle-28732.png")}
                 />
                 <View style={styles.hardRockParent}>
                   <Text style={[styles.hardRock, styles.textTypo1]}>

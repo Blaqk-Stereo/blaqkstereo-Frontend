@@ -17,7 +17,7 @@ const UploadMusicAlbum = () => {
       >
         <InputField2
           blinker="Enter the title of your album"
-          eye={require("../assets/eye4.png")}
+          eye={require("../assets/eye.png")}
         />
         <View style={[styles.inputField, styles.uploadLayout]}>
           <View style={styles.inputFieldChild} />
