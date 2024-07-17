@@ -24,7 +24,7 @@ const Others = () => {
         <View style={styles.frameParent}>
           <Pressable
             style={styles.frameGroup}
-            onPress={() => navigation.navigate("Profile")}
+            onPress={() => navigation.navigate("Profile1")}
           >
             <View
               style={[styles.vuesaxbulkuserEditParent, styles.parentPosition]}
@@ -329,7 +329,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
   },
   iconLayout: {
@@ -346,7 +346,7 @@ const styles = StyleSheet.create({
   },
   yourProfile: {
     marginLeft: 16,
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "left",
     lineHeight: 24,
     fontFamily: FontFamily.mobileH5HeadingComponent,
@@ -423,7 +423,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.mobileBodyCopy,
     marginTop: 4,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "left",
     lineHeight: 24,
   },

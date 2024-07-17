@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
     alignItems: "center",
   },
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
   },
   blinker: {
     marginLeft: 8,
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "left",
   },
   arrowRightIcon: {
@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
     bottom: 432,
     paddingHorizontal: 0,
     opacity: 0.5,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     borderRadius: Border.br_81xl,
     paddingVertical: Padding.p_sm,
     flexDirection: "row",
@@ -185,7 +185,7 @@ const styles = StyleSheet.create({
   step1Child: {
     left: 6,
     width: 166,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
   },
   step1Item: {
     left: 172,
@@ -198,15 +198,15 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.btnSmallNormal,
     textAlign: "center",
     lineHeight: 24,
-    color: Color.gray0White,
+    color: Color.white,
   },
   badgeBasic: {
     left: 0,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
   },
   badgeBasic1: {
     marginLeft: -8.5,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     left: "50%",
   },
   badgeBasic2: {

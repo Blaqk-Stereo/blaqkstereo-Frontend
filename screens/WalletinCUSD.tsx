@@ -524,7 +524,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
   },
   blcTypo: {
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "left",
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
@@ -570,7 +570,7 @@ const styles = StyleSheet.create({
   activityTypo: {
     fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
-    color: Color.gray0White,
+    color: Color.white,
   },
   cardLayout: {
     height: 70,
@@ -945,7 +945,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH4HeadingSection_size,
     left: 20,
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,

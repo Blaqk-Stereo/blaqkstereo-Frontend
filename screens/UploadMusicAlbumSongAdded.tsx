@@ -423,7 +423,7 @@ const styles = StyleSheet.create({
   },
   blc: {
     marginLeft: 8,
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
@@ -440,13 +440,13 @@ const styles = StyleSheet.create({
   },
   song1: {
     fontFamily: FontFamily.mobileBodyCopy,
-    color: Color.gray0White,
+    color: Color.white,
   },
   iconContainer: {
     backgroundColor: Color.colorMediumspringgreen_100,
   },
   filenamepng: {
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
@@ -490,7 +490,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   text: {
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
@@ -523,7 +523,7 @@ const styles = StyleSheet.create({
     top: "50%",
     left: 16,
     fontFamily: FontFamily.mobileBodyCopy,
-    color: Color.gray0White,
+    color: Color.white,
     position: "absolute",
   },
   eyeIcon: {
@@ -602,7 +602,7 @@ const styles = StyleSheet.create({
     bottom: 24,
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     justifyContent: "center",
     alignItems: "center",
     borderRadius: Border.br_81xl,
@@ -629,7 +629,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     left: "50%",
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
     position: "absolute",
   },
@@ -646,7 +646,7 @@ const styles = StyleSheet.create({
     borderColor: Color.primary30,
   },
   stepGroupHorizontalItem: {
-    borderColor: Color.gray0White,
+    borderColor: Color.white,
     width: 126,
     zIndex: 1,
   },
@@ -655,7 +655,7 @@ const styles = StyleSheet.create({
   },
   stepbaseitem: {
     padding: Padding.p_9xs,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     borderRadius: Border.br_1215xl,
     justifyContent: "center",
     flexDirection: "row",
@@ -666,7 +666,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   stepTitle: {
-    color: Color.gray0White,
+    color: Color.white,
   },
   complete: {
     zIndex: 2,
@@ -682,7 +682,7 @@ const styles = StyleSheet.create({
     elevation: 0,
     shadowOpacity: 1,
     borderColor: Color.primary0,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
   },
   stepTitle1: {
     color: Color.primary0,

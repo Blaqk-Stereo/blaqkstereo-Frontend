@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
   introductionAtBlaqkContainer: {
     textAlign: "left",
     marginTop: 20,
-    color: Color.gray0White,
+    color: Color.white,
     width: 335,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
@@ -166,7 +166,7 @@ const styles = StyleSheet.create({
     top: 0,
     fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "center",
     lineHeight: 24,
     position: "absolute",

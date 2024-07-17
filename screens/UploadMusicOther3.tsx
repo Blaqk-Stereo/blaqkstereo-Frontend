@@ -295,7 +295,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   blinker: {
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     fontFamily: FontFamily.mobileBodyCopy,
@@ -331,7 +331,7 @@ const styles = StyleSheet.create({
     height: 32,
   },
   uploadYourImage: {
-    color: Color.gray0White,
+    color: Color.white,
   },
   sizeShouldBe: {
     lineHeight: 16,
@@ -380,7 +380,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
   },
   davido: {
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     fontFamily: FontFamily.mobileBodyCopy,
@@ -474,7 +474,7 @@ const styles = StyleSheet.create({
     top: 40,
     textAlign: "center",
     left: "50%",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
     position: "absolute",
   },
@@ -490,7 +490,7 @@ const styles = StyleSheet.create({
     zIndex: 0,
   },
   stepGroupHorizontalItem: {
-    borderColor: Color.gray0White,
+    borderColor: Color.white,
     width: 126,
     zIndex: 1,
   },
@@ -500,7 +500,7 @@ const styles = StyleSheet.create({
   stepbaseitem: {
     padding: Padding.p_9xs,
     borderRadius: Border.br_1215xl,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     justifyContent: "center",
     flexDirection: "row",
     alignItems: "center",
@@ -510,7 +510,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   stepTitle: {
-    color: Color.gray0White,
+    color: Color.white,
   },
   complete: {
     zIndex: 2,
@@ -526,7 +526,7 @@ const styles = StyleSheet.create({
     elevation: 0,
     shadowOpacity: 1,
     borderColor: Color.primary0,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
   },
   stepTitle1: {
     color: Color.primary0,
@@ -581,7 +581,7 @@ const styles = StyleSheet.create({
     bottom: 16,
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     justifyContent: "center",
     alignItems: "center",
     borderRadius: Border.br_81xl,

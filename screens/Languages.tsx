@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
@@ -254,7 +254,7 @@ const styles = StyleSheet.create({
   },
   uploadSuccessful: {
     fontFamily: FontFamily.mobileBodyCopy,
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "left",
   },
   uploadSuccessfulParent: {
@@ -308,7 +308,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.mobileH5HeadingComponent,
     top: 0,
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
     position: "absolute",
   },

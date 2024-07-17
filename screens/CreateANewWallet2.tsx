@@ -45,7 +45,7 @@ const CreateANewWallet2 = () => {
 const styles = StyleSheet.create({
   textFlexBox: {
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
   },
   step1Position: {
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     height: 18,
     width: 18,
     top: 3,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     borderRadius: Border.br_81xl,
     justifyContent: "center",
     alignItems: "center",
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH4HeadingSection_size,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
   },
   enterThe6Digit: {
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
     opacity: 0.5,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     borderRadius: Border.br_81xl,
     left: "50%",
     marginLeft: -167.5,
@@ -122,13 +122,13 @@ const styles = StyleSheet.create({
     borderRadius: Border.br_3xs,
     width: 327,
     height: 4,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
   },
   text: {
     fontSize: FontSize.btnSmallNormal_size,
     fontWeight: "700",
     fontFamily: FontFamily.btnSmallNormal,
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
   },
   badgeBasic: {

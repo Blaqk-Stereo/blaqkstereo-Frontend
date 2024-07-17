@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
   },
   uploadYourImage: {
     fontSize: FontSize.mobileH6HeadingSubHead_size,
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
     textAlign: "center",
     fontFamily: FontFamily.mobileBodyCopy,
@@ -154,7 +154,7 @@ const styles = StyleSheet.create({
     marginLeft: -167.5,
     bottom: 24,
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     flexDirection: "row",
     justifyContent: "center",
     paddingHorizontal: 0,
@@ -182,7 +182,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
     lineHeight: 24,
-    color: Color.gray0White,
+    color: Color.white,
     left: "50%",
   },
   uploadMusicsingle: {

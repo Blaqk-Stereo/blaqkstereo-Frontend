@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
   },
   areYouSure: {
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.btnSmallNormal_size,
     fontFamily: FontFamily.mobileBodyCopy,
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
   },
   cancelWrapper: {

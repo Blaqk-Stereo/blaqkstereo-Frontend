@@ -269,7 +269,7 @@ const styles = StyleSheet.create({
   },
   filenamepngTypo: {
     fontSize: FontSize.mobileH5HeadingComponent_size,
-    color: Color.gray0White,
+    color: Color.white,
   },
   iconLayout: {
     height: 24,
@@ -281,7 +281,7 @@ const styles = StyleSheet.create({
   },
   uploadTypo: {
     marginLeft: 4,
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileBodyCopy,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
@@ -348,7 +348,7 @@ const styles = StyleSheet.create({
     borderRadius: Border.br_mini,
   },
   filenamepng: {
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "left",
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
@@ -393,7 +393,7 @@ const styles = StyleSheet.create({
   song1: {
     textAlign: "right",
     width: 78,
-    color: Color.gray0White,
+    color: Color.white,
   },
   uploadSuccessful: {
     textAlign: "left",
@@ -401,7 +401,7 @@ const styles = StyleSheet.create({
   },
   uploadSuccessful1: {
     marginLeft: 4,
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileBodyCopy,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
@@ -418,7 +418,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   title1: {
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "left",
     lineHeight: 24,
   },
@@ -456,17 +456,17 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   finishUploadWrapper: {
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
   },
   goBack: {
-    color: Color.gray0White,
+    color: Color.white,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   goBackEditWrapper: {
     borderStyle: "solid",
-    borderColor: Color.gray0White,
+    borderColor: Color.white,
     borderWidth: 1,
     marginTop: 16,
   },
@@ -494,7 +494,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     lineHeight: 24,
     left: "50%",
-    color: Color.gray0White,
+    color: Color.white,
     fontSize: FontSize.mobileH5HeadingComponent_size,
   },
   previewYourAlbumDetails: {

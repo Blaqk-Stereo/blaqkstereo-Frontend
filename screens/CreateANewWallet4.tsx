@@ -119,9 +119,9 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     fontWeight: "700",
-    fontFamily: FontFamily.mobileH2HeadingDefault,
+    fontFamily: FontFamily.mobileH1HeadingDisplay,
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
   },
   youCanNow: {
     display: "flex",
@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
   },
   celoDollarCusdParent: {
     paddingHorizontal: Padding.p_33xl,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
   },
   naira: {
     color: Color.primary20,
@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     marginTop: 16,
     width: 295,
-    color: Color.gray0White,
+    color: Color.white,
   },
   localCurrencyAmounts: {
     fontSize: FontSize.btnSmallNormal_size,
@@ -201,7 +201,7 @@ const styles = StyleSheet.create({
     borderRadius: Border.br_81xl,
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     width: 335,
     justifyContent: "center",
     marginTop: 40,

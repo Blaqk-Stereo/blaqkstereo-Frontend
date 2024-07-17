@@ -4,10 +4,10 @@ import { LinearGradient } from "expo-linear-gradient";
 import { Image } from "expo-image";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { useNavigation, ParamListBase } from "@react-navigation/native";
-import AddSocial from "../components/AddSocial";
+import AddSocial1 from "../components/AddSocial";
 import { FontFamily, FontSize, Color, Border, Padding } from "../GlobalStyles";
 
-const Profile = () => {
+const Profile1 = () => {
   const [frameContainer9Visible, setFrameContainer9Visible] = useState(false);
   const navigation = useNavigation<StackNavigationProp<ParamListBase>>();
 
@@ -41,7 +41,7 @@ const Profile = () => {
             <Image
               style={styles.groupItem}
               contentFit="cover"
-              source={require("../assets/ellipse-2101.png")}
+              source={require("../assets/ellipse-21011.png")}
             />
             <View style={styles.janeDoeParent}>
               <Text style={[styles.janeDoe, styles.janeDoeTypo]}>Jane Doe</Text>
@@ -226,7 +226,7 @@ const Profile = () => {
             style={styles.frameContainer9Bg}
             onPress={closeFrameContainer9}
           />
-          <AddSocial onClose={closeFrameContainer9} />
+          <AddSocial1 onClose={closeFrameContainer9} />
         </View>
       </Modal>
     </>
@@ -259,7 +259,7 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     fontSize: FontSize.mobileH5HeadingComponent_size,
     lineHeight: 24,
-    color: Color.gray0White,
+    color: Color.white,
   },
   headerPosition: {
     height: 74,
@@ -274,7 +274,7 @@ const styles = StyleSheet.create({
   },
   groupChild: {
     top: 10,
-    borderRadius: 30,
+    borderRadius: Border.br_11xl,
     height: 161,
     backgroundColor: "transparent",
     left: 0,
@@ -294,7 +294,7 @@ const styles = StyleSheet.create({
   janeDoe: {
     width: 87,
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 34,
     letterSpacing: -1,
     fontSize: FontSize.mobileH3HeadingPage_size,
@@ -306,13 +306,13 @@ const styles = StyleSheet.create({
     marginTop: 4,
     lineHeight: 24,
     fontFamily: FontFamily.mobileBodyCopy,
-    color: Color.gray0White,
+    color: Color.white,
   },
   joined01Aug: {
     marginTop: 4,
     fontFamily: FontFamily.mobileBodyCopy,
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
   },
   editProfile: {
     color: Color.primary,
@@ -322,7 +322,7 @@ const styles = StyleSheet.create({
   },
   editProfileWrapper: {
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     alignItems: "center",
     paddingHorizontal: Padding.p_base,
     paddingVertical: Padding.p_11xs,
@@ -342,7 +342,7 @@ const styles = StyleSheet.create({
   },
   artistProfiles: {
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 34,
     letterSpacing: -1,
     fontSize: FontSize.mobileH3HeadingPage_size,
@@ -435,4 +435,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Profile;
+export default Profile1;

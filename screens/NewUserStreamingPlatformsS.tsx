@@ -199,7 +199,7 @@ const styles = StyleSheet.create({
   },
   textFlexBox: {
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
   },
   musicSpaceBlock: {
     marginTop: 4,
@@ -255,7 +255,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.btnSmallNormal_size,
     textAlign: "center",
     marginTop: 4,
-    color: Color.gray0White,
+    color: Color.white,
   },
   groupParent: {
     alignItems: "center",
@@ -289,7 +289,7 @@ const styles = StyleSheet.create({
     bottom: 44,
     left: 281,
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     justifyContent: "center",
     paddingHorizontal: Padding.p_xl,
     paddingVertical: Padding.p_8xs,
@@ -326,10 +326,10 @@ const styles = StyleSheet.create({
     marginLeft: -6,
     fontSize: FontSize.size_3xs,
     fontWeight: "700",
-    fontFamily: FontFamily.mobileH2HeadingDefault,
+    fontFamily: FontFamily.mobileH1HeadingDisplay,
     left: "50%",
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
   },
   groupParent7: {
     marginLeft: -34.5,
@@ -354,7 +354,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
   },
   checkboxfselectedIcon: {
     width: 16,

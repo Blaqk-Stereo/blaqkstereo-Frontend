@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH3HeadingPage_size,
     letterSpacing: -1,
     lineHeight: 34,
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "left",
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
@@ -181,7 +181,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
   button: {
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     paddingHorizontal: Padding.p_99xl,
     paddingVertical: Padding.p_xs,
     flexDirection: "row",
@@ -228,7 +228,7 @@ const styles = StyleSheet.create({
     textAlign: "left",
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
-    color: Color.gray0White,
+    color: Color.white,
   },
   musicSquareAdd: {
     shadowColor: "rgba(255, 255, 255, 0.18)",
@@ -298,7 +298,7 @@ const styles = StyleSheet.create({
     textAlign: "left",
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
-    color: Color.gray0White,
+    color: Color.white,
   },
   notification: {
     left: 331,

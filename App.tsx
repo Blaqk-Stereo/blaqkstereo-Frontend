@@ -68,37 +68,41 @@ import WalletdownwardProgression from "./screens/WalletdownwardProgression";
 import WalletTopUpSuccessful from "./screens/WalletTopUpSuccessful";
 import WalletTopUpFailed from "./screens/WalletTopUpFailed";
 import WalletTopUpProcessing from "./screens/WalletTopUpProcessing";
-import Nav from "./components/Nav";
-import UploadMusicAlbum from "./screens/UploadMusicAlbum";
-import StreamingPlatformsSelection from "./screens/StreamingPlatformsSelection";
-import DashboardForNewUsers from "./screens/DashboardForNewUsers";
-import ChangePassword from "./screens/ChangePassword";
-import PasswordChangeSuccessful2 from "./screens/PasswordChangeSuccessful2";
-import AddNewBank from "./screens/AddNewBank";
-import Welcome from "./screens/Welcome";
-import UploadedMusicOptions from "./components/UploadedMusicOptions";
-import DeleteAnUploadedContent from "./components/DeleteAnUploadedContent";
-import Finishing from "./screens/Finishing";
-import NewUserStreamingPlatformsS1 from "./screens/NewUserStreamingPlatformsS1";
+import WalletinNGN from "./screens/WalletinNGN";
+import WalletInfo1 from "./components/WalletInfo1";
+import TopUpWallet3 from "./screens/TopUpWallet3";
+import SelectedContentAlbum from "./screens/SelectedContentAlbum";
+import SelectedContentSingle from "./screens/SelectedContentSingle";
 import NotificationsForNewUsers from "./screens/NotificationsForNewUsers";
 import WalletForNewUsers from "./screens/WalletForNewUsers";
 import StatsForNewUsers from "./screens/StatsForNewUsers";
-import AccountValidated from "./screens/AccountValidated";
-import PasswordChangeSuccessful3 from "./screens/PasswordChangeSuccessful3";
-import UploadMusicAlbum1 from "./screens/UploadMusicAlbum1";
-import UploadMusicSingle1 from "./screens/UploadMusicSingle1";
-import UploadMusicOther1 from "./screens/UploadMusicOther1";
+import Welcome from "./screens/Welcome";
+import UploadMusicAlbum from "./screens/UploadMusicAlbum";
+import EnterAmount from "./screens/EnterAmount";
+import EnterAmount1 from "./screens/EnterAmount1";
+import SelectOffer from "./screens/SelectOffer";
+import TopUpWalletlinkCopied from "./screens/TopUpWalletlinkCopied";
+import Withdraw2 from "./screens/Withdraw2";
+import UploadedMusicOptions from "./components/UploadedMusicOptions";
+import DeleteAnUploadedContent from "./components/DeleteAnUploadedContent";
 import CreateANewWallet from "./screens/CreateANewWallet";
+import Finishing from "./screens/Finishing";
+import ConfirmTransaction from "./screens/ConfirmTransaction";
 import CreateANewWallet1 from "./screens/CreateANewWallet1";
 import CreateANewWallet2 from "./screens/CreateANewWallet2";
 import CreateANewWallet3 from "./screens/CreateANewWallet3";
 import CreateANewWallet4 from "./screens/CreateANewWallet4";
 import CreateANewWallet5 from "./screens/CreateANewWallet5";
+import UploadMusicAlbum1 from "./screens/UploadMusicAlbum1";
+import UploadMusicSingle1 from "./screens/UploadMusicSingle1";
+import UploadMusicOther1 from "./screens/UploadMusicOther1";
+import ConfirmTransaction1 from "./screens/ConfirmTransaction1";
+import WithdrawalDone from "./screens/WithdrawalDone";
+import WalletForNewUsers1 from "./screens/WalletForNewUsers1";
 import UploadMusicAlbum2 from "./screens/UploadMusicAlbum2";
 import UploadMusicSingle2 from "./screens/UploadMusicSingle2";
 import UploadMusicSingle3 from "./screens/UploadMusicSingle3";
 import UploadMusicOther2 from "./screens/UploadMusicOther2";
-import WalletForNewUsers1 from "./screens/WalletForNewUsers1";
 import AddSongsToAlbum from "./screens/AddSongsToAlbum";
 import UploadMusicSingle4 from "./screens/UploadMusicSingle4";
 import UploadMusicOther3 from "./screens/UploadMusicOther3";
@@ -119,57 +123,57 @@ import UploadMusicSingle9 from "./screens/UploadMusicSingle9";
 import PreviewYourAlbumDetails from "./screens/PreviewYourAlbumDetails";
 import UploadMusicSingle10 from "./screens/UploadMusicSingle10";
 import Finishing3 from "./screens/Finishing3";
-import Withdraw1 from "./screens/Withdraw1";
-import ConfirmTransaction from "./screens/ConfirmTransaction";
-import ConfirmTransaction1 from "./screens/ConfirmTransaction1";
-import WithdrawalDone from "./screens/WithdrawalDone";
-import Withdraw2 from "./screens/Withdraw2";
 import BankWithdrawalSuccessful from "./screens/BankWithdrawalSuccessful";
 import WithdrawalToWalletSuccessfu from "./screens/WithdrawalToWalletSuccessfu";
-import TopUpWallet from "./screens/TopUpWallet";
-import TopUpWallet1 from "./screens/TopUpWallet1";
-import TopUpWallet3 from "./screens/TopUpWallet3";
-import Withdraw from "./components/Withdraw";
-import TransactionDetailsIN1 from "./components/TransactionDetailsIN1";
-import TransactionDetailsIN from "./components/TransactionDetailsIN";
-import WalletinCUSD from "./screens/WalletinCUSD";
-import DropDown from "./components/DropDown";
+import ProfileAvatars from "./components/ProfileAvatars";
+import Group11 from "./screens/Group11";
+import Profile from "./screens/Profile";
+import AddSocial from "./screens/AddSocial";
+import Others from "./screens/Others";
+import ChangePassword from "./screens/ChangePassword";
+import PasswordChangeSuccessful2 from "./screens/PasswordChangeSuccessful2";
+import NotificationSettings from "./screens/NotificationSettings";
+import Languages from "./screens/Languages";
+import PrivacyPolicy from "./screens/PrivacyPolicy";
+import FAQs from "./screens/FAQs";
+import AboutApp from "./screens/AboutApp";
+import LogOut from "./components/LogOut";
+import Profile1 from "./screens/Profile";
+import PasswordChangeSuccessful1 from "./screens/PasswordChangeSuccessful1";
+import NewUserStreamingPlatformsS from "./screens/NewUserStreamingPlatformsS";
+import DeleteLinkedBankAccount from "./components/DeleteLinkedBankAccount";
+import AddNewBank from "./screens/AddNewBank";
+import PasswordChangeSuccessful3 from "./screens/PasswordChangeSuccessful3";
+import AccountValidated from "./screens/AccountValidated";
+import PasswordChangeSuccessful from "./screens/PasswordChangeSuccessful";
+import EditProfile from "./screens/EditProfile";
+import AddSocial1 from "./components/AddSocial";
+import Nav from "./components/Nav";
+import SubscribedPlus from "./screens/SubscribedPlus";
 import UploadYourContent from "./screens/UploadYourContent";
-import WalletInfo from "./components/WalletInfo";
+import CancelPlan from "./components/CancelPlan";
 import UploadYourContent1 from "./screens/UploadYourContent1";
 import UploadYourMusic from "./screens/UploadYourMusic";
 import UploadYourMusic1 from "./screens/UploadYourMusic1";
-import Others from "./screens/Others";
-import PrivacyPolicy from "./screens/PrivacyPolicy";
-import AboutApp from "./screens/AboutApp";
-import NotificationSettings from "./screens/NotificationSettings";
-import SubscribedPlus from "./screens/SubscribedPlus";
-import LogOut from "./components/LogOut";
-import Profile from "./screens/Profile";
-import CancelPlan from "./components/CancelPlan";
-import AddSocial from "./components/AddSocial";
 import PlanCancelled from "./screens/PlanCancelled";
+import StreamingPlatformsSelection from "./screens/StreamingPlatformsSelection";
+import WalletinCUSD from "./screens/WalletinCUSD";
+import DropDown from "./components/DropDown";
+import Withdraw from "./components/Withdraw";
+import WalletInfo from "./components/WalletInfo";
+import TopUpWallet from "./screens/TopUpWallet";
+import TopUpWallet1 from "./screens/TopUpWallet1";
 import Insights from "./screens/Insights";
 import Discover from "./screens/Discover";
-import Notifications from "./screens/Notifications";
-import TopUpWallet2 from "./screens/TopUpWallet2";
-import WalletinNGN from "./screens/WalletinNGN";
-import WalletInfo1 from "./components/WalletInfo1";
+import DashboardForNewUsers from "./screens/DashboardForNewUsers";
 import UploadMusicSingle from "./screens/UploadMusicSingle";
 import UploadMusicOther from "./screens/UploadMusicOther";
-import NewUserStreamingPlatformsS from "./screens/NewUserStreamingPlatformsS";
-import PasswordChangeSuccessful from "./screens/PasswordChangeSuccessful";
-import FAQs from "./screens/FAQs";
-import Languages from "./screens/Languages";
-import DeleteLinkedBankAccount from "./components/DeleteLinkedBankAccount";
-import EditProfile from "./screens/EditProfile";
-import PasswordChangeSuccessful1 from "./screens/PasswordChangeSuccessful1";
-import SelectedContentAlbum from "./screens/SelectedContentAlbum";
-import SelectedContentSingle from "./screens/SelectedContentSingle";
-import EnterAmount from "./screens/EnterAmount";
-import EnterAmount1 from "./screens/EnterAmount1";
-import SelectOffer from "./screens/SelectOffer";
-import TopUpWalletlinkCopied from "./screens/TopUpWalletlinkCopied";
+import NewUserStreamingPlatformsS1 from "./screens/NewUserStreamingPlatformsS1";
+import TransactionDetailsIN from "./components/TransactionDetailsIN";
+import TransactionDetailsIN1 from "./components/TransactionDetailsIN1";
+import Notifications from "./screens/Notifications";
+import TopUpWallet2 from "./screens/TopUpWallet2";
+import Withdraw1 from "./screens/Withdraw1";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { View, Text, Pressable, TouchableOpacity } from "react-native";
@@ -457,58 +461,28 @@ const App = () => {
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="UploadMusicAlbum"
-              component={UploadMusicAlbum}
+              name="WalletinNGN"
+              component={WalletinNGN}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="StreamingPlatformsSelection"
-              component={StreamingPlatformsSelection}
+              name="WalletInfo1"
+              component={WalletInfo1}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="DashboardForNewUsers"
-              component={DashboardForNewUsers}
+              name="TopUpWallet3"
+              component={TopUpWallet3}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="ChangePassword"
-              component={ChangePassword}
+              name="SelectedContentAlbum"
+              component={SelectedContentAlbum}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="PasswordChangeSuccessful2"
-              component={PasswordChangeSuccessful2}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="AddNewBank"
-              component={AddNewBank}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="Welcome"
-              component={Welcome}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="UploadedMusicOptions"
-              component={UploadedMusicOptions}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="DeleteAnUploadedContent"
-              component={DeleteAnUploadedContent}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="Finishing"
-              component={Finishing}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="NewUserStreamingPlatformsS1"
-              component={NewUserStreamingPlatformsS1}
+              name="SelectedContentSingle"
+              component={SelectedContentSingle}
               options={{ headerShown: false }}
             />
             <Stack.Screen
@@ -527,33 +501,63 @@ const App = () => {
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="AccountValidated"
-              component={AccountValidated}
+              name="Welcome"
+              component={Welcome}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="PasswordChangeSuccessful3"
-              component={PasswordChangeSuccessful3}
+              name="UploadMusicAlbum"
+              component={UploadMusicAlbum}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="UploadMusicAlbum1"
-              component={UploadMusicAlbum1}
+              name="EnterAmount"
+              component={EnterAmount}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="UploadMusicSingle1"
-              component={UploadMusicSingle1}
+              name="EnterAmount1"
+              component={EnterAmount1}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="UploadMusicOther1"
-              component={UploadMusicOther1}
+              name="SelectOffer"
+              component={SelectOffer}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="TopUpWalletlinkCopied"
+              component={TopUpWalletlinkCopied}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="Withdraw2"
+              component={Withdraw2}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="UploadedMusicOptions"
+              component={UploadedMusicOptions}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="DeleteAnUploadedContent"
+              component={DeleteAnUploadedContent}
               options={{ headerShown: false }}
             />
             <Stack.Screen
               name="CreateANewWallet"
               component={CreateANewWallet}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="Finishing"
+              component={Finishing}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="ConfirmTransaction"
+              component={ConfirmTransaction}
               options={{ headerShown: false }}
             />
             <Stack.Screen
@@ -582,6 +586,36 @@ const App = () => {
               options={{ headerShown: false }}
             />
             <Stack.Screen
+              name="UploadMusicAlbum1"
+              component={UploadMusicAlbum1}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="UploadMusicSingle1"
+              component={UploadMusicSingle1}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="UploadMusicOther1"
+              component={UploadMusicOther1}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="ConfirmTransaction1"
+              component={ConfirmTransaction1}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="WithdrawalDone"
+              component={WithdrawalDone}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="WalletForNewUsers1"
+              component={WalletForNewUsers1}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
               name="UploadMusicAlbum2"
               component={UploadMusicAlbum2}
               options={{ headerShown: false }}
@@ -599,11 +633,6 @@ const App = () => {
             <Stack.Screen
               name="UploadMusicOther2"
               component={UploadMusicOther2}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="WalletForNewUsers1"
-              component={WalletForNewUsers1}
               options={{ headerShown: false }}
             />
             <Stack.Screen
@@ -702,31 +731,6 @@ const App = () => {
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="Withdraw1"
-              component={Withdraw1}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="ConfirmTransaction"
-              component={ConfirmTransaction}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="ConfirmTransaction1"
-              component={ConfirmTransaction1}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="WithdrawalDone"
-              component={WithdrawalDone}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="Withdraw2"
-              component={Withdraw2}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
               name="BankWithdrawalSuccessful"
               component={BankWithdrawalSuccessful}
               options={{ headerShown: false }}
@@ -737,38 +741,118 @@ const App = () => {
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="TopUpWallet"
-              component={TopUpWallet}
+              name="Group11"
+              component={Group11}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="TopUpWallet1"
-              component={TopUpWallet1}
+              name="Profile"
+              component={Profile}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="TopUpWallet3"
-              component={TopUpWallet3}
+              name="AddSocial"
+              component={AddSocial}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="Withdraw"
-              component={Withdraw}
+              name="Others"
+              component={Others}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="TransactionDetailsIN1"
-              component={TransactionDetailsIN1}
+              name="ChangePassword"
+              component={ChangePassword}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="TransactionDetailsIN"
-              component={TransactionDetailsIN}
+              name="PasswordChangeSuccessful2"
+              component={PasswordChangeSuccessful2}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="WalletinCUSD"
-              component={WalletinCUSD}
+              name="NotificationSettings"
+              component={NotificationSettings}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="Languages"
+              component={Languages}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="PrivacyPolicy"
+              component={PrivacyPolicy}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="FAQs"
+              component={FAQs}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="AboutApp"
+              component={AboutApp}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="LogOut"
+              component={LogOut}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="Profile1"
+              component={Profile1}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="PasswordChangeSuccessful1"
+              component={PasswordChangeSuccessful1}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="NewUserStreamingPlatformsS"
+              component={NewUserStreamingPlatformsS}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="DeleteLinkedBankAccount"
+              component={DeleteLinkedBankAccount}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="AddNewBank"
+              component={AddNewBank}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="PasswordChangeSuccessful3"
+              component={PasswordChangeSuccessful3}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="AccountValidated"
+              component={AccountValidated}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="PasswordChangeSuccessful"
+              component={PasswordChangeSuccessful}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="EditProfile"
+              component={EditProfile}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="AddSocial1"
+              component={AddSocial1}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="SubscribedPlus"
+              component={SubscribedPlus}
               options={{ headerShown: false }}
             />
             <Stack.Screen
@@ -777,8 +861,8 @@ const App = () => {
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="WalletInfo"
-              component={WalletInfo}
+              name="CancelPlan"
+              component={CancelPlan}
               options={{ headerShown: false }}
             />
             <Stack.Screen
@@ -797,53 +881,38 @@ const App = () => {
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="Others"
-              component={Others}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="PrivacyPolicy"
-              component={PrivacyPolicy}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="AboutApp"
-              component={AboutApp}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="NotificationSettings"
-              component={NotificationSettings}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="SubscribedPlus"
-              component={SubscribedPlus}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="LogOut"
-              component={LogOut}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="Profile"
-              component={Profile}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="CancelPlan"
-              component={CancelPlan}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="AddSocial"
-              component={AddSocial}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
               name="PlanCancelled"
               component={PlanCancelled}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="StreamingPlatformsSelection"
+              component={StreamingPlatformsSelection}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="WalletinCUSD"
+              component={WalletinCUSD}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="Withdraw"
+              component={Withdraw}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="WalletInfo"
+              component={WalletInfo}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="TopUpWallet"
+              component={TopUpWallet}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="TopUpWallet1"
+              component={TopUpWallet1}
               options={{ headerShown: false }}
             />
             <Stack.Screen
@@ -857,23 +926,8 @@ const App = () => {
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="Notifications"
-              component={Notifications}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="TopUpWallet2"
-              component={TopUpWallet2}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="WalletinNGN"
-              component={WalletinNGN}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="WalletInfo1"
-              component={WalletInfo1}
+              name="DashboardForNewUsers"
+              component={DashboardForNewUsers}
               options={{ headerShown: false }}
             />
             <Stack.Screen
@@ -887,68 +941,33 @@ const App = () => {
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="NewUserStreamingPlatformsS"
-              component={NewUserStreamingPlatformsS}
+              name="NewUserStreamingPlatformsS1"
+              component={NewUserStreamingPlatformsS1}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="PasswordChangeSuccessful"
-              component={PasswordChangeSuccessful}
+              name="TransactionDetailsIN"
+              component={TransactionDetailsIN}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="FAQs"
-              component={FAQs}
+              name="TransactionDetailsIN1"
+              component={TransactionDetailsIN1}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="Languages"
-              component={Languages}
+              name="Notifications"
+              component={Notifications}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="DeleteLinkedBankAccount"
-              component={DeleteLinkedBankAccount}
+              name="TopUpWallet2"
+              component={TopUpWallet2}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="EditProfile"
-              component={EditProfile}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="PasswordChangeSuccessful1"
-              component={PasswordChangeSuccessful1}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="SelectedContentAlbum"
-              component={SelectedContentAlbum}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="SelectedContentSingle"
-              component={SelectedContentSingle}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="EnterAmount"
-              component={EnterAmount}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="EnterAmount1"
-              component={EnterAmount1}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="SelectOffer"
-              component={SelectOffer}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="TopUpWalletlinkCopied"
-              component={TopUpWalletlinkCopied}
+              name="Withdraw1"
+              component={Withdraw1}
               options={{ headerShown: false }}
             />
           </Stack.Navigator>

@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "center",
     width: 83,
     marginLeft: 8,

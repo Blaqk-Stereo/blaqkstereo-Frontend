@@ -75,7 +75,7 @@ const TransactionDetailsIN = ({ onClose }: TransactionDetailsINType) => {
               <Image
                 style={styles.vuesaxlinearimportIcon}
                 contentFit="cover"
-                source={require("../assets/vuesaxlinearimport.png")}
+                source={require("../assets/vuesaxlinearimport1.png")}
               />
               <Text style={styles.downloadReceipt}>Download receipt</Text>
             </View>
@@ -151,8 +151,8 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     fontWeight: "700",
-    fontFamily: FontFamily.mobileH2HeadingDefault,
-    color: Color.gray0White,
+    fontFamily: FontFamily.mobileH1HeadingDisplay,
+    color: Color.white,
   },
   availBal46080: {
     color: Color.primary0,
@@ -179,7 +179,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
     textAlign: "left",
     lineHeight: 24,
-    color: Color.gray0White,
+    color: Color.white,
   },
   author1: {
     alignItems: "flex-end",
@@ -242,7 +242,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   button: {
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     paddingHorizontal: Padding.p_99xl,
     width: 303,
     justifyContent: "center",
@@ -259,7 +259,7 @@ const styles = StyleSheet.create({
     top: 0,
     left: 28,
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
     position: "absolute",
   },
   questionParent: {
@@ -285,7 +285,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
     textAlign: "center",
     fontFamily: FontFamily.mobileBodyCopy,
-    color: Color.gray0White,
+    color: Color.white,
   },
   buttonParent: {
     zIndex: 3,

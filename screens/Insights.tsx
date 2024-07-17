@@ -468,7 +468,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   textTypo1: {
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
   },
@@ -480,7 +480,7 @@ const styles = StyleSheet.create({
   mTypo: {
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
-    color: Color.gray0White,
+    color: Color.white,
   },
   frameParent5SpaceBlock: {
     padding: Padding.p_xs,
@@ -504,7 +504,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH4HeadingSection_size,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
   },
   iconLayout: {
@@ -545,7 +545,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   text: {
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
     lineHeight: 24,
@@ -851,7 +851,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH4HeadingSection_size,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
     textAlign: "left",
     left: 20,

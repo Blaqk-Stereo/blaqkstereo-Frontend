@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   blinkerTypo: {
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "left",
     fontFamily: FontFamily.mobileBodyCopy,
     lineHeight: 24,
@@ -224,7 +224,7 @@ const styles = StyleSheet.create({
     color: Color.primary,
   },
   button: {
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     justifyContent: "center",
     paddingHorizontal: Padding.p_99xl,
     paddingVertical: Padding.p_sm,
@@ -260,7 +260,7 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
     top: 0,
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "center",
     lineHeight: 24,
     position: "absolute",

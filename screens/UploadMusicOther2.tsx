@@ -302,7 +302,7 @@ const styles = StyleSheet.create({
     height: 32,
   },
   uploadYourImage: {
-    color: Color.gray0White,
+    color: Color.white,
   },
   sizeShouldBe: {
     lineHeight: 16,
@@ -342,7 +342,7 @@ const styles = StyleSheet.create({
     right: 152,
   },
   containsExplicitContent: {
-    color: Color.gray0White,
+    color: Color.white,
   },
   vectorIcon: {
     left: "0%",
@@ -363,7 +363,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     fontSize: FontSize.btnSmallNormal_size,
-    color: Color.gray0White,
+    color: Color.white,
     left: "50%",
     textAlign: "left",
     top: "50%",
@@ -410,7 +410,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     top: 40,
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     left: "50%",
     lineHeight: 24,
     position: "absolute",
@@ -428,7 +428,7 @@ const styles = StyleSheet.create({
     zIndex: 0,
   },
   stepGroupHorizontalItem: {
-    borderColor: Color.gray0White,
+    borderColor: Color.white,
     width: 126,
     zIndex: 1,
   },
@@ -438,14 +438,14 @@ const styles = StyleSheet.create({
   stepbaseitem: {
     padding: Padding.p_9xs,
     borderRadius: Border.br_1215xl,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     justifyContent: "center",
     flexDirection: "row",
     alignItems: "center",
     overflow: "hidden",
   },
   stepTitle: {
-    color: Color.gray0White,
+    color: Color.white,
   },
   complete: {
     zIndex: 2,
@@ -461,7 +461,7 @@ const styles = StyleSheet.create({
     elevation: 0,
     shadowOpacity: 1,
     borderColor: Color.primary0,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
   },
   stepTitle1: {
     color: Color.primary0,
@@ -519,7 +519,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
     opacity: 0.5,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     marginLeft: -167.5,
     left: "50%",
     width: 335,

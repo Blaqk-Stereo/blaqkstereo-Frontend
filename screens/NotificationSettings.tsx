@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
-    color: Color.gray0White,
+    color: Color.white,
     top: 0,
     textAlign: "center",
     lineHeight: 24,

@@ -85,14 +85,14 @@ const styles = StyleSheet.create({
     width: 295,
   },
   blcTypo: {
-    fontFamily: FontFamily.mobileH2HeadingDefault,
+    fontFamily: FontFamily.mobileH1HeadingDisplay,
     fontWeight: "700",
     lineHeight: 34,
     letterSpacing: -1,
     fontSize: FontSize.mobileH2HeadingDefault_size,
     marginTop: -16.7,
     top: "50%",
-    color: Color.gray0White,
+    color: Color.white,
     position: "absolute",
   },
   keyboardPosition: {
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
   text1Position: {
     left: "50%",
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
   },
   headerPosition: {
     height: 74,
@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
   button: {
     top: 316,
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     width: 335,
     flexDirection: "row",
     justifyContent: "center",
@@ -158,7 +158,7 @@ const styles = StyleSheet.create({
   howMuchWould: {
     width: 295,
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
     fontSize: FontSize.mobileH5HeadingComponent_size,
@@ -228,7 +228,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.mobileBodyCopy,
     fontSize: FontSize.size_13xl,
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
   },
   view: {
     top: 228,
@@ -277,7 +277,7 @@ const styles = StyleSheet.create({
     marginLeft: -53.5,
     left: "50%",
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
     fontSize: FontSize.mobileH5HeadingComponent_size,

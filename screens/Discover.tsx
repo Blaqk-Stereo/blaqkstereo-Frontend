@@ -213,7 +213,7 @@ const styles = StyleSheet.create({
   forLifeTypo: {
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
-    color: Color.gray0White,
+    color: Color.white,
   },
   headerPosition: {
     height: 80,
@@ -253,7 +253,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH3HeadingPage_size,
     letterSpacing: -1,
     lineHeight: 34,
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
@@ -279,7 +279,7 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
     marginTop: 8,
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "left",
   },
   frameContainer: {
@@ -359,7 +359,7 @@ const styles = StyleSheet.create({
     ],
   },
   uploadMusic: {
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "left",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -430,7 +430,7 @@ const styles = StyleSheet.create({
   },
   yourUploads: {
     fontSize: FontSize.mobileH4HeadingSection_size,
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "left",

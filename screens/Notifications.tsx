@@ -247,7 +247,7 @@ const styles = StyleSheet.create({
   },
   olderLayout: {
     lineHeight: 24,
-    color: Color.gray0White,
+    color: Color.white,
   },
   headerPosition: {
     height: 74,
@@ -262,7 +262,7 @@ const styles = StyleSheet.create({
   newSongAlert: {
     width: 301,
     marginLeft: 8,
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
   },
@@ -272,7 +272,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   youveReceivedA: {
-    color: Color.gray0White,
+    color: Color.white,
   },
   frameChild: {
     borderStyle: "solid",

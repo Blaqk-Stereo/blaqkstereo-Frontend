@@ -267,7 +267,7 @@ const styles = StyleSheet.create({
   activityTypo: {
     fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
-    color: Color.gray0White,
+    color: Color.white,
   },
   nairaIconLayout: {
     height: 16,
@@ -342,7 +342,7 @@ const styles = StyleSheet.create({
   },
   text: {
     marginLeft: 8,
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -406,7 +406,7 @@ const styles = StyleSheet.create({
   yourWalletTypo: {
     fontSize: FontSize.mobileH4HeadingSection_size,
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
@@ -449,7 +449,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH3HeadingPage_size,
     letterSpacing: -1,
     lineHeight: 34,
-    color: Color.gray0White,
+    color: Color.white,
   },
   text2: {
     color: Color.primary0,
@@ -500,7 +500,7 @@ const styles = StyleSheet.create({
     ],
   },
   uploadMusic: {
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -570,7 +570,7 @@ const styles = StyleSheet.create({
   yourWallet: {
     fontSize: FontSize.mobileH4HeadingSection_size,
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,

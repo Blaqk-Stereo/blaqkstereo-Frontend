@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
   davidoTypo: {
     fontFamily: FontFamily.mobileBodyCopy,
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
   },
   iconLayout: {
     height: 24,
@@ -234,7 +234,7 @@ const styles = StyleSheet.create({
     height: 32,
   },
   uploadYourImage: {
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
@@ -290,7 +290,7 @@ const styles = StyleSheet.create({
   },
   davido: {
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
@@ -305,7 +305,7 @@ const styles = StyleSheet.create({
   },
   blinker2: {
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileBodyCopy,
     top: "50%",
     position: "absolute",
@@ -356,7 +356,7 @@ const styles = StyleSheet.create({
   button: {
     marginLeft: -167.5,
     bottom: 24,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
     justifyContent: "center",
@@ -387,7 +387,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
     lineHeight: 24,
-    color: Color.gray0White,
+    color: Color.white,
     left: "50%",
   },
   uploadMusicsingle: {

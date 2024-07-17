@@ -111,10 +111,10 @@ const styles = StyleSheet.create({
   },
   blcFlexBox: {
     textAlign: "right",
-    color: Color.gray0White,
+    color: Color.white,
   },
   blcTypo: {
-    fontFamily: FontFamily.mobileH2HeadingDefault,
+    fontFamily: FontFamily.mobileH1HeadingDisplay,
     fontWeight: "700",
     lineHeight: 34,
     letterSpacing: -1,
@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
   },
   text1Position: {
     left: "50%",
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "center",
   },
   headerPosition: {
@@ -213,7 +213,7 @@ const styles = StyleSheet.create({
   },
   blc: {
     right: 16,
-    fontFamily: FontFamily.mobileH2HeadingDefault,
+    fontFamily: FontFamily.mobileH1HeadingDisplay,
     fontWeight: "700",
     lineHeight: 34,
     letterSpacing: -1,
@@ -225,7 +225,7 @@ const styles = StyleSheet.create({
   blc1: {
     left: 16,
     textAlign: "left",
-    color: Color.gray0White,
+    color: Color.white,
   },
   arrowSwapIcon: {
     width: 16,
@@ -243,7 +243,7 @@ const styles = StyleSheet.create({
   useMax: {
     lineHeight: 16,
     textAlign: "right",
-    color: Color.gray0White,
+    color: Color.white,
   },
   label: {
     borderRadius: Border.br_5xs,
@@ -269,7 +269,7 @@ const styles = StyleSheet.create({
   },
   button: {
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
     marginTop: 40,
@@ -298,7 +298,7 @@ const styles = StyleSheet.create({
   },
   text: {
     left: 9,
-    color: Color.gray0White,
+    color: Color.white,
     top: 0,
     textAlign: "center",
   },
@@ -351,7 +351,7 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
     left: "50%",
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "center",
     fontSize: FontSize.mobileH5HeadingComponent_size,
     lineHeight: 24,

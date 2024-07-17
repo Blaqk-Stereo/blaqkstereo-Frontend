@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     marginLeft: -7.5,
     fontSize: FontSize.size_13xl,
     fontFamily: FontFamily.mobileBodyCopy,
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "center",
   },
   view1: {

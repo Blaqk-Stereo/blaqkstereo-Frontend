@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     lineHeight: 24,
     fontFamily: FontFamily.mobileBodyCopy,
-    color: Color.gray0White,
+    color: Color.white,
     textAlign: "center",
     marginLeft: 16,
   },

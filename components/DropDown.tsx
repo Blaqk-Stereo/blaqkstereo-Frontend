@@ -19,7 +19,7 @@ const DropDown = ({ onClose }: DropDownType) => {
 const styles = StyleSheet.create({
   last7DaysTypo: {
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileBodyCopy,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,

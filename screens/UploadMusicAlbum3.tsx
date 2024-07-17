@@ -187,7 +187,7 @@ const styles = StyleSheet.create({
     width: 335,
     borderRadius: Border.br_81xl,
     flexDirection: "row",
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     left: 20,
     position: "absolute",
   },
@@ -235,7 +235,7 @@ const styles = StyleSheet.create({
   },
   blc: {
     marginLeft: 8,
-    color: Color.gray0White,
+    color: Color.white,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
@@ -281,7 +281,7 @@ const styles = StyleSheet.create({
     left: "50%",
     top: 40,
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
     position: "absolute",
   },
@@ -298,7 +298,7 @@ const styles = StyleSheet.create({
     borderColor: Color.primary30,
   },
   stepGroupHorizontalItem: {
-    borderColor: Color.gray0White,
+    borderColor: Color.white,
     width: 207,
     zIndex: 1,
   },
@@ -311,11 +311,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     flexDirection: "row",
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     overflow: "hidden",
   },
   stepTitle: {
-    color: Color.gray0White,
+    color: Color.white,
   },
   complete: {
     zIndex: 2,
@@ -335,7 +335,7 @@ const styles = StyleSheet.create({
     elevation: 0,
     shadowOpacity: 1,
     borderColor: Color.primary0,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     borderWidth: 1,
   },
   stepTitle2: {

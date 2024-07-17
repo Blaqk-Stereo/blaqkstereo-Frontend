@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
   },
   wereSorryTo: {
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
   },
   proceedWrapper: {
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     paddingVertical: Padding.p_5xs,
     top: 0,
     flexDirection: "row",
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.btnSmallNormal_size,
     fontFamily: FontFamily.mobileBodyCopy,
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
   },
   cancelWrapper: {

@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
   },
   labelContent: {
     alignSelf: "stretch",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "center",
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
-    color: Color.gray0White,
+    color: Color.white,
   },
   arrowSwapIcon: {
     width: 16,
@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
   button: {
     bottom: 40,
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     justifyContent: "center",
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
@@ -183,7 +183,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     lineHeight: 24,
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     left: "50%",
   },
   confirmTransaction: {

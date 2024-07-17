@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
-    color: Color.gray0White,
+    color: Color.white,
   },
   areYouSure: {
     color: Color.primary0,
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
   },
   cancel: {
     fontSize: FontSize.btnSmallNormal_size,
-    color: Color.gray0White,
+    color: Color.white,
   },
   cancelWrapper: {
     top: 40,

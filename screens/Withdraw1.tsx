@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
   },
   blcFlexBox: {
     textAlign: "right",
-    color: Color.gray0White,
+    color: Color.white,
   },
   blcPosition: {
     top: "50%",
@@ -162,7 +162,7 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     fontWeight: "700",
-    fontFamily: FontFamily.mobileH2HeadingDefault,
+    fontFamily: FontFamily.mobileH1HeadingDisplay,
     top: "50%",
     position: "absolute",
   },
@@ -177,7 +177,7 @@ const styles = StyleSheet.create({
     right: "47.37%",
     bottom: "13%",
     left: "47.37%",
-    borderColor: Color.gray0White,
+    borderColor: Color.white,
     borderRightWidth: 1,
   },
   blinkingCursor: {
@@ -210,7 +210,7 @@ const styles = StyleSheet.create({
   useMax: {
     lineHeight: 16,
     textAlign: "right",
-    color: Color.gray0White,
+    color: Color.white,
   },
   label: {
     borderRadius: Border.br_5xs,
@@ -235,7 +235,7 @@ const styles = StyleSheet.create({
   },
   button: {
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
     opacity: 0.5,
@@ -266,7 +266,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
     lineHeight: 24,
-    color: Color.gray0White,
+    color: Color.white,
     top: 40,
   },
   withdraw: {

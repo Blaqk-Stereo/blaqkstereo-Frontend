@@ -154,7 +154,7 @@ const styles = StyleSheet.create({
   },
   button: {
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     flexDirection: "row",
     justifyContent: "center",
     paddingHorizontal: Padding.p_99xl,
@@ -192,7 +192,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
-    color: Color.gray0White,
+    color: Color.white,
     top: 0,
     textAlign: "left",
     lineHeight: 24,

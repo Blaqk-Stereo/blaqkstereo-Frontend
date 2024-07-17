@@ -3,11 +3,11 @@ import { View, Text, StyleSheet } from "react-native";
 import { Image } from "expo-image";
 import { FontFamily, Color, Padding, FontSize, Border } from "../GlobalStyles";
 
-export type AddSocialType = {
+export type AddSocial1Type = {
   onClose?: () => void;
 };
 
-const AddSocial = ({ onClose }: AddSocialType) => {
+const AddSocial1 = ({ onClose }: AddSocial1Type) => {
   return (
     <View style={styles.addSocial}>
       <View style={styles.prompt}>
@@ -25,7 +25,7 @@ const AddSocial = ({ onClose }: AddSocialType) => {
           <Image
             style={styles.lineIcon}
             contentFit="cover"
-            source={require("../assets/line.png")}
+            source={require("../assets/line3.png")}
           />
           <Text style={[styles.enterYourPlaylist, styles.blinkerTypo]}>
             eg. soundcloud.com/rihanna
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   cancelTypo: {
     fontFamily: FontFamily.mobileBodyCopy,
     textAlign: "center",
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
   },
   frameParentSpaceBlock: {
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
-    color: Color.gray0White,
+    color: Color.white,
   },
   pasteTheLink: {
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
     left: 4,
     width: 4,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
-    color: Color.gray0White,
+    color: Color.white,
     lineHeight: 24,
     textAlign: "left",
   },
@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
   saveWrapper: {
     top: 0,
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.gray0White,
+    backgroundColor: Color.white,
     paddingVertical: Padding.p_5xs,
     opacity: 0.5,
   },
@@ -155,4 +155,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default AddSocial;
+export default AddSocial1;
