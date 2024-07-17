@@ -1,0 +1,170 @@
+function VerifyEmail() {
+  return (
+    <Frame
+      name="VerifyEmail"
+      fill="#000"
+      width={375}
+      height={812}
+    >
+      <AutoLayout
+        name="Frame 2215"
+        x={{
+          type: "center",
+          offset: 0.5,
+        }}
+        y={154}
+        cornerRadius={5}
+        overflow="visible"
+        spacing={14}
+      >
+        <Rectangle
+          name="Rectangle 30"
+          fill="#1A1A1A"
+          cornerRadius={8}
+          width={73}
+          height={73}
+        />
+        <Rectangle
+          name="Rectangle 31"
+          fill="#1A1A1A"
+          cornerRadius={8}
+          width={73}
+          height={73}
+        />
+        <Rectangle
+          name="Rectangle 32"
+          fill="#1A1A1A"
+          cornerRadius={8}
+          width={73}
+          height={73}
+        />
+        <Rectangle
+          name="Rectangle 33"
+          fill="#1A1A1A"
+          cornerRadius={8}
+          width={73}
+          height={73}
+        />
+      </AutoLayout>
+      <Text
+        name="We sent you an activation email. Please enter the OTP in the mail to verify it’s you."
+        x={16}
+        y={86}
+        fill="#D4D4D4"
+        width={343}
+        verticalAlignText="center"
+        horizontalAlignText="center"
+        lineHeight={24}
+        fontFamily="Rubik"
+        fontSize={14}
+      >
+        We sent you an
+        activation email.
+        Please enter the OTP
+        in the mail to verify
+        it’s you.
+      </Text>
+      <AutoLayout
+        name="Button"
+        x={20}
+        y={251}
+        fill="#FFF"
+        cornerRadius={100}
+        overflow="visible"
+        spacing={10}
+        padding={{
+          vertical: 14,
+          horizontal: 118,
+        }}
+        width={335}
+        horizontalAlignItems="center"
+        verticalAlignItems="center"
+      >
+        <Text
+          name="Continue"
+          fill="#000"
+          lineHeight={24}
+          fontFamily="Rubik"
+          fontSize={14}
+          fontWeight={600}
+        >
+          Continue
+        </Text>
+      </AutoLayout>
+      <Text
+        name="Forgot your login or password?"
+        x={148}
+        y={319}
+        fill="#FFF"
+        horizontalAlignText="center"
+        lineHeight={24}
+        fontFamily="Rubik"
+        fontSize={14}
+        strokeWidth={0}
+        strokeAlign="center"
+      >
+        Resend OTP
+      </Text>
+      <Frame
+        name="Header"
+        strokeWidth={0}
+        overflow="visible"
+        width={375}
+        height={74}
+      >
+        <Rectangle
+          name="Rectangle 2828"
+          fill="#000"
+          width={375}
+          height={74}
+        />
+        <Frame
+          name="Group 1794"
+          x={20}
+          y={40}
+          strokeWidth={0}
+          overflow="visible"
+          width={217}
+          height={24}
+        >
+          <Frame
+            name="241"
+            width={24}
+            height={24}
+          >
+            <SVG
+              name="Vector"
+              x={{
+                type: "horizontal-scale",
+                leftOffsetPercent: 37.5,
+                rightOffsetPercent: 33.333,
+              }}
+              y={{
+                type: "vertical-scale",
+                topOffsetPercent: 20.833,
+                bottomOffsetPercent: 20.833,
+              }}
+              height={14}
+              width={7}
+              src="<svg width='7' height='14' viewBox='0 0 7 14' fill='none' xmlns='http://www.w3.org/2000/svg'>
+<path d='M7 0L-6.71564e-07 7L7 14' stroke='white' stroke-width='1.2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/>
+</svg>
+"
+            />
+          </Frame>
+          <Text
+            name="Almost there"
+            x={117}
+            fill="#FFF"
+            horizontalAlignText="center"
+            lineHeight={24}
+            fontFamily="Rubik"
+            fontWeight={500}
+          >
+            Almost there
+          </Text>
+        </Frame>
+      </Frame>
+    </Frame>
+  );
+}

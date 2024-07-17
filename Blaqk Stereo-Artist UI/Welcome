@@ -1,0 +1,90 @@
+function Welcome() {
+  return (
+    <Frame
+      name="Welcome"
+      fill="#000"
+      width={375}
+      height={812}
+    >
+      <Image
+        name="music 2"
+        x={{
+          type: "center",
+          offset: 0,
+        }}
+        y={{
+          type: "bottom",
+          offset: 380,
+        }}
+        width={375}
+        height={375}
+        src="<Add image URL here>"
+      />
+      <AutoLayout
+        name="Frame 1171274924"
+        effect={{
+          blur: 24,
+          type: "background-blur",
+        }}
+        x={{
+          type: "center",
+          offset: 0,
+        }}
+        y={438}
+        fill="#1B1B1BA3"
+        stroke="#2A2A2A"
+        cornerRadius={36}
+        direction="vertical"
+        spacing={24}
+        padding={{
+          vertical: 36,
+          horizontal: 16,
+        }}
+        horizontalAlignItems="center"
+      >
+        <AutoLayout
+          name="Frame 1827"
+          overflow="visible"
+          direction="vertical"
+          spacing={8}
+          horizontalAlignItems="center"
+        >
+          <Text
+            name="Unleash your music to the world!"
+            fill="#FFF"
+            width={303}
+            verticalAlignText="center"
+            horizontalAlignText="center"
+            lineHeight={33.6}
+            fontFamily="Rubik"
+            fontSize={24}
+            letterSpacing={
+              -0.7
+            }
+            fontWeight={700}
+          >
+            Unleash your music
+            to the world!
+          </Text>
+          <Text
+            name="Start distributing your music, earn royalties, and grow your career with Blaqk Stereo."
+            fill="#FFF"
+            width={303}
+            verticalAlignText="center"
+            horizontalAlignText="center"
+            lineHeight={28}
+            fontFamily="Rubik"
+            fontSize={20}
+          >
+            Start distributing
+            your music, earn
+            royalties, and
+            grow your career
+            with Blaqk Stereo.
+          </Text>
+        </AutoLayout>
+        <ProgressButtonProperty11 name="Progress button" />
+      </AutoLayout>
+    </Frame>
+  );
+}
