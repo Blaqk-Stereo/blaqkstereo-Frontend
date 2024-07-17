@@ -446,7 +446,7 @@ const WalletinNGN = () => {
               <Image
                 style={styles.iconLayout}
                 contentFit="cover"
-                source={require("../assets/frame-1000000795.png")}
+                source={require("../assets/notification.png")}
               />
             </Pressable>
           </View>

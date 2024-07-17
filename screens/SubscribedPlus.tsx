@@ -25,7 +25,7 @@ const SubscribedPlus = () => {
         <Image
           style={styles.subscribedplusChild}
           contentFit="cover"
-          source={require("../assets/ellipse-95.png")}
+          source={require("../assets/ellipse-951.png")}
         />
         <View style={[styles.subscribedplusItem, styles.headerPosition]} />
         <View style={styles.groupParent}>
@@ -51,7 +51,7 @@ const SubscribedPlus = () => {
               <Image
                 style={styles.blaqkStereowhite300x1}
                 contentFit="cover"
-                source={require("../assets/blaqk-stereowhite300x-14.png")}
+                source={require("../assets/blaqk-stereowhite300x-16.png")}
               />
             </View>
           </View>
@@ -68,12 +68,12 @@ const SubscribedPlus = () => {
             <Image
               style={[styles.frameChild, styles.frameChildLayout]}
               contentFit="cover"
-              source={require("../assets/rectangle-19.png")}
+              source={require("../assets/rectangle-191.png")}
             />
             <Image
               style={styles.titleTextIcon}
               contentFit="cover"
-              source={require("../assets/titletext.png")}
+              source={require("../assets/titletext1.png")}
             />
           </View>
           <View style={styles.groupChild} />

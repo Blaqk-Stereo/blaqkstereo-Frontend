@@ -20,7 +20,7 @@ const UploadMusicSingle7 = () => {
           <Image
             style={[styles.eyeIcon, styles.iconLayout]}
             contentFit="cover"
-            source={require("../assets/eye3.png")}
+            source={require("../assets/eye4.png")}
           />
         </View>
         <View style={styles.upload}>

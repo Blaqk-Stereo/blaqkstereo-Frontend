@@ -41,7 +41,7 @@ const Discover = () => {
             <Image
               style={[styles.frameChild, styles.groupChildLayout]}
               contentFit="cover"
-              source={require("../assets/rectangle-2873.png")}
+              source={require("../assets/rectangle-28733.png")}
             />
             <View style={styles.frameContainer}>
               <View style={styles.albumWrapper}>
@@ -69,7 +69,7 @@ const Discover = () => {
             <Image
               style={[styles.frameChild, styles.groupChildLayout]}
               contentFit="cover"
-              source={require("../assets/rectangle-28731.png")}
+              source={require("../assets/rectangle-28734.png")}
             />
             <View style={styles.frameContainer}>
               <View style={styles.albumWrapper}>
@@ -169,7 +169,7 @@ const Discover = () => {
         <Image
           style={[styles.headerItem, styles.headerItemPosition]}
           contentFit="cover"
-          source={require("../assets/frame-1000000795.png")}
+          source={require("../assets/notification.png")}
         />
         <Text style={[styles.yourUploads, styles.headerItemPosition]}>
           Your Uploads

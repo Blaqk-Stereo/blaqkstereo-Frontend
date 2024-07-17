@@ -24,7 +24,7 @@ const ChangePassword = () => {
             <Image
               style={styles.eyeIcon}
               contentFit="cover"
-              source={require("../assets/eye4.png")}
+              source={require("../assets/eye3.png")}
             />
           </View>
           <View style={[styles.inputField1, styles.inputLayout]}>
@@ -35,7 +35,7 @@ const ChangePassword = () => {
             <Image
               style={styles.eyeIcon}
               contentFit="cover"
-              source={require("../assets/eye4.png")}
+              source={require("../assets/eye3.png")}
             />
           </View>
           <View style={[styles.inputField1, styles.inputLayout]}>
@@ -46,7 +46,7 @@ const ChangePassword = () => {
             <Image
               style={styles.eyeIcon}
               contentFit="cover"
-              source={require("../assets/eye4.png")}
+              source={require("../assets/eye3.png")}
             />
           </View>
           <Pressable

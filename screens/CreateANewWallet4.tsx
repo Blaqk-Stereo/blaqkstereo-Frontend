@@ -14,7 +14,7 @@ const CreateANewWallet4 = () => {
         <Image
           style={styles.success48740921Icon}
           contentFit="cover"
-          source={require("../assets/success4874092-1.png")}
+          source={require("../assets/success4874092-12.png")}
         />
         <View style={styles.frameParent}>
           <View style={styles.walletConnectedParent}>

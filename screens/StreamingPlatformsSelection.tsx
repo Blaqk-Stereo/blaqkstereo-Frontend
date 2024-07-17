@@ -41,7 +41,7 @@ const StreamingPlatformsSelection = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-359231.png")}
+              source={require("../assets/group-3592314.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               Apple Music
@@ -82,7 +82,7 @@ const StreamingPlatformsSelection = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-359235.png")}
+              source={require("../assets/group-3592315.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               Spotify
@@ -92,7 +92,7 @@ const StreamingPlatformsSelection = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-359236.png")}
+              source={require("../assets/group-3592316.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               {" "}
@@ -113,7 +113,7 @@ const StreamingPlatformsSelection = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-359238.png")}
+              source={require("../assets/group-3592317.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               {" "}

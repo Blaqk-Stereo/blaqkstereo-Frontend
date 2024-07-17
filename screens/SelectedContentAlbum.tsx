@@ -93,7 +93,7 @@ const SelectedContentAlbum = () => {
                 <Image
                   style={styles.frameChild}
                   contentFit="cover"
-                  source={require("../assets/ellipse-2090.png")}
+                  source={require("../assets/ellipse-20901.png")}
                 />
                 <View style={styles.mineParent}>
                   <Text style={[styles.mine, styles.textTypo1]}>Mine</Text>
@@ -106,7 +106,7 @@ const SelectedContentAlbum = () => {
                 <Image
                   style={styles.frameChild}
                   contentFit="cover"
-                  source={require("../assets/ellipse-2091.png")}
+                  source={require("../assets/ellipse-20902.png")}
                 />
                 <View style={styles.mineParent}>
                   <Text style={[styles.mine, styles.textTypo1]}>
@@ -121,7 +121,7 @@ const SelectedContentAlbum = () => {
                 <Image
                   style={styles.frameChild}
                   contentFit="cover"
-                  source={require("../assets/ellipse-20901.png")}
+                  source={require("../assets/ellipse-20903.png")}
                 />
                 <View style={styles.mineParent}>
                   <Text style={[styles.mine, styles.textTypo1]}>

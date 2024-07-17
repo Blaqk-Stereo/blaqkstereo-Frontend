@@ -29,7 +29,7 @@ const AccountValidated = () => {
                 <Image
                   style={styles.eyeIcon}
                   contentFit="cover"
-                  source={require("../assets/eye4.png")}
+                  source={require("../assets/eye3.png")}
                 />
               </View>
             </View>
@@ -45,7 +45,7 @@ const AccountValidated = () => {
                 <Image
                   style={styles.eyeIcon}
                   contentFit="cover"
-                  source={require("../assets/eye4.png")}
+                  source={require("../assets/eye3.png")}
                 />
               </View>
             </View>
@@ -61,7 +61,7 @@ const AccountValidated = () => {
                 <Image
                   style={styles.eyeIcon}
                   contentFit="cover"
-                  source={require("../assets/eye4.png")}
+                  source={require("../assets/eye3.png")}
                 />
                 <Image
                   style={[
