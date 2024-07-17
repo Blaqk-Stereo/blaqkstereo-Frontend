@@ -24,7 +24,7 @@ const Finishing3 = () => {
       <Image
         style={[styles.blaqkStereowhite300x1, styles.pulse2IconPosition]}
         contentFit="cover"
-        source={require("../assets/blaqk-stereowhite300x-142.png")}
+        source={require("../assets/blaqk-stereowhite300x-12.png")}
       />
     </View>
   );

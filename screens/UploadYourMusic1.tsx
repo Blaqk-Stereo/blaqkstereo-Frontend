@@ -47,7 +47,7 @@ const UploadYourMusic1 = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-152.png")}
+            source={require("../assets/group-153.png")}
           />
         </Pressable>
         <View style={[styles.frameView, styles.frameFlexBox]}>

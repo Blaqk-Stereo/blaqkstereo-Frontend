@@ -54,7 +54,7 @@ const Others = () => {
               <Image
                 style={[styles.vuesaxbulkuserEditIcon, styles.iconLayout1]}
                 contentFit="cover"
-                source={require("../assets/bank.png")}
+                source={require("../assets/bank1.png")}
               />
               <Text style={[styles.yourProfile, styles.v10FlexBox]}>
                 Withdrawal Account
@@ -142,7 +142,7 @@ const Others = () => {
               <Image
                 style={[styles.vuesaxbulkuserEditIcon, styles.iconLayout1]}
                 contentFit="cover"
-                source={require("../assets/notification3.png")}
+                source={require("../assets/notification31.png")}
               />
               <Text style={[styles.yourProfile, styles.v10FlexBox]}>
                 Notification Settings
@@ -224,7 +224,7 @@ const Others = () => {
           <Image
             style={styles.blaqkStereowhite300x1}
             contentFit="cover"
-            source={require("../assets/blaqk-stereowhite300x-11.png")}
+            source={require("../assets/blaqk-stereowhite300x-15.png")}
           />
           <Text style={[styles.v10, styles.v10FlexBox]}>v1.0</Text>
         </View>

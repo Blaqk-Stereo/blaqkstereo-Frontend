@@ -27,7 +27,7 @@ const TransactionDetailsIN = ({ onClose }: TransactionDetailsINType) => {
           <Image
             style={styles.successIcon}
             contentFit="cover"
-            source={require("../assets/success-icon1.png")}
+            source={require("../assets/success-icon.png")}
           />
           <View style={styles.owner}>
             <View style={styles.authorParent}>

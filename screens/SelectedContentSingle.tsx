@@ -24,7 +24,7 @@ const SelectedContentSingle = () => {
         <Image
           style={styles.bgIcon}
           contentFit="cover"
-          source={require("../assets/bg1.png")}
+          source={require("../assets/bg2.png")}
         />
         <Image
           style={[styles.selectedContentsingleChild, styles.navPosition]}

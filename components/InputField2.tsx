@@ -16,14 +16,14 @@ const getStyleValue = (key: string, value: string | number | undefined) => {
   return { [key]: value === "unset" ? undefined : value };
 };
 const InputField2 = ({ blinker, eye, blinkerMarginTop }: InputField2Type) => {
-  const inputFieldStyle = useMemo(() => {
+  const inputField1Style = useMemo(() => {
     return {
       ...getStyleValue("marginTop", blinkerMarginTop),
     };
   }, [blinkerMarginTop]);
 
   return (
-    <View style={[styles.inputField, inputFieldStyle]}>
+    <View style={[styles.inputField, inputField1Style]}>
       <View style={styles.inputFieldChild} />
       <Text style={styles.blinker}>{blinker}</Text>
       <Image style={styles.eyeIcon} contentFit="cover" source={eye} />

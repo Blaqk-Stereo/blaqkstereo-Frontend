@@ -199,7 +199,7 @@ const WalletForNewUsers1 = () => {
               <Image
                 style={styles.iconLayout}
                 contentFit="cover"
-                source={require("../assets/notification2.png")}
+                source={require("../assets/notification3.png")}
               />
             </Pressable>
           </View>

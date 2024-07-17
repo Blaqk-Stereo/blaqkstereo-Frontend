@@ -51,7 +51,7 @@ const Languages = () => {
                   <Image
                     style={styles.addCircleIcon}
                     contentFit="cover"
-                    source={require("../assets/bank1.png")}
+                    source={require("../assets/bank.png")}
                   />
                 </View>
                 <View

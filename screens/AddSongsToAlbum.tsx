@@ -524,7 +524,7 @@ const styles = StyleSheet.create({
   },
   rectangleView: {
     borderRadius: Border.br_3xs,
-    backgroundColor: "#1e1f22",
+    backgroundColor: Color.colorGray_1800,
     height: 48,
     width: 335,
     position: "absolute",

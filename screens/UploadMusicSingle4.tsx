@@ -25,7 +25,7 @@ const UploadMusicSingle4 = () => {
           <Image
             style={styles.rectangle4Icon}
             contentFit="cover"
-            source={require("../assets/rectangle41.png")}
+            source={require("../assets/rectangle4.png")}
           />
           <LinearGradient
             style={[styles.layout, styles.layoutPosition]}
@@ -65,7 +65,7 @@ const UploadMusicSingle4 = () => {
             <Image
               style={[styles.closeCircleIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/closecircle1.png")}
+              source={require("../assets/closecircle.png")}
             />
           </View>
           <View style={[styles.wizkidParent, styles.parentSpaceBlock]}>
@@ -73,7 +73,7 @@ const UploadMusicSingle4 = () => {
             <Image
               style={[styles.closeCircleIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/closecircle1.png")}
+              source={require("../assets/closecircle.png")}
             />
           </View>
           <View style={[styles.wizkidParent, styles.parentSpaceBlock]}>
@@ -81,7 +81,7 @@ const UploadMusicSingle4 = () => {
             <Image
               style={[styles.closeCircleIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/closecircle1.png")}
+              source={require("../assets/closecircle.png")}
             />
           </View>
           <View style={[styles.wizkidParent, styles.parentSpaceBlock]}>
@@ -91,7 +91,7 @@ const UploadMusicSingle4 = () => {
             <Image
               style={[styles.closeCircleIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/closecircle1.png")}
+              source={require("../assets/closecircle.png")}
             />
           </View>
         </View>
@@ -118,12 +118,12 @@ const UploadMusicSingle4 = () => {
             <Image
               style={[styles.vectorIcon, styles.iconLayout1]}
               contentFit="cover"
-              source={require("../assets/vector1.png")}
+              source={require("../assets/vector.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/vector11.png")}
+              source={require("../assets/vector2.png")}
             />
             <Text style={styles.yes}>Yes</Text>
           </View>

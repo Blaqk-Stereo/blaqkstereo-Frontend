@@ -34,7 +34,7 @@ const UploadMusicAlbum1 = () => {
           <Image
             style={styles.rectangle4Icon}
             contentFit="cover"
-            source={require("../assets/rectangle4.png")}
+            source={require("../assets/rectangle41.png")}
           />
           <LinearGradient
             style={styles.layout}

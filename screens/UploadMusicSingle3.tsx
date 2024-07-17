@@ -87,12 +87,12 @@ const UploadMusicSingle3 = () => {
             <Image
               style={[styles.vectorIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/vector1.png")}
+              source={require("../assets/vector.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.iconPosition]}
               contentFit="cover"
-              source={require("../assets/vector2.png")}
+              source={require("../assets/vector1.png")}
             />
             <Text style={styles.no}>No</Text>
           </View>

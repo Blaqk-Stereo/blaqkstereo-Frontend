@@ -93,7 +93,7 @@ const StatsForNewUsers = () => {
           <Image
             style={styles.iconLayout}
             contentFit="cover"
-            source={require("../assets/notification1.png")}
+            source={require("../assets/notification2.png")}
           />
         </Pressable>
         <View style={[styles.frameParent, styles.iconsPosition]}>

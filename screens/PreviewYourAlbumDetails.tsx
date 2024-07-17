@@ -15,7 +15,7 @@ const PreviewYourAlbumDetails = () => {
           <Image
             style={styles.rectangle2Icon}
             contentFit="cover"
-            source={require("../assets/rectangle211.png")}
+            source={require("../assets/rectangle2111.png")}
           />
           <View style={styles.labels}>
             <Text style={[styles.title, styles.titleTypo]}>In Lagos</Text>

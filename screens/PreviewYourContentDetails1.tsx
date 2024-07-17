@@ -15,7 +15,7 @@ const PreviewYourContentDetails1 = () => {
           <Image
             style={styles.rectangle2Icon}
             contentFit="cover"
-            source={require("../assets/rectangle21.png")}
+            source={require("../assets/rectangle2.png")}
           />
           <View style={styles.labels}>
             <Text style={[styles.title, styles.titleClr]}>Rodo</Text>
