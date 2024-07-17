@@ -15,7 +15,7 @@ const UploadMusicSingle10 = () => {
       <View style={styles.inputFieldParent}>
         <InputField2
           blinker="Rodo"
-          eye={require("../assets/eye5.png")}
+          eye={require("../assets/eye51.png")}
           blinkerMarginTop="unset"
         />
         <View style={styles.upload}>
@@ -60,7 +60,7 @@ const UploadMusicSingle10 = () => {
             <Image
               style={[styles.closeCircleIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/closecircle.png")}
+              source={require("../assets/closecircle1.png")}
             />
           </View>
           <View style={[styles.wizkidParent, styles.parentSpaceBlock]}>
@@ -68,7 +68,7 @@ const UploadMusicSingle10 = () => {
             <Image
               style={[styles.closeCircleIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/closecircle.png")}
+              source={require("../assets/closecircle1.png")}
             />
           </View>
           <View style={[styles.wizkidParent, styles.parentSpaceBlock]}>
@@ -76,7 +76,7 @@ const UploadMusicSingle10 = () => {
             <Image
               style={[styles.closeCircleIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/closecircle.png")}
+              source={require("../assets/closecircle1.png")}
             />
           </View>
           <View style={[styles.wizkidParent, styles.parentSpaceBlock]}>
@@ -86,7 +86,7 @@ const UploadMusicSingle10 = () => {
             <Image
               style={[styles.closeCircleIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/closecircle.png")}
+              source={require("../assets/closecircle1.png")}
             />
           </View>
         </View>
@@ -106,12 +106,12 @@ const UploadMusicSingle10 = () => {
             <Image
               style={[styles.vectorIcon, styles.layoutPosition]}
               contentFit="cover"
-              source={require("../assets/vector.png")}
+              source={require("../assets/vector1.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/vector1.png")}
+              source={require("../assets/vector11.png")}
             />
             <Text style={[styles.yes, styles.yesTypo]}>Yes</Text>
           </View>
@@ -199,7 +199,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
   yesTypo: {
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   nextTypo: {
@@ -350,7 +350,7 @@ const styles = StyleSheet.create({
   },
   next: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   button: {

@@ -181,7 +181,7 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   startUploadingYour: {
@@ -202,7 +202,7 @@ const styles = StyleSheet.create({
     color: Color.primary,
     lineHeight: 24,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   button: {
@@ -253,7 +253,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     textAlign: "left",
     color: Color.white,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   musicSquareAdd: {
@@ -319,7 +319,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     textAlign: "left",
     color: Color.white,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   notification: {

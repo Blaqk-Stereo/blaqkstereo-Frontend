@@ -11,7 +11,7 @@ const PlanCancelled = () => {
   return (
     <View style={styles.planCancelled}>
       <FrameComponent2
-        success48740921={require("../assets/success4874092-12.png")}
+        success48740921={require("../assets/success4874092-1.png")}
         congratulations="Plan Cancelled"
         yourSubscriptionIsNowActi="Thank you for being a part of the Blaqk Stereo community. If you ever decide to re-subscribe, we'll be here to welcome you with open arms."
         goToDashboard="Great"

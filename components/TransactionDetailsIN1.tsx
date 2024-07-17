@@ -232,7 +232,7 @@ const styles = StyleSheet.create({
   },
   downloadReceipt: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     color: Color.primary,
     marginLeft: 10,
     lineHeight: 24,

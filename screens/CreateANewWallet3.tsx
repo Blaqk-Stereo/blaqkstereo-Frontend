@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     color: Color.white,
   },
   blinkerTypo: {
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   connectTypo: {
@@ -166,7 +166,7 @@ const styles = StyleSheet.create({
   },
   connect: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   button: {

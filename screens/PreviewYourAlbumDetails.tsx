@@ -15,7 +15,7 @@ const PreviewYourAlbumDetails = () => {
           <Image
             style={styles.rectangle2Icon}
             contentFit="cover"
-            source={require("../assets/rectangle21.png")}
+            source={require("../assets/rectangle211.png")}
           />
           <View style={styles.labels}>
             <Text style={[styles.title, styles.titleTypo]}>In Lagos</Text>
@@ -252,7 +252,7 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   titleTypo: {
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     textAlign: "left",
     lineHeight: 24,
@@ -291,7 +291,7 @@ const styles = StyleSheet.create({
   },
   title1Typo: {
     fontSize: FontSize.mobileH6HeadingSubHead_size,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   titleSpaceBlock: {
@@ -350,7 +350,7 @@ const styles = StyleSheet.create({
   filenamepng: {
     color: Color.white,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     lineHeight: 24,
   },
@@ -452,7 +452,7 @@ const styles = StyleSheet.create({
   finishUpload: {
     color: Color.primary,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   finishUploadWrapper: {
@@ -461,7 +461,7 @@ const styles = StyleSheet.create({
   goBack: {
     color: Color.white,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   goBackEditWrapper: {

@@ -513,13 +513,13 @@ const styles = StyleSheet.create({
   blcTypo: {
     color: Color.white,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   textTypo: {
     color: Color.colorMediumseagreen,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -775,7 +775,7 @@ const styles = StyleSheet.create({
   blc3: {
     color: Color.warningDefault,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -914,7 +914,7 @@ const styles = StyleSheet.create({
     left: 20,
     textAlign: "left",
     color: Color.white,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     lineHeight: 24,
   },

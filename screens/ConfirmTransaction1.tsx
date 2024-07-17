@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
   },
   confirm: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     color: Color.primary,
   },
   button: {

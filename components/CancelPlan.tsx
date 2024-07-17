@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
   },
   proceed: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     color: Color.primary,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "center",

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "BlaqkStereo",
-    "slug": "BlaqkStereo",
+    "name": "blaqk-stereo",
+    "slug": "blaqk-stereo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

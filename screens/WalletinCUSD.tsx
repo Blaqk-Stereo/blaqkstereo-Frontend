@@ -91,7 +91,7 @@ const WalletinCUSD = () => {
           <Image
             style={styles.nftWallet36640551Icon}
             contentFit="cover"
-            source={require("../assets/nftwallet3664055-12.png")}
+            source={require("../assets/nftwallet3664055-1.png")}
           />
         </View>
         <View style={styles.cardParent}>
@@ -111,7 +111,7 @@ const WalletinCUSD = () => {
               <Image
                 style={styles.topUpIcon}
                 contentFit="cover"
-                source={require("../assets/topup1.png")}
+                source={require("../assets/topup.png")}
               />
               <Text style={[styles.text1, styles.blcTypo]}>Deposit</Text>
             </View>
@@ -429,7 +429,7 @@ const WalletinCUSD = () => {
               <Image
                 style={styles.iconLayout}
                 contentFit="cover"
-                source={require("../assets/infocircle1.png")}
+                source={require("../assets/infocircle.png")}
               />
             </Pressable>
             <Pressable
@@ -439,7 +439,7 @@ const WalletinCUSD = () => {
               <Image
                 style={styles.iconLayout}
                 contentFit="cover"
-                source={require("../assets/frame-1000000795.png")}
+                source={require("../assets/notification.png")}
               />
             </Pressable>
           </View>
@@ -526,13 +526,13 @@ const styles = StyleSheet.create({
   blcTypo: {
     color: Color.white,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   textTypo: {
     color: Color.colorMediumseagreen,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -788,7 +788,7 @@ const styles = StyleSheet.create({
   blc1: {
     color: Color.warningDefault,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -946,7 +946,7 @@ const styles = StyleSheet.create({
     left: 20,
     textAlign: "left",
     color: Color.white,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     lineHeight: 24,
   },

@@ -28,7 +28,7 @@ const StreamingPlatformsSelection = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-35923.png")}
+              source={require("../assets/group-359239.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               Amazon Music
@@ -41,7 +41,7 @@ const StreamingPlatformsSelection = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-359231.png")}
+              source={require("../assets/group-3592310.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               Apple Music
@@ -82,7 +82,7 @@ const StreamingPlatformsSelection = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-3592315.png")}
+              source={require("../assets/group-3592311.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               Spotify
@@ -92,7 +92,7 @@ const StreamingPlatformsSelection = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-3592316.png")}
+              source={require("../assets/group-3592312.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               {" "}
@@ -103,7 +103,7 @@ const StreamingPlatformsSelection = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-359235.png")}
+              source={require("../assets/group-359237.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               Tidal
@@ -113,7 +113,7 @@ const StreamingPlatformsSelection = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-3592317.png")}
+              source={require("../assets/group-3592313.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               {" "}
@@ -192,7 +192,7 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     color: Color.white,
   },
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   button: {

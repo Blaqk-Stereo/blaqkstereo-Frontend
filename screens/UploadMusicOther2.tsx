@@ -87,7 +87,7 @@ const UploadMusicOther2 = () => {
             <Image
               style={[styles.vectorIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/vector.png")}
+              source={require("../assets/vector1.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.iconPosition]}
@@ -360,7 +360,7 @@ const styles = StyleSheet.create({
   no: {
     marginTop: -7,
     marginLeft: 3,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     fontSize: FontSize.btnSmallNormal_size,
     color: Color.white,
@@ -508,7 +508,7 @@ const styles = StyleSheet.create({
   next: {
     color: Color.primary,
     fontSize: FontSize.mobileH5HeadingComponent_size,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     textAlign: "center",
     lineHeight: 24,

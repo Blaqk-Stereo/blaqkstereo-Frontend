@@ -47,7 +47,7 @@ const UploadYourMusic1 = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-153.png")}
+            source={require("../assets/group-152.png")}
           />
         </Pressable>
         <View style={[styles.frameView, styles.frameFlexBox]}>
@@ -62,7 +62,7 @@ const UploadYourMusic1 = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-152.png")}
+            source={require("../assets/group-151.png")}
           />
         </View>
       </View>
@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
   },
   singleTypo: {
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     lineHeight: 24,
   },

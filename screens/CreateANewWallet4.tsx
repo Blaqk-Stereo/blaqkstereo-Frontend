@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
   },
   cusdTypo: {
     marginLeft: 4,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -191,7 +191,7 @@ const styles = StyleSheet.create({
   },
   letsGo: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,

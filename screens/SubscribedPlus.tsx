@@ -31,7 +31,7 @@ const SubscribedPlus = () => {
         <View style={[styles.subscribedplusItem, styles.headerPosition]} />
         <FrameComponent3
           pREMIUMPLAN="PLUS PLAN!"
-          blaqkStereowhite300x1={require("../assets/blaqk-stereowhite300x-17.png")}
+          blaqkStereowhite300x1={require("../assets/blaqk-stereowhite300x-12.png")}
         />
         <View style={[styles.frameParent, styles.frameParentLayout]}>
           <View style={[styles.vectorParent, styles.frameChildLayout]}>
@@ -43,7 +43,7 @@ const SubscribedPlus = () => {
             <Image
               style={styles.titleTextIcon}
               contentFit="cover"
-              source={require("../assets/titletext1.png")}
+              source={require("../assets/titletext.png")}
             />
           </View>
           <View style={styles.groupChild} />
@@ -308,7 +308,7 @@ const styles = StyleSheet.create({
   },
   addNewPlaylist: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     textAlign: "left",
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     lineHeight: 24,

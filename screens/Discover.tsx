@@ -14,7 +14,7 @@ const Discover = () => {
         <Image
           style={[styles.bgIcon, styles.childPosition]}
           contentFit="cover"
-          source={require("../assets/bg.png")}
+          source={require("../assets/bg2.png")}
         />
         <Pressable
           style={[styles.wrapper, styles.iconsPosition]}
@@ -69,7 +69,7 @@ const Discover = () => {
             <Image
               style={[styles.frameChild, styles.groupChildLayout]}
               contentFit="cover"
-              source={require("../assets/rectangle-2873.png")}
+              source={require("../assets/rectangle-28734.png")}
             />
             <View style={styles.frameContainer}>
               <View style={styles.albumWrapper}>
@@ -169,7 +169,7 @@ const Discover = () => {
         <Image
           style={[styles.headerItem, styles.headerItemPosition]}
           contentFit="cover"
-          source={require("../assets/frame-1000000795.png")}
+          source={require("../assets/notification.png")}
         />
         <Text style={[styles.yourUploads, styles.headerItemPosition]}>
           Your Uploads
@@ -211,7 +211,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   forLifeTypo: {
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     color: Color.white,
   },
@@ -254,7 +254,7 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     color: Color.white,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   singleParent: {
@@ -431,7 +431,7 @@ const styles = StyleSheet.create({
   yourUploads: {
     fontSize: FontSize.mobileH4HeadingSection_size,
     color: Color.white,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     textAlign: "left",
     lineHeight: 24,

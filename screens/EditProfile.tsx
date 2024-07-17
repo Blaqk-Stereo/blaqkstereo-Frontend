@@ -30,7 +30,7 @@ const EditProfile = () => {
               <Image
                 style={styles.eyeIcon}
                 contentFit="cover"
-                source={require("../assets/eye7.png")}
+                source={require("../assets/eye.png")}
               />
             </View>
           </View>
@@ -46,7 +46,7 @@ const EditProfile = () => {
               <Image
                 style={styles.eyeIcon}
                 contentFit="cover"
-                source={require("../assets/eye7.png")}
+                source={require("../assets/eye.png")}
               />
               <Image
                 style={[
@@ -81,7 +81,7 @@ const EditProfile = () => {
               <Image
                 style={styles.eyeIcon}
                 contentFit="cover"
-                source={require("../assets/eye7.png")}
+                source={require("../assets/eye.png")}
               />
               <Image
                 style={[
@@ -267,7 +267,7 @@ const styles = StyleSheet.create({
   },
   saveChanges: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     color: Color.primary,
   },
   button: {

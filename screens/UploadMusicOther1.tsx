@@ -195,7 +195,7 @@ const styles = StyleSheet.create({
   next: {
     color: Color.primary,
     textAlign: "center",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH5HeadingComponent_size,
@@ -225,7 +225,7 @@ const styles = StyleSheet.create({
   filenamepng: {
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     lineHeight: 24,
   },
@@ -270,7 +270,7 @@ const styles = StyleSheet.create({
     color: Color.white,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "center",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     lineHeight: 24,
   },

@@ -62,7 +62,7 @@ const UploadMusicSingle7 = () => {
             <Image
               style={[styles.vectorIcon, styles.vectorIconPosition]}
               contentFit="cover"
-              source={require("../assets/vector.png")}
+              source={require("../assets/vector1.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.pressableLayout]}
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
     width: 24,
   },
   noTypo: {
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   nextTypo: {
@@ -265,7 +265,7 @@ const styles = StyleSheet.create({
   },
   next: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   button: {

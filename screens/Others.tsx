@@ -224,7 +224,7 @@ const Others = () => {
           <Image
             style={styles.blaqkStereowhite300x1}
             contentFit="cover"
-            source={require("../assets/blaqk-stereowhite300x-16.png")}
+            source={require("../assets/blaqk-stereowhite300x-11.png")}
           />
           <Text style={[styles.v10, styles.v10FlexBox]}>v1.0</Text>
         </View>
@@ -232,7 +232,7 @@ const Others = () => {
         <Image
           style={[styles.othersItem, styles.accountPosition]}
           contentFit="cover"
-          source={require("../assets/frame-1000000795.png")}
+          source={require("../assets/notification.png")}
         />
         <Text style={[styles.account, styles.accountTypo]}>Account</Text>
         <View style={[styles.nav, styles.navLayout]}>
@@ -326,7 +326,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   accountTypo: {
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     textAlign: "left",
     color: Color.white,

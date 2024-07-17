@@ -136,7 +136,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   proceedTypo: {
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     textAlign: "left",
   },

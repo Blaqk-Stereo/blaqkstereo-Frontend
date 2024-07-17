@@ -185,7 +185,7 @@ const styles = StyleSheet.create({
   enterYourPlaylist: {
     marginTop: 8,
     color: Color.text0,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   inputBidParent: {
@@ -252,7 +252,7 @@ const styles = StyleSheet.create({
   },
   copy: {
     color: Color.warningDefault,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   enterYourPlaylistContainer: {
@@ -283,7 +283,7 @@ const styles = StyleSheet.create({
   },
   shareAddress: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   button: {

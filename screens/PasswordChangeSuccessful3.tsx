@@ -14,7 +14,7 @@ const PasswordChangeSuccessful3 = () => {
         <Image
           style={styles.profileIcon}
           contentFit="cover"
-          source={require("../assets/profile.png")}
+          source={require("../assets/profile1.png")}
         />
         <View style={styles.successParent}>
           <Text style={styles.success}>Success!</Text>
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
   },
   close: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     color: Color.primary,
     textAlign: "left",
   },

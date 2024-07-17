@@ -22,7 +22,7 @@ const UploadMusicSingle3 = () => {
           <Image
             style={[styles.eyeIcon, styles.iconLayout]}
             contentFit="cover"
-            source={require("../assets/eye6.png")}
+            source={require("../assets/eye4.png")}
           />
         </View>
         <View style={styles.upload}>
@@ -87,12 +87,12 @@ const UploadMusicSingle3 = () => {
             <Image
               style={[styles.vectorIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/vector3.png")}
+              source={require("../assets/vector1.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.iconPosition]}
               contentFit="cover"
-              source={require("../assets/vector4.png")}
+              source={require("../assets/vector2.png")}
             />
             <Text style={styles.no}>No</Text>
           </View>
@@ -360,7 +360,7 @@ const styles = StyleSheet.create({
   no: {
     marginTop: -7,
     marginLeft: 3,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     fontSize: FontSize.btnSmallNormal_size,
     color: Color.white,
@@ -508,7 +508,7 @@ const styles = StyleSheet.create({
   next: {
     color: Color.primary,
     fontSize: FontSize.mobileH5HeadingComponent_size,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     textAlign: "center",
     lineHeight: 24,

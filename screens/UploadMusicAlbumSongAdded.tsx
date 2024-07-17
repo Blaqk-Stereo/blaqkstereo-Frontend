@@ -19,7 +19,7 @@ const UploadMusicAlbumSongAdded = () => {
           <Image
             style={styles.addCircleIcon}
             contentFit="cover"
-            source={require("../assets/addcircle.png")}
+            source={require("../assets/addcircle1.png")}
           />
           <Text style={[styles.blc, styles.blcTypo]}>Add more songs</Text>
         </Pressable>
@@ -424,7 +424,7 @@ const styles = StyleSheet.create({
   blc: {
     marginLeft: 8,
     color: Color.white,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   addMore: {
@@ -447,7 +447,7 @@ const styles = StyleSheet.create({
   },
   filenamepng: {
     color: Color.white,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   frame1: {
@@ -491,7 +491,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: Color.white,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   frame2: {
@@ -563,7 +563,7 @@ const styles = StyleSheet.create({
   },
   text2: {
     color: Color.warningDefault,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   arrowsclockwiseIcon: {
@@ -594,7 +594,7 @@ const styles = StyleSheet.create({
     color: Color.primary,
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     lineHeight: 24,
   },

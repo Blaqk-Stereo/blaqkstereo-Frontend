@@ -38,12 +38,12 @@ const TopUpWallet1 = () => {
             <Image
               style={styles.vectorIcon}
               contentFit="cover"
-              source={require("../assets/vector8.png")}
+              source={require("../assets/vector.png")}
             />
             <Image
               style={[styles.qrCardIcon, styles.qrCardIconPosition]}
               contentFit="cover"
-              source={require("../assets/qr-card1.png")}
+              source={require("../assets/qr-card.png")}
             />
             <Text style={[styles.scanning, styles.depositTypo]}>
               Scanning...
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
   },
   continue: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     color: Color.primary,
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",

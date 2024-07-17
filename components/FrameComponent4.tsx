@@ -22,7 +22,7 @@ const FrameComponent4 = ({
   getNotifiedWhenNewRoyalty,
   getNotifiedWhenMarginTop,
 }: FrameComponent4Type) => {
-  const frameView2Style = useMemo(() => {
+  const frameViewStyle = useMemo(() => {
     return {
       ...getStyleValue("marginTop", getNotifiedWhenMarginTop),
     };

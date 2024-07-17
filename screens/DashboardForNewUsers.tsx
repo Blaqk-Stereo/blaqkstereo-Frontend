@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
   },
   uploadTypo1: {
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   buttonLayout: {
@@ -155,7 +155,7 @@ const styles = StyleSheet.create({
     lineHeight: 34,
     color: Color.white,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   yourMusicLibrary: {
@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
     color: Color.primary,
     lineHeight: 24,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
@@ -226,7 +226,7 @@ const styles = StyleSheet.create({
   uploadMusic1: {
     lineHeight: 24,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     color: Color.white,
   },
@@ -296,7 +296,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH4HeadingSection_size,
     lineHeight: 24,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     color: Color.white,
   },

@@ -243,7 +243,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   janeDoeTypo: {
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   janeyjuneTypo: {
@@ -298,7 +298,7 @@ const styles = StyleSheet.create({
     lineHeight: 34,
     letterSpacing: -1,
     fontSize: FontSize.mobileH3HeadingPage_size,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   janeyjune: {
@@ -317,7 +317,7 @@ const styles = StyleSheet.create({
   editProfile: {
     color: Color.primary,
     textAlign: "center",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   editProfileWrapper: {
@@ -346,7 +346,7 @@ const styles = StyleSheet.create({
     lineHeight: 34,
     letterSpacing: -1,
     fontSize: FontSize.mobileH3HeadingPage_size,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   mdispotifyIcon: {

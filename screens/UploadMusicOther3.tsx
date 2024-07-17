@@ -65,7 +65,7 @@ const UploadMusicOther3 = () => {
             <Image
               style={[styles.closeCircleIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/closecircle.png")}
+              source={require("../assets/closecircle1.png")}
             />
           </View>
           <View style={[styles.wizkidParent, styles.parentSpaceBlock]}>
@@ -73,7 +73,7 @@ const UploadMusicOther3 = () => {
             <Image
               style={[styles.closeCircleIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/closecircle.png")}
+              source={require("../assets/closecircle1.png")}
             />
           </View>
           <View style={[styles.wizkidParent, styles.parentSpaceBlock]}>
@@ -81,7 +81,7 @@ const UploadMusicOther3 = () => {
             <Image
               style={[styles.closeCircleIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/closecircle.png")}
+              source={require("../assets/closecircle1.png")}
             />
           </View>
           <View style={[styles.wizkidParent, styles.parentSpaceBlock]}>
@@ -91,7 +91,7 @@ const UploadMusicOther3 = () => {
             <Image
               style={[styles.closeCircleIcon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/closecircle.png")}
+              source={require("../assets/closecircle1.png")}
             />
           </View>
         </View>
@@ -118,12 +118,12 @@ const UploadMusicOther3 = () => {
             <Image
               style={[styles.vectorIcon, styles.iconLayout1]}
               contentFit="cover"
-              source={require("../assets/vector.png")}
+              source={require("../assets/vector1.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/vector1.png")}
+              source={require("../assets/vector11.png")}
             />
             <Text style={styles.yes}>Yes</Text>
           </View>
@@ -423,7 +423,7 @@ const styles = StyleSheet.create({
     marginTop: -7,
     marginLeft: -23,
     color: Color.success50,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     fontSize: FontSize.btnSmallNormal_size,
     left: "50%",
@@ -572,7 +572,7 @@ const styles = StyleSheet.create({
   next: {
     color: Color.primary,
     fontSize: FontSize.mobileH5HeadingComponent_size,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     textAlign: "center",
     lineHeight: 24,

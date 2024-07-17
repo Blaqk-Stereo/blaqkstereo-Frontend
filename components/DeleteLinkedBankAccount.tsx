@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
   },
   yesDelete: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     color: Color.errorDefault,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "center",

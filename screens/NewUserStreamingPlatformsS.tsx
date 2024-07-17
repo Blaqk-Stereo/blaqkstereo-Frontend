@@ -25,7 +25,7 @@ const NewUserStreamingPlatformsS = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-359239.png")}
+              source={require("../assets/group-35923.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               Amazon Music
@@ -38,7 +38,7 @@ const NewUserStreamingPlatformsS = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-359237.png")}
+              source={require("../assets/group-359231.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               Apple Music
@@ -79,7 +79,7 @@ const NewUserStreamingPlatformsS = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-3592311.png")}
+              source={require("../assets/group-359235.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               Spotify
@@ -89,7 +89,7 @@ const NewUserStreamingPlatformsS = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-3592312.png")}
+              source={require("../assets/group-359236.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               {" "}
@@ -100,7 +100,7 @@ const NewUserStreamingPlatformsS = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-359235.png")}
+              source={require("../assets/group-359237.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               Tidal
@@ -110,7 +110,7 @@ const NewUserStreamingPlatformsS = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-3592313.png")}
+              source={require("../assets/group-359238.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               {" "}
@@ -236,7 +236,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH3HeadingPage_size,
     letterSpacing: -1,
     lineHeight: 34,
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
     textAlign: "left",
   },
@@ -282,7 +282,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontFamily: FontFamily.mobileH3HeadingPage,
     fontWeight: "600",
   },
   button: {
