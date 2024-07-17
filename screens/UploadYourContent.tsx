@@ -29,7 +29,7 @@ const UploadYourContent = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-152.png")}
+            source={require("../assets/group-151.png")}
           />
         </Pressable>
         <Pressable
@@ -47,7 +47,7 @@ const UploadYourContent = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-152.png")}
+            source={require("../assets/group-151.png")}
           />
         </Pressable>
         <Pressable
@@ -65,7 +65,7 @@ const UploadYourContent = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-152.png")}
+            source={require("../assets/group-151.png")}
           />
         </Pressable>
       </View>
@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
   },
   singleTypo: {
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
   },
@@ -160,7 +160,7 @@ const styles = StyleSheet.create({
     color: Color.primary,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   button: {

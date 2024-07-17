@@ -24,12 +24,12 @@ const SelectedContentSingle = () => {
         <Image
           style={styles.bgIcon}
           contentFit="cover"
-          source={require("../assets/bg1.png")}
+          source={require("../assets/bg2.png")}
         />
         <Image
           style={[styles.selectedContentsingleChild, styles.navPosition]}
           contentFit="cover"
-          source={require("../assets/rectangle-6672.png")}
+          source={require("../assets/rectangle-6671.png")}
         />
         <View style={[styles.rodoParent, styles.navPosition]}>
           <Text style={styles.rodo}>Rodo</Text>
@@ -314,7 +314,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     lineHeight: 24,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   text3Typo: {
@@ -334,7 +334,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     lineHeight: 24,
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     left: "50%",
     position: "absolute",
@@ -376,7 +376,7 @@ const styles = StyleSheet.create({
     lineHeight: 34,
     textAlign: "left",
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   single: {

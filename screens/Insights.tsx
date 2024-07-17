@@ -80,7 +80,7 @@ const Insights = () => {
               <Image
                 style={styles.frameChild}
                 contentFit="cover"
-                source={require("../assets/ellipse-20902.png")}
+                source={require("../assets/ellipse-2090.png")}
               />
               <View style={styles.groupParentSpaceBlock}>
                 <Text style={[styles.m, styles.mTypo]}>1M</Text>
@@ -91,7 +91,7 @@ const Insights = () => {
               <Image
                 style={styles.frameChild}
                 contentFit="cover"
-                source={require("../assets/ellipse-2090.png")}
+                source={require("../assets/ellipse-20901.png")}
               />
               <View style={styles.groupParentSpaceBlock}>
                 <Text style={[styles.m, styles.mTypo]}>100K</Text>
@@ -102,7 +102,7 @@ const Insights = () => {
               <Image
                 style={styles.frameChild}
                 contentFit="cover"
-                source={require("../assets/ellipse-2091.png")}
+                source={require("../assets/ellipse-20902.png")}
               />
               <View style={styles.groupParentSpaceBlock}>
                 <Text style={[styles.m, styles.mTypo]}>1K</Text>
@@ -478,7 +478,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   mTypo: {
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     color: Color.white,
   },
@@ -502,7 +502,7 @@ const styles = StyleSheet.create({
   },
   textTypo: {
     fontSize: FontSize.mobileH4HeadingSection_size,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     color: Color.white,
     lineHeight: 24,
@@ -849,7 +849,7 @@ const styles = StyleSheet.create({
   },
   yourInsights: {
     fontSize: FontSize.mobileH4HeadingSection_size,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     color: Color.white,
     lineHeight: 24,

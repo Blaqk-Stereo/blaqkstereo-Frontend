@@ -4,10 +4,10 @@ import { LinearGradient } from "expo-linear-gradient";
 import { Image } from "expo-image";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { useNavigation, ParamListBase } from "@react-navigation/native";
-import AddSocial from "../components/AddSocial";
+import AddSocial1 from "../components/AddSocial";
 import { FontFamily, FontSize, Color, Border, Padding } from "../GlobalStyles";
 
-const Profile = () => {
+const Profile1 = () => {
   const [frameContainer9Visible, setFrameContainer9Visible] = useState(false);
   const navigation = useNavigation<StackNavigationProp<ParamListBase>>();
 
@@ -41,7 +41,7 @@ const Profile = () => {
             <Image
               style={styles.groupItem}
               contentFit="cover"
-              source={require("../assets/ellipse-2101.png")}
+              source={require("../assets/ellipse-21011.png")}
             />
             <View style={styles.janeDoeParent}>
               <Text style={[styles.janeDoe, styles.janeDoeTypo]}>Jane Doe</Text>
@@ -226,7 +226,7 @@ const Profile = () => {
             style={styles.frameContainer9Bg}
             onPress={closeFrameContainer9}
           />
-          <AddSocial onClose={closeFrameContainer9} />
+          <AddSocial1 onClose={closeFrameContainer9} />
         </View>
       </Modal>
     </>
@@ -243,7 +243,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   janeDoeTypo: {
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   janeyjuneTypo: {
@@ -274,7 +274,7 @@ const styles = StyleSheet.create({
   },
   groupChild: {
     top: 10,
-    borderRadius: 30,
+    borderRadius: Border.br_11xl,
     height: 161,
     backgroundColor: "transparent",
     left: 0,
@@ -298,7 +298,7 @@ const styles = StyleSheet.create({
     lineHeight: 34,
     letterSpacing: -1,
     fontSize: FontSize.mobileH3HeadingPage_size,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   janeyjune: {
@@ -317,7 +317,7 @@ const styles = StyleSheet.create({
   editProfile: {
     color: Color.primary,
     textAlign: "center",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   editProfileWrapper: {
@@ -346,7 +346,7 @@ const styles = StyleSheet.create({
     lineHeight: 34,
     letterSpacing: -1,
     fontSize: FontSize.mobileH3HeadingPage_size,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   mdispotifyIcon: {
@@ -435,4 +435,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Profile;
+export default Profile1;

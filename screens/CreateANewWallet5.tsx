@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
   },
   nairaTypo: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
   cusd: {
     color: Color.primary20,
     marginLeft: 4,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,

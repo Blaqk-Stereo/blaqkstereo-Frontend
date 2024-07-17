@@ -75,7 +75,7 @@ const TransactionDetailsIN = ({ onClose }: TransactionDetailsINType) => {
               <Image
                 style={styles.vuesaxlinearimportIcon}
                 contentFit="cover"
-                source={require("../assets/vuesaxlinearimport.png")}
+                source={require("../assets/vuesaxlinearimport1.png")}
               />
               <Text style={styles.downloadReceipt}>Download receipt</Text>
             </View>
@@ -234,7 +234,7 @@ const styles = StyleSheet.create({
   },
   downloadReceipt: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
     marginLeft: 10,
     lineHeight: 24,

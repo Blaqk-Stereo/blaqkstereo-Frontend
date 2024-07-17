@@ -27,7 +27,7 @@ const UploadMusicAlbumSongAdded = () => {
           <Text style={[styles.song1, styles.song1Typo]}>Song 1</Text>
           <InputField2
             blinker="Miller"
-            eye={require("../assets/eye.png")}
+            eye={require("../assets/eye3.png")}
             blinkerMarginTop={16}
           />
           <View
@@ -38,7 +38,7 @@ const UploadMusicAlbumSongAdded = () => {
                 <Image
                   style={styles.addCircleIcon}
                   contentFit="cover"
-                  source={require("../assets/filearrowup4.png")}
+                  source={require("../assets/filearrowup.png")}
                 />
               </View>
               <View style={styles.frame}>
@@ -87,7 +87,7 @@ const UploadMusicAlbumSongAdded = () => {
             <Image
               style={styles.eyeIcon}
               contentFit="cover"
-              source={require("../assets/eye.png")}
+              source={require("../assets/eye3.png")}
             />
           </View>
           <View
@@ -98,7 +98,7 @@ const UploadMusicAlbumSongAdded = () => {
                 <Image
                   style={styles.addCircleIcon}
                   contentFit="cover"
-                  source={require("../assets/filearrowup3.png")}
+                  source={require("../assets/filearrowup2.png")}
                 />
               </View>
               <View style={styles.frame}>
@@ -137,7 +137,7 @@ const UploadMusicAlbumSongAdded = () => {
           <Text style={[styles.song1, styles.song1Typo]}>Song 3</Text>
           <InputField2
             blinker="Skelewu"
-            eye={require("../assets/eye.png")}
+            eye={require("../assets/eye3.png")}
             blinkerMarginTop={16}
           />
           <View
@@ -148,7 +148,7 @@ const UploadMusicAlbumSongAdded = () => {
                 <Image
                   style={styles.addCircleIcon}
                   contentFit="cover"
-                  source={require("../assets/filearrowup5.png")}
+                  source={require("../assets/filearrowup1.png")}
                 />
               </View>
               <View style={styles.frame}>
@@ -200,7 +200,7 @@ const UploadMusicAlbumSongAdded = () => {
             <Image
               style={styles.eyeIcon}
               contentFit="cover"
-              source={require("../assets/eye.png")}
+              source={require("../assets/eye3.png")}
             />
           </View>
           <View
@@ -211,7 +211,7 @@ const UploadMusicAlbumSongAdded = () => {
                 <Image
                   style={styles.addCircleIcon}
                   contentFit="cover"
-                  source={require("../assets/filearrowup3.png")}
+                  source={require("../assets/filearrowup2.png")}
                 />
               </View>
               <View style={styles.frame}>
@@ -424,7 +424,7 @@ const styles = StyleSheet.create({
   blc: {
     marginLeft: 8,
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   addMore: {
@@ -447,7 +447,7 @@ const styles = StyleSheet.create({
   },
   filenamepng: {
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   frame1: {
@@ -491,7 +491,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   frame2: {
@@ -563,7 +563,7 @@ const styles = StyleSheet.create({
   },
   text2: {
     color: Color.warningDefault,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   arrowsclockwiseIcon: {
@@ -594,7 +594,7 @@ const styles = StyleSheet.create({
     color: Color.primary,
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
   },

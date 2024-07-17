@@ -24,7 +24,7 @@ const Others = () => {
         <View style={styles.frameParent}>
           <Pressable
             style={styles.frameGroup}
-            onPress={() => navigation.navigate("Profile")}
+            onPress={() => navigation.navigate("Profile1")}
           >
             <View
               style={[styles.vuesaxbulkuserEditParent, styles.parentPosition]}
@@ -326,7 +326,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   accountTypo: {
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "left",
     color: Color.white,

@@ -3,11 +3,11 @@ import { View, Text, StyleSheet } from "react-native";
 import { Image } from "expo-image";
 import { FontFamily, Color, Padding, FontSize, Border } from "../GlobalStyles";
 
-export type AddSocialType = {
+export type AddSocial1Type = {
   onClose?: () => void;
 };
 
-const AddSocial = ({ onClose }: AddSocialType) => {
+const AddSocial1 = ({ onClose }: AddSocial1Type) => {
   return (
     <View style={styles.addSocial}>
       <View style={styles.prompt}>
@@ -25,7 +25,7 @@ const AddSocial = ({ onClose }: AddSocialType) => {
           <Image
             style={styles.lineIcon}
             contentFit="cover"
-            source={require("../assets/line.png")}
+            source={require("../assets/line3.png")}
           />
           <Text style={[styles.enterYourPlaylist, styles.blinkerTypo]}>
             eg. soundcloud.com/rihanna
@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
   },
   save: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
@@ -155,4 +155,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default AddSocial;
+export default AddSocial1;

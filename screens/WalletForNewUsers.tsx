@@ -14,7 +14,7 @@ const WalletForNewUsers = () => {
         <Image
           style={styles.nftWallet36640551Icon}
           contentFit="cover"
-          source={require("../assets/nftwallet3664055-11.png")}
+          source={require("../assets/nftwallet3664055-1.png")}
         />
         <View style={styles.toGetStartedYoullNeedToParent}>
           <Text style={styles.toGetStarted}>
@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
     textAlign: "left",
     lineHeight: 24,
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   headerPosition: {
@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     textAlign: "center",
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     alignItems: "center",
   },
@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "center",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   button: {
@@ -280,7 +280,7 @@ const styles = StyleSheet.create({
     textAlign: "left",
     lineHeight: 24,
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   notification: {

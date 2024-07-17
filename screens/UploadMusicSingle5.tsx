@@ -22,7 +22,7 @@ const UploadMusicSingle5 = () => {
             <Image
               style={styles.pressableLayout}
               contentFit="cover"
-              source={require("../assets/filearrowup3.png")}
+              source={require("../assets/filearrowup2.png")}
             />
           </View>
           <View style={styles.frame}>
@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
     color: Color.primary,
     textAlign: "center",
     lineHeight: 24,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     fontSize: FontSize.mobileH5HeadingComponent_size,
   },
@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
     height: 48,
   },
   filenamepng: {
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "left",
   },
@@ -196,7 +196,7 @@ const styles = StyleSheet.create({
   text: {
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   frame2: {

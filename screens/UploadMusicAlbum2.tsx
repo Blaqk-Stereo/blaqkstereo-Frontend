@@ -18,7 +18,7 @@ const UploadMusicAlbum2 = () => {
           <Image
             style={styles.eyeIcon}
             contentFit="cover"
-            source={require("../assets/eye.png")}
+            source={require("../assets/eye3.png")}
           />
         </View>
         <View style={[styles.inputField1, styles.inputLayout]}>
@@ -34,7 +34,7 @@ const UploadMusicAlbum2 = () => {
           <Image
             style={styles.rectangle4Icon}
             contentFit="cover"
-            source={require("../assets/rectangle41.png")}
+            source={require("../assets/rectangle4.png")}
           />
           <LinearGradient
             style={styles.layout}
@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
   },
   continueTypo: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "center",
     lineHeight: 24,
@@ -472,7 +472,7 @@ const styles = StyleSheet.create({
     backgroundColor: Color.white,
   },
   noUploadSongs: {
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "center",
     color: Color.white,

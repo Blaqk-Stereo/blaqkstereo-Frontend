@@ -192,7 +192,7 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     color: Color.white,
   },
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   button: {

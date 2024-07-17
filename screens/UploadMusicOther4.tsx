@@ -35,7 +35,7 @@ const UploadMusicOther4 = () => {
             <Image
               style={styles.eyeIcon}
               contentFit="cover"
-              source={require("../assets/eye.png")}
+              source={require("../assets/eye3.png")}
             />
           </View>
         </View>
@@ -185,7 +185,7 @@ const styles = StyleSheet.create({
   },
   next: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   button: {
@@ -243,7 +243,7 @@ const styles = StyleSheet.create({
   blc: {
     marginLeft: 8,
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   addCredits: {

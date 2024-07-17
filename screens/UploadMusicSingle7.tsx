@@ -17,7 +17,7 @@ const UploadMusicSingle7 = () => {
       >
         <InputField2
           blinker="Enter the title of this song"
-          eye={require("../assets/eye.png")}
+          eye={require("../assets/eye3.png")}
           blinkerMarginTop="unset"
         />
         <View style={styles.upload}>
@@ -62,12 +62,12 @@ const UploadMusicSingle7 = () => {
             <Image
               style={[styles.vectorIcon, styles.vectorIconPosition]}
               contentFit="cover"
-              source={require("../assets/vector3.png")}
+              source={require("../assets/vector2.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.pressableLayout]}
               contentFit="cover"
-              source={require("../assets/vector4.png")}
+              source={require("../assets/vector11.png")}
             />
             <Text style={[styles.no, styles.noTypo]}>No</Text>
           </View>
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
     width: 24,
   },
   noTypo: {
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   nextTypo: {
@@ -265,7 +265,7 @@ const styles = StyleSheet.create({
   },
   next: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   button: {

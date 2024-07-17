@@ -38,7 +38,7 @@ const TopUpWallet1 = () => {
             <Image
               style={styles.vectorIcon}
               contentFit="cover"
-              source={require("../assets/vector.png")}
+              source={require("../assets/vector9.png")}
             />
             <Image
               style={[styles.qrCardIcon, styles.qrCardIconPosition]}
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
   },
   continue: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",

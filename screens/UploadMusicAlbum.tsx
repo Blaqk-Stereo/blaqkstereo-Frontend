@@ -17,7 +17,7 @@ const UploadMusicAlbum = () => {
       >
         <InputField2
           blinker="Enter the title of your album"
-          eye={require("../assets/eye.png")}
+          eye={require("../assets/eye3.png")}
         />
         <View style={[styles.inputField, styles.uploadLayout]}>
           <View style={styles.inputFieldChild} />
@@ -251,7 +251,7 @@ const styles = StyleSheet.create({
   },
   continue: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",

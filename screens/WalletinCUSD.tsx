@@ -91,7 +91,7 @@ const WalletinCUSD = () => {
           <Image
             style={styles.nftWallet36640551Icon}
             contentFit="cover"
-            source={require("../assets/nftwallet3664055-1.png")}
+            source={require("../assets/nftwallet3664055-11.png")}
           />
         </View>
         <View style={styles.cardParent}>
@@ -526,13 +526,13 @@ const styles = StyleSheet.create({
   blcTypo: {
     color: Color.white,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   textTypo: {
     color: Color.colorMediumseagreen,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -788,7 +788,7 @@ const styles = StyleSheet.create({
   blc1: {
     color: Color.warningDefault,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -946,7 +946,7 @@ const styles = StyleSheet.create({
     left: 20,
     textAlign: "left",
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
   },

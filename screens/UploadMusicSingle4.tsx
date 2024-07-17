@@ -18,14 +18,14 @@ const UploadMusicSingle4 = () => {
           <Image
             style={[styles.eyeIcon, styles.iconLayout1]}
             contentFit="cover"
-            source={require("../assets/eye.png")}
+            source={require("../assets/eye3.png")}
           />
         </View>
         <View style={styles.upload}>
           <Image
             style={styles.rectangle4Icon}
             contentFit="cover"
-            source={require("../assets/rectangle4.png")}
+            source={require("../assets/rectangle41.png")}
           />
           <LinearGradient
             style={[styles.layout, styles.layoutPosition]}
@@ -118,12 +118,12 @@ const UploadMusicSingle4 = () => {
             <Image
               style={[styles.vectorIcon, styles.iconLayout1]}
               contentFit="cover"
-              source={require("../assets/vector3.png")}
+              source={require("../assets/vector2.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/vector1.png")}
+              source={require("../assets/vector21.png")}
             />
             <Text style={styles.yes}>Yes</Text>
           </View>
@@ -423,7 +423,7 @@ const styles = StyleSheet.create({
     marginTop: -7,
     marginLeft: -23,
     color: Color.success50,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     fontSize: FontSize.btnSmallNormal_size,
     left: "50%",
@@ -463,7 +463,7 @@ const styles = StyleSheet.create({
   next: {
     color: Color.primary,
     fontSize: FontSize.mobileH5HeadingComponent_size,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "center",
     lineHeight: 24,

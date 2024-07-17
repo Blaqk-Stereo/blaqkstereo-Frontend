@@ -14,7 +14,7 @@ const Discover = () => {
         <Image
           style={[styles.bgIcon, styles.childPosition]}
           contentFit="cover"
-          source={require("../assets/bg2.png")}
+          source={require("../assets/bg.png")}
         />
         <Pressable
           style={[styles.wrapper, styles.iconsPosition]}
@@ -211,7 +211,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   forLifeTypo: {
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     color: Color.white,
   },
@@ -254,7 +254,7 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   singleParent: {
@@ -431,7 +431,7 @@ const styles = StyleSheet.create({
   yourUploads: {
     fontSize: FontSize.mobileH4HeadingSection_size,
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "left",
     lineHeight: 24,
