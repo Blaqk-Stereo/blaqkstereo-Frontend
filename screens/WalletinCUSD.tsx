@@ -88,7 +88,11 @@ const WalletinCUSD = () => {
               <Text style={[styles.text, styles.textTypo]}>0.0295 (1.34%)</Text>
             </View>
           </View>
-          <Image style={styles.nftWallet36640551Icon} contentFit="cover" />
+          <Image
+            style={styles.nftWallet36640551Icon}
+            contentFit="cover"
+            source={require("../assets/nftwallet3664055-1.png")}
+          />
         </View>
         <View style={styles.cardParent}>
           <Pressable

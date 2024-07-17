@@ -96,7 +96,7 @@ const CreateAccount = () => {
       <Image
         style={[styles.blaqkStereowhite300x1, styles.passwordPosition]}
         contentFit="cover"
-        source={require("../assets/blaqk-stereowhite300x-12.png")}
+        source={require("../assets/blaqk-stereowhite300x-13.png")}
       />
     </View>
   );

@@ -79,7 +79,7 @@ const Login = () => {
       <Image
         style={[styles.blaqkStereoLogo, styles.parentPosition]}
         contentFit="cover"
-        source={require("../assets/blaqk-stereo-logo.png")}
+        source={require("../assets/blaqk-stereo-logo1.png")}
       />
     </View>
   );

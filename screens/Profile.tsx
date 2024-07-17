@@ -36,7 +36,7 @@ const Profile = () => {
             <Image
               style={[styles.backgroundParent, styles.parentLayout1]}
               contentFit="cover"
-              source={require("../assets/background1.png")}
+              source={require("../assets/background.png")}
             />
             <Image
               style={styles.groupItem}

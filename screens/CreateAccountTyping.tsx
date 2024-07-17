@@ -99,7 +99,7 @@ const CreateAccountTyping = () => {
       <Image
         style={[styles.blaqkStereowhite300x1, styles.blinker1Position]}
         contentFit="cover"
-        source={require("../assets/blaqk-stereowhite300x-12.png")}
+        source={require("../assets/blaqk-stereowhite300x-13.png")}
       />
       <View style={[styles.extensionsKeyboardsDark, styles.extensionsLayout]}>
         <View
@@ -108,7 +108,7 @@ const CreateAccountTyping = () => {
         <Image
           style={[styles.extensionsKeyboardsDark1, styles.extensionsLayout]}
           contentFit="cover"
-          source={require("../assets/background.png")}
+          source={require("../assets/background1.png")}
         />
         <View style={styles.keyboard}>
           <View style={[styles.return, styles.returnLayout]}>

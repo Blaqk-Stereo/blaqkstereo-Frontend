@@ -25,7 +25,7 @@ const NewUserStreamingPlatformsS1 = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-359239.png")}
+              source={require("../assets/group-35923.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               Amazon Music

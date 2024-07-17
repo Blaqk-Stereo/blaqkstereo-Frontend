@@ -33,7 +33,11 @@ const ConfirmTransaction = () => {
       >
         <Text style={[styles.confirm, styles.confirmTypo]}>Confirm</Text>
       </Pressable>
-      <Image style={styles.sendSign54384111Icon} contentFit="cover" />
+      <Image
+        style={styles.sendSign54384111Icon}
+        contentFit="cover"
+        source={require("../assets/sendsign5438411-1.png")}
+      />
       <View style={styles.headerPosition}>
         <View style={[styles.headerChild, styles.headerPosition]} />
         <Pressable

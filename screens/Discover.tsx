@@ -54,6 +54,7 @@ const Discover = () => {
             <Image
               style={[styles.frameChild, styles.groupChildLayout]}
               contentFit="cover"
+              source={require("../assets/rectangle-2874.png")}
             />
             <View style={styles.frameContainer}>
               <View style={styles.albumWrapper}>
@@ -82,6 +83,7 @@ const Discover = () => {
               <Image
                 style={[styles.groupChild, styles.groupChildLayout]}
                 contentFit="cover"
+                source={require("../assets/rectangle-28741.png")}
               />
               <Image
                 style={[styles.groupChild, styles.groupChildLayout]}

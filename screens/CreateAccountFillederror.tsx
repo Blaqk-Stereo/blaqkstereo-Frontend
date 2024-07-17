@@ -24,7 +24,7 @@ const CreateAccountFillederror = () => {
       <Image
         style={styles.blaqkStereowhite300x1}
         contentFit="cover"
-        source={require("../assets/blaqk-stereowhite300x-12.png")}
+        source={require("../assets/blaqk-stereowhite300x-13.png")}
       />
       <View style={[styles.frameParent, styles.parentPosition]}>
         <View style={styles.signInParent}>

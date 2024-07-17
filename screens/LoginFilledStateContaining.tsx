@@ -61,7 +61,7 @@ const LoginFilledStateContaining = () => {
       <Image
         style={[styles.blaqkStereoLogo, styles.parentPosition]}
         contentFit="cover"
-        source={require("../assets/blaqk-stereo-logo.png")}
+        source={require("../assets/blaqk-stereo-logo1.png")}
       />
       <View style={[styles.newToBlaqkStereoParent, styles.parentPosition]}>
         <Text style={[styles.newToBlaqk, styles.diveBackInTypo]}>

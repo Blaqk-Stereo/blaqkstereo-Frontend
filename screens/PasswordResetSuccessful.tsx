@@ -11,7 +11,11 @@ const PasswordResetSuccessful = () => {
   return (
     <View style={styles.passwordResetSuccessful}>
       <View style={styles.success48740921Parent}>
-        <Image style={styles.success48740921Icon} contentFit="cover" />
+        <Image
+          style={styles.success48740921Icon}
+          contentFit="cover"
+          source={require("../assets/success4874092-11.png")}
+        />
         <View>
           <View style={styles.successParent}>
             <Text style={styles.success}>Success!</Text>

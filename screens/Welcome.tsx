@@ -26,7 +26,7 @@ const Welcome = () => {
             <Image
               style={styles.arrowRight}
               contentFit="cover"
-              source={require("../assets/arrow--right.png")}
+              source={require("../assets/arrow--right2.png")}
             />
           </View>
           <Image

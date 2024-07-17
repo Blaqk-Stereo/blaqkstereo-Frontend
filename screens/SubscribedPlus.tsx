@@ -107,7 +107,7 @@ Yearly`}</Text>
             <Image
               style={styles.annualIcon}
               contentFit="cover"
-              source={require("../assets/assetallocation.png")}
+              source={require("../assets/assetallocation1.png")}
             />
             <Text style={[styles.payYearly, styles.payYearlyTypo]}>
               Keep 100% royalties
@@ -245,7 +245,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   subscribedplusItem: {
-    backgroundColor: "rgba(21, 19, 18, 0.7)",
+    backgroundColor: Color.colorGray_1700,
     height: 812,
   },
   youreOn: {
@@ -274,7 +274,7 @@ const styles = StyleSheet.create({
   blaqkStereowhite300x1Wrapper: {
     top: 8,
     left: 128,
-    borderRadius: 16,
+    borderRadius: Border.br_base,
     backgroundColor: Color.primary30,
     paddingHorizontal: Padding.p_5xs,
     paddingTop: Padding.p_11xs,
@@ -288,7 +288,7 @@ const styles = StyleSheet.create({
     height: 69,
   },
   shareYourMusic: {
-    fontSize: 18,
+    fontSize: FontSize.size_lg_1,
     lineHeight: 31,
     fontFamily: FontFamily.mobileBodyCopy,
     width: 128,
@@ -360,7 +360,7 @@ const styles = StyleSheet.create({
     width: 56,
   },
   commissionParent: {
-    paddingHorizontal: 11,
+    paddingHorizontal: Padding.p_2xs,
   },
   frameGroup: {
     top: 468,
@@ -416,7 +416,7 @@ const styles = StyleSheet.create({
     borderColor: Color.white,
     borderWidth: 1,
     width: 304,
-    paddingHorizontal: 50,
+    paddingHorizontal: Padding.p_31xl,
     paddingVertical: Padding.p_base,
     marginTop: 30,
     flexDirection: "row",
