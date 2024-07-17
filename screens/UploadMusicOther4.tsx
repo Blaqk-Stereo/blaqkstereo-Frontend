@@ -43,7 +43,7 @@ const UploadMusicOther4 = () => {
           <Image
             style={styles.iconLayout}
             contentFit="cover"
-            source={require("../assets/addcircle1.png")}
+            source={require("../assets/addcircle.png")}
           />
           <Text style={[styles.blc, styles.blcTypo]}>Add more credits</Text>
         </View>
@@ -185,7 +185,7 @@ const styles = StyleSheet.create({
   },
   next: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   button: {
@@ -243,7 +243,7 @@ const styles = StyleSheet.create({
   blc: {
     marginLeft: 8,
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   addCredits: {

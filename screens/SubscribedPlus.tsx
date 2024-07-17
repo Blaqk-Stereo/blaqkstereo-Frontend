@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from "react";
 import { Image } from "expo-image";
 import { StyleSheet, View, Text, Pressable, Modal } from "react-native";
+import FrameComponent3 from "../components/FrameComponent3";
 import CancelPlan from "../components/CancelPlan";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { useNavigation, ParamListBase } from "@react-navigation/native";
@@ -25,44 +26,13 @@ const SubscribedPlus = () => {
         <Image
           style={styles.subscribedplusChild}
           contentFit="cover"
-          source={require("../assets/ellipse-951.png")}
+          source={require("../assets/ellipse-95.png")}
         />
         <View style={[styles.subscribedplusItem, styles.headerPosition]} />
-        <View style={styles.groupParent}>
-          <View style={styles.titleTextParent}>
-            <View style={[styles.titleText, styles.titleTextPosition]}>
-              <Text
-                style={[
-                  styles.youreOnPlusContainer,
-                  styles.shareYourMusicPosition,
-                ]}
-              >
-                <Text style={styles.youreOn}>{`You’re on 
-`}</Text>
-                <Text style={styles.plusPlan}>PLUS PLAN!</Text>
-              </Text>
-            </View>
-            <View
-              style={[
-                styles.blaqkStereowhite300x1Wrapper,
-                styles.descriptionFlexBox,
-              ]}
-            >
-              <Image
-                style={styles.blaqkStereowhite300x1}
-                contentFit="cover"
-                source={require("../assets/blaqk-stereowhite300x-16.png")}
-              />
-            </View>
-          </View>
-          <View style={styles.titleText1}>
-            <Text
-              style={[styles.shareYourMusic, styles.shareYourMusicPosition]}
-            >
-              Share your music to the world with Blaqk Stereo
-            </Text>
-          </View>
-        </View>
+        <FrameComponent3
+          pREMIUMPLAN="PLUS PLAN!"
+          blaqkStereowhite300x1={require("../assets/blaqk-stereowhite300x-17.png")}
+        />
         <View style={[styles.frameParent, styles.frameParentLayout]}>
           <View style={[styles.vectorParent, styles.frameChildLayout]}>
             <Image
@@ -83,7 +53,7 @@ const SubscribedPlus = () => {
             source={require("../assets/mask-group.png")}
           />
         </View>
-        <View style={styles.frameGroup}>
+        <View style={[styles.frameGroup, styles.frameGroupFlexBox]}>
           <View style={styles.annualParent}>
             <Image
               style={styles.annualIcon}
@@ -134,7 +104,7 @@ Yearly`}</Text>
             </View>
           </View>
           <Pressable
-            style={[styles.actiondefault, styles.descriptionFlexBox]}
+            style={[styles.actiondefault, styles.frameGroupFlexBox]}
             onPress={openActionDefaultContainer}
           >
             <Text style={[styles.addNewPlaylist, styles.descriptionLayout]}>
@@ -190,21 +160,6 @@ const styles = StyleSheet.create({
     top: 0,
     position: "absolute",
   },
-  titleTextPosition: {
-    left: 0,
-    top: 0,
-  },
-  shareYourMusicPosition: {
-    color: Color.white,
-    textAlign: "left",
-    left: 0,
-    top: 0,
-    position: "absolute",
-  },
-  descriptionFlexBox: {
-    justifyContent: "center",
-    alignItems: "center",
-  },
   frameParentLayout: {
     width: 281,
     position: "absolute",
@@ -215,19 +170,24 @@ const styles = StyleSheet.create({
     left: 0,
     position: "absolute",
   },
+  frameGroupFlexBox: {
+    justifyContent: "center",
+    flexDirection: "row",
+    alignItems: "center",
+  },
   payYearlyTypo: {
     marginTop: 9,
+    color: Color.white,
     fontSize: FontSize.size_3xs,
     textAlign: "center",
     fontFamily: FontFamily.mobileBodyCopy,
-    color: Color.white,
   },
   parentSpaceBlock: {
     marginLeft: 8,
     paddingVertical: Padding.p_xs,
     backgroundColor: Color.colorGray_400,
-    borderRadius: Border.br_xs,
     alignItems: "center",
+    borderRadius: Border.br_xs,
   },
   descriptionLayout: {
     lineHeight: 24,
@@ -247,62 +207,6 @@ const styles = StyleSheet.create({
   subscribedplusItem: {
     backgroundColor: Color.colorGray_1700,
     height: 812,
-  },
-  youreOn: {
-    fontSize: FontSize.mobileH1HeadingDisplay_size,
-  },
-  plusPlan: {
-    fontSize: FontSize.mobileH2HeadingDefault_size,
-  },
-  youreOnPlusContainer: {
-    letterSpacing: -1,
-    lineHeight: 34,
-    fontWeight: "700",
-    fontFamily: FontFamily.mobileH1HeadingDisplay,
-    textAlign: "left",
-  },
-  titleText: {
-    width: 135,
-    height: 69,
-    position: "absolute",
-  },
-  blaqkStereowhite300x1: {
-    width: 25,
-    height: 12,
-    overflow: "hidden",
-  },
-  blaqkStereowhite300x1Wrapper: {
-    top: 8,
-    left: 128,
-    borderRadius: Border.br_base,
-    backgroundColor: Color.primary30,
-    paddingHorizontal: Padding.p_5xs,
-    paddingTop: Padding.p_11xs,
-    paddingBottom: Padding.p_9xs,
-    flexDirection: "row",
-    alignItems: "center",
-    position: "absolute",
-  },
-  titleTextParent: {
-    width: 169,
-    height: 69,
-  },
-  shareYourMusic: {
-    fontSize: FontSize.size_lg_1,
-    lineHeight: 31,
-    fontFamily: FontFamily.mobileBodyCopy,
-    width: 128,
-    textAlign: "left",
-  },
-  titleText1: {
-    height: 124,
-    marginTop: 8,
-    width: 128,
-  },
-  groupParent: {
-    top: 106,
-    left: 24,
-    position: "absolute",
   },
   frameChild: {
     borderRadius: Border.br_xl,
@@ -349,8 +253,8 @@ const styles = StyleSheet.create({
     paddingVertical: Padding.p_xs,
     paddingHorizontal: Padding.p_sm,
     backgroundColor: Color.colorGray_400,
-    borderRadius: Border.br_xs,
     alignItems: "center",
+    borderRadius: Border.br_xs,
   },
   unlimitedParent: {
     paddingHorizontal: Padding.p_sm,
@@ -368,7 +272,6 @@ const styles = StyleSheet.create({
     left: "50%",
     marginLeft: -167.5,
     justifyContent: "center",
-    alignItems: "center",
     flexDirection: "row",
     position: "absolute",
   },
@@ -387,8 +290,8 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     padding: Padding.p_base,
     backgroundColor: Color.colorGray_400,
-    borderRadius: Border.br_xs,
     flexDirection: "row",
+    borderRadius: Border.br_xs,
   },
   actionDefaultContainerOverlay: {
     flex: 1,
@@ -405,10 +308,10 @@ const styles = StyleSheet.create({
   },
   addNewPlaylist: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    textAlign: "left",
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     lineHeight: 24,
-    textAlign: "left",
   },
   actiondefault: {
     borderRadius: Border.br_81xl,
@@ -419,15 +322,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: Padding.p_31xl,
     paddingVertical: Padding.p_base,
     marginTop: 30,
-    flexDirection: "row",
-    alignItems: "center",
     overflow: "hidden",
   },
   ownerParent: {
     top: 589,
+    alignItems: "center",
     left: "50%",
     marginLeft: -167.5,
-    alignItems: "center",
     position: "absolute",
   },
   header: {

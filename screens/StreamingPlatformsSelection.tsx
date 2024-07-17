@@ -41,7 +41,7 @@ const StreamingPlatformsSelection = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-3592314.png")}
+              source={require("../assets/group-359231.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               Apple Music
@@ -103,7 +103,7 @@ const StreamingPlatformsSelection = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-359237.png")}
+              source={require("../assets/group-359235.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               Tidal
@@ -192,7 +192,7 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     color: Color.white,
   },
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   button: {

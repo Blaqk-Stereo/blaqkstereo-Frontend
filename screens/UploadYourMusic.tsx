@@ -44,7 +44,7 @@ const UploadYourMusic = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-151.png")}
+            source={require("../assets/group-152.png")}
           />
         </View>
         <Pressable
@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
   },
   singleTypo: {
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
   },

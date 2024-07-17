@@ -46,7 +46,7 @@ const TopUpWallet = () => {
             <Image
               style={[styles.icon, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/ionscanoutline.png")}
+              source={require("../assets/ionscanoutline1.png")}
             />
           </Pressable>
         </View>
@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
   },
   continue: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
     fontSize: FontSize.mobileH5HeadingComponent_size,
   },

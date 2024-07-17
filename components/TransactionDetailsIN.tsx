@@ -27,7 +27,7 @@ const TransactionDetailsIN = ({ onClose }: TransactionDetailsINType) => {
           <Image
             style={styles.successIcon}
             contentFit="cover"
-            source={require("../assets/success-icon.png")}
+            source={require("../assets/success-icon1.png")}
           />
           <View style={styles.owner}>
             <View style={styles.authorParent}>
@@ -234,7 +234,7 @@ const styles = StyleSheet.create({
   },
   downloadReceipt: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
     marginLeft: 10,
     lineHeight: 24,

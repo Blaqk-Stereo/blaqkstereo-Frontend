@@ -3,6 +3,7 @@ import { StyleSheet, View, Text, Pressable } from "react-native";
 import { Image } from "expo-image";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { useNavigation, ParamListBase } from "@react-navigation/native";
+import InputField2 from "../components/InputField2";
 import { FontFamily, FontSize, Padding, Border, Color } from "../GlobalStyles";
 
 const UploadMusicAlbum = () => {
@@ -14,16 +15,11 @@ const UploadMusicAlbum = () => {
         style={styles.inputFieldParent}
         onPress={() => navigation.navigate("UploadMusicAlbum1")}
       >
-        <View style={styles.inputLayout}>
-          <View style={styles.inputFieldChild} />
-          <Text style={styles.blinker}>Enter the title of your album</Text>
-          <Image
-            style={styles.eyeIcon}
-            contentFit="cover"
-            source={require("../assets/eye4.png")}
-          />
-        </View>
-        <View style={[styles.inputField1, styles.inputLayout]}>
+        <InputField2
+          blinker="Enter the title of your album"
+          eye={require("../assets/eye6.png")}
+        />
+        <View style={[styles.inputField, styles.uploadLayout]}>
           <View style={styles.inputFieldChild} />
           <Text style={styles.blinker}>Select the genre</Text>
           <Image
@@ -32,7 +28,7 @@ const UploadMusicAlbum = () => {
             source={require("../assets/arrowright4.png")}
           />
         </View>
-        <View style={styles.upload}>
+        <View style={[styles.upload, styles.uploadLayout]}>
           <View style={styles.rectangle4} />
           <View style={styles.galleryAddParent}>
             <Image
@@ -115,9 +111,9 @@ const UploadMusicAlbum = () => {
 };
 
 const styles = StyleSheet.create({
-  inputLayout: {
-    height: 52,
+  uploadLayout: {
     width: 335,
+    marginTop: 16,
   },
   uploadYourImageTypo: {
     textAlign: "center",
@@ -192,19 +188,6 @@ const styles = StyleSheet.create({
     marginTop: -12,
     position: "absolute",
   },
-  eyeIcon: {
-    height: "46.15%",
-    width: "6.99%",
-    top: "26.92%",
-    right: "4.69%",
-    bottom: "26.92%",
-    left: "88.33%",
-    maxWidth: "100%",
-    maxHeight: "100%",
-    display: "none",
-    position: "absolute",
-    overflow: "hidden",
-  },
   arrowRightIcon: {
     right: 16,
     height: 24,
@@ -213,7 +196,8 @@ const styles = StyleSheet.create({
     marginTop: -12,
     position: "absolute",
   },
-  inputField1: {
+  inputField: {
+    height: 52,
     marginTop: 16,
   },
   rectangle4: {
@@ -259,7 +243,6 @@ const styles = StyleSheet.create({
   upload: {
     height: 264,
     marginTop: 16,
-    width: 335,
   },
   inputFieldParent: {
     top: 218,
@@ -268,7 +251,7 @@ const styles = StyleSheet.create({
   },
   continue: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
@@ -318,6 +301,7 @@ const styles = StyleSheet.create({
     top: 80,
     left: 55,
     color: Color.primary0,
+    textAlign: "center",
     position: "absolute",
   },
   stepGroupHorizontalChild: {

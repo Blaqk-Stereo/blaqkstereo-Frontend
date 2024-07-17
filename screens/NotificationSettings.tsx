@@ -1,9 +1,10 @@
 import * as React from "react";
 import { Text, StyleSheet, View, Pressable } from "react-native";
 import { Image } from "expo-image";
+import FrameComponent4 from "../components/FrameComponent4";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { useNavigation, ParamListBase } from "@react-navigation/native";
-import { FontSize, Color, FontFamily } from "../GlobalStyles";
+import { FontSize, FontFamily, Color } from "../GlobalStyles";
 
 const NotificationSettings = () => {
   const navigation = useNavigation<StackNavigationProp<ParamListBase>>();
@@ -16,103 +17,46 @@ const NotificationSettings = () => {
           Stereo
         </Text>
         <View style={styles.frameParent}>
-          <View>
-            <View style={styles.newRoyaltyPaymentsParent}>
-              <Text
-                style={[styles.newRoyaltyPayments, styles.getNotifiedWhenTypo]}
-              >
-                New Royalty Payments:
-              </Text>
-              <Image
-                style={styles.bitoggle2OnIcon}
-                contentFit="cover"
-                source={require("../assets/bitoggle2on.png")}
-              />
-            </View>
-            <Text style={[styles.getNotifiedWhen, styles.getNotifiedWhenTypo]}>
-              Get notified when new royalty payments are processed.
-            </Text>
-          </View>
+          <FrameComponent4
+            newRoyaltyPayments="New Royalty Payments:"
+            bitoggle2On={require("../assets/bitoggle2on.png")}
+            getNotifiedWhenNewRoyalty="Get notified when new royalty payments are processed."
+          />
           <View style={styles.frameChild} />
-          <View style={styles.frameContainer}>
-            <View style={styles.newRoyaltyPaymentsParent}>
-              <Text
-                style={[styles.newRoyaltyPayments, styles.getNotifiedWhenTypo]}
-              >
-                Uploads and Approvals
-              </Text>
-              <Image
-                style={styles.bitoggle2OnIcon}
-                contentFit="cover"
-                source={require("../assets/bitoggle2off.png")}
-              />
-            </View>
-            <Text style={[styles.getNotifiedWhen, styles.getNotifiedWhenTypo]}>
-              Get notified when your uploads are approved or rejected.
-            </Text>
-          </View>
+          <FrameComponent4
+            newRoyaltyPayments="Uploads and Approvals"
+            bitoggle2On={require("../assets/bitoggle2off.png")}
+            getNotifiedWhenNewRoyalty="Get notified when your uploads are approved or rejected."
+            getNotifiedWhenMarginTop={24}
+          />
           <View style={styles.frameChild} />
-          <View style={styles.frameContainer}>
-            <View style={styles.newRoyaltyPaymentsParent}>
-              <Text
-                style={[styles.newRoyaltyPayments, styles.getNotifiedWhenTypo]}
-              >
-                Subscription Updates
-              </Text>
-              <Image
-                style={styles.bitoggle2OnIcon}
-                contentFit="cover"
-                source={require("../assets/bitoggle2on.png")}
-              />
-            </View>
-            <Text style={[styles.getNotifiedWhen, styles.getNotifiedWhenTypo]}>
-              Stay informed about upcoming subscription renewals.
-            </Text>
-          </View>
+          <FrameComponent4
+            newRoyaltyPayments="Subscription Updates"
+            bitoggle2On={require("../assets/bitoggle2on.png")}
+            getNotifiedWhenNewRoyalty="Stay informed about upcoming subscription renewals."
+            getNotifiedWhenMarginTop={24}
+          />
           <View style={styles.frameChild} />
-          <View style={styles.frameContainer}>
-            <View style={styles.newRoyaltyPaymentsParent}>
-              <Text
-                style={[styles.newRoyaltyPayments, styles.getNotifiedWhenTypo]}
-              >
-                Grants and Loans
-              </Text>
-              <Image
-                style={styles.bitoggle2OnIcon}
-                contentFit="cover"
-                source={require("../assets/bitoggle2off.png")}
-              />
-            </View>
-            <Text style={[styles.getNotifiedWhen, styles.getNotifiedWhenTypo]}>
-              Get notifications about your grant application status and when
-              loans are disbursed to your account.
-            </Text>
-          </View>
+          <FrameComponent4
+            newRoyaltyPayments="Grants and Loans"
+            bitoggle2On={require("../assets/bitoggle2off.png")}
+            getNotifiedWhenNewRoyalty="Get notifications about your grant application status and when loans are disbursed to your account."
+            getNotifiedWhenMarginTop={24}
+          />
           <View style={styles.frameChild} />
-          <View style={styles.frameContainer}>
-            <View style={styles.newRoyaltyPaymentsParent}>
-              <Text
-                style={[styles.newRoyaltyPayments, styles.getNotifiedWhenTypo]}
-              >
-                Community
-              </Text>
-              <Image
-                style={styles.bitoggle2OnIcon}
-                contentFit="cover"
-                source={require("../assets/bitoggle2off.png")}
-              />
-            </View>
-            <Text style={[styles.getNotifiedWhen, styles.getNotifiedWhenTypo]}>
-              Receive messages about community events and webinars.
-            </Text>
-          </View>
+          <FrameComponent4
+            newRoyaltyPayments="Community"
+            bitoggle2On={require("../assets/bitoggle2off.png")}
+            getNotifiedWhenNewRoyalty="Receive messages about community events and webinars."
+            getNotifiedWhenMarginTop={24}
+          />
         </View>
       </View>
       <View style={styles.headerPosition}>
         <View style={[styles.headerChild, styles.headerPosition]} />
-        <View style={styles.parent}>
+        <View style={[styles.parent, styles.parentLayout]}>
           <Pressable
-            style={styles.pressable}
+            style={[styles.pressable, styles.parentLayout]}
             onPress={() => navigation.goBack()}
           >
             <Image
@@ -133,10 +77,6 @@ const styles = StyleSheet.create({
     overflow: "hidden",
     width: "100%",
   },
-  getNotifiedWhenTypo: {
-    textAlign: "left",
-    fontSize: FontSize.mobileH6HeadingSubHead_size,
-  },
   headerPosition: {
     height: 74,
     width: 375,
@@ -144,36 +84,16 @@ const styles = StyleSheet.create({
     top: 0,
     position: "absolute",
   },
+  parentLayout: {
+    height: 24,
+    position: "absolute",
+  },
   customizeYourNotification: {
+    fontSize: FontSize.mobileH6HeadingSubHead_size,
+    fontFamily: FontFamily.mobileBodyCopy,
     color: Color.primary0,
     width: 335,
     textAlign: "center",
-    fontSize: FontSize.mobileH6HeadingSubHead_size,
-    fontFamily: FontFamily.mobileBodyCopy,
-    lineHeight: 24,
-  },
-  newRoyaltyPayments: {
-    color: Color.white,
-    fontFamily: FontFamily.mobileH5HeadingComponent,
-    fontWeight: "500",
-    textAlign: "left",
-  },
-  bitoggle2OnIcon: {
-    width: 38,
-    height: 24,
-  },
-  newRoyaltyPaymentsParent: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    width: 335,
-  },
-  getNotifiedWhen: {
-    color: Color.colorGray_1400,
-    marginTop: 16,
-    width: 335,
-    textAlign: "left",
-    fontFamily: FontFamily.mobileBodyCopy,
     lineHeight: 24,
   },
   frameChild: {
@@ -184,12 +104,9 @@ const styles = StyleSheet.create({
     height: 1,
     marginTop: 24,
   },
-  frameContainer: {
-    marginTop: 24,
-  },
   frameParent: {
-    marginTop: 20,
     alignItems: "center",
+    marginTop: 20,
   },
   customizeYourNotificationPrParent: {
     marginLeft: -167.5,
@@ -206,17 +123,16 @@ const styles = StyleSheet.create({
   pressable: {
     width: 24,
     left: 0,
-    top: 0,
     height: 24,
-    position: "absolute",
+    top: 0,
   },
   notifications: {
     left: 119,
     fontSize: FontSize.mobileH5HeadingComponent_size,
-    top: 0,
-    color: Color.white,
-    fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
+    fontFamily: FontFamily.mobileH5HeadingComponent,
+    color: Color.white,
+    top: 0,
     textAlign: "center",
     lineHeight: 24,
     position: "absolute",
@@ -225,8 +141,6 @@ const styles = StyleSheet.create({
     top: 40,
     left: 20,
     width: 218,
-    height: 24,
-    position: "absolute",
   },
   notificationSettings: {
     backgroundColor: Color.primary,

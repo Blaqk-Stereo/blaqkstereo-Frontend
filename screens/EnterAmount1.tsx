@@ -3,6 +3,7 @@ import { Text, StyleSheet, View, Pressable } from "react-native";
 import { Image } from "expo-image";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { useNavigation, ParamListBase } from "@react-navigation/native";
+import Component from "../components/Component";
 import { FontFamily, FontSize, Color, Border, Padding } from "../GlobalStyles";
 
 const EnterAmount1 = () => {
@@ -44,60 +45,15 @@ const EnterAmount1 = () => {
           <View style={[styles.item, styles.itemLayout]} />
           <Text style={[styles.text1, styles.text1Position]}>0</Text>
         </View>
-        <View style={[styles.view2, styles.viewPosition2]}>
-          <View style={[styles.item, styles.itemLayout]} />
-          <View style={[styles.view3, styles.view3Position]}>
-            <Text style={[styles.text2, styles.view3Position]}>9</Text>
-          </View>
-        </View>
-        <View style={[styles.view4, styles.viewPosition2]}>
-          <View style={[styles.item, styles.itemLayout]} />
-          <View style={[styles.view3, styles.view3Position]}>
-            <Text style={[styles.text2, styles.view3Position]}>8</Text>
-          </View>
-        </View>
-        <View style={[styles.view6, styles.viewPosition2]}>
-          <View style={[styles.item, styles.itemLayout]} />
-          <View style={[styles.view3, styles.view3Position]}>
-            <Text style={[styles.text2, styles.view3Position]}>7</Text>
-          </View>
-        </View>
-        <View style={[styles.view8, styles.viewPosition1]}>
-          <View style={[styles.item, styles.itemLayout]} />
-          <View style={[styles.view3, styles.view3Position]}>
-            <Text style={[styles.text2, styles.view3Position]}>6</Text>
-          </View>
-        </View>
-        <View style={[styles.view10, styles.viewPosition1]}>
-          <View style={[styles.item, styles.itemLayout]} />
-          <View style={[styles.view3, styles.view3Position]}>
-            <Text style={[styles.text2, styles.view3Position]}>5</Text>
-          </View>
-        </View>
-        <View style={[styles.view12, styles.viewPosition1]}>
-          <View style={[styles.item, styles.itemLayout]} />
-          <View style={[styles.view3, styles.view3Position]}>
-            <Text style={[styles.text2, styles.view3Position]}>4</Text>
-          </View>
-        </View>
-        <View style={[styles.view14, styles.viewPosition]}>
-          <View style={[styles.item, styles.itemLayout]} />
-          <View style={[styles.view3, styles.view3Position]}>
-            <Text style={[styles.text2, styles.view3Position]}>3</Text>
-          </View>
-        </View>
-        <View style={[styles.view16, styles.viewPosition]}>
-          <View style={[styles.item, styles.itemLayout]} />
-          <View style={[styles.view3, styles.view3Position]}>
-            <Text style={[styles.text2, styles.view3Position]}>2</Text>
-          </View>
-        </View>
-        <View style={[styles.view18, styles.viewPosition]}>
-          <View style={[styles.item, styles.itemLayout]} />
-          <View style={[styles.view3, styles.view3Position]}>
-            <Text style={[styles.text2, styles.view3Position]}>1</Text>
-          </View>
-        </View>
+        <Component carCount="9" />
+        <Component carCount="8" propLeft={137} propTop={154} />
+        <Component carCount="7" propLeft={24} propTop={154} />
+        <Component carCount="6" propLeft={249} propTop={83} />
+        <Component carCount="5" propLeft={137} propTop={83} />
+        <Component carCount="4" propLeft={24} propTop={83} />
+        <Component carCount="3" propLeft={249} propTop={12} />
+        <Component carCount="2" propLeft={137} propTop={12} />
+        <Component carCount="1" propLeft={24} propTop={12} />
       </View>
       <View style={styles.headerPosition}>
         <View style={[styles.headerChild, styles.headerPosition]} />
@@ -157,6 +113,7 @@ const styles = StyleSheet.create({
   textTypo: {
     fontFamily: FontFamily.mobileBodyCopy,
     fontSize: FontSize.size_13xl,
+    position: "absolute",
   },
   itemLayout: {
     height: 65,
@@ -167,30 +124,6 @@ const styles = StyleSheet.create({
     left: "50%",
     textAlign: "center",
     color: Color.white,
-  },
-  viewPosition2: {
-    top: 154,
-    height: 65,
-    width: 102,
-    position: "absolute",
-  },
-  view3Position: {
-    width: 15,
-    left: "50%",
-    top: "50%",
-    position: "absolute",
-  },
-  viewPosition1: {
-    top: 83,
-    height: 65,
-    width: 102,
-    position: "absolute",
-  },
-  viewPosition: {
-    top: 12,
-    height: 65,
-    width: 102,
-    position: "absolute",
   },
   headerPosition: {
     height: 74,
@@ -206,7 +139,7 @@ const styles = StyleSheet.create({
   proceed: {
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
     textAlign: "left",
     lineHeight: 24,
@@ -236,6 +169,7 @@ const styles = StyleSheet.create({
     left: 0,
     top: 0,
     position: "absolute",
+    height: 64,
     backgroundColor: Color.primary,
   },
   rectangle1: {
@@ -246,11 +180,13 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     top: 0,
     position: "absolute",
+    height: 64,
   },
   rectangle2975: {
     left: 0,
     top: 0,
     position: "absolute",
+    height: 64,
   },
   blc: {
     left: 16,
@@ -293,7 +229,6 @@ const styles = StyleSheet.create({
     fontSize: FontSize.size_13xl,
     textAlign: "center",
     color: Color.white,
-    position: "absolute",
   },
   view: {
     top: 228,
@@ -309,58 +244,18 @@ const styles = StyleSheet.create({
     backgroundColor: Color.colorGray_300,
   },
   text1: {
+    marginTop: -18.5,
     marginLeft: -11,
     width: 22,
-    marginTop: -18.5,
     fontFamily: FontFamily.mobileBodyCopy,
     fontSize: FontSize.size_13xl,
+    position: "absolute",
     top: "50%",
     left: "50%",
-    position: "absolute",
   },
   view1: {
     top: 225,
     left: 137,
-  },
-  text2: {
-    marginTop: -19,
-    marginLeft: -7.5,
-    fontFamily: FontFamily.mobileBodyCopy,
-    fontSize: FontSize.size_13xl,
-    textAlign: "center",
-    color: Color.white,
-  },
-  view3: {
-    marginLeft: -7,
-    marginTop: -18.5,
-    height: 38,
-  },
-  view2: {
-    left: 249,
-  },
-  view4: {
-    left: 137,
-  },
-  view6: {
-    left: 24,
-  },
-  view8: {
-    left: 249,
-  },
-  view10: {
-    left: 137,
-  },
-  view12: {
-    left: 24,
-  },
-  view14: {
-    left: 249,
-  },
-  view16: {
-    left: 137,
-  },
-  view18: {
-    left: 24,
   },
   keyboard: {
     height: "37.68%",

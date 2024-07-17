@@ -33,11 +33,7 @@ const ConfirmTransaction = () => {
       >
         <Text style={[styles.confirm, styles.confirmTypo]}>Confirm</Text>
       </Pressable>
-      <Image
-        style={styles.sendSign54384111Icon}
-        contentFit="cover"
-        source={require("../assets/sendsign5438411-1.png")}
-      />
+      <Image style={styles.sendSign54384111Icon} contentFit="cover" />
       <View style={styles.headerPosition}>
         <View style={[styles.headerChild, styles.headerPosition]} />
         <Pressable
@@ -109,7 +105,7 @@ const styles = StyleSheet.create({
   blc: {
     fontSize: FontSize.mobileH4HeadingSection_size,
     marginTop: 16,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     color: Color.white,
   },
@@ -141,7 +137,7 @@ const styles = StyleSheet.create({
   },
   confirm: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   button: {

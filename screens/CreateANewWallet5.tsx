@@ -14,7 +14,7 @@ const CreateANewWallet5 = () => {
         <Image
           style={styles.success48740921Icon}
           contentFit="cover"
-          source={require("../assets/success4874092-12.png")}
+          source={require("../assets/success4874092-1.png")}
         />
         <View style={styles.frameParent}>
           <View style={styles.walletConnectedParent}>
@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
   },
   nairaTypo: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
   cusd: {
     color: Color.primary20,
     marginLeft: 4,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,

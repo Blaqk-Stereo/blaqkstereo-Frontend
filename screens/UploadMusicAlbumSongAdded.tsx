@@ -3,6 +3,7 @@ import { Image } from "expo-image";
 import { StyleSheet, Text, View, Pressable } from "react-native";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { useNavigation, ParamListBase } from "@react-navigation/native";
+import InputField2 from "../components/InputField2";
 import { FontSize, Padding, Border, Color, FontFamily } from "../GlobalStyles";
 
 const UploadMusicAlbumSongAdded = () => {
@@ -18,21 +19,17 @@ const UploadMusicAlbumSongAdded = () => {
           <Image
             style={styles.addCircleIcon}
             contentFit="cover"
-            source={require("../assets/addcircle1.png")}
+            source={require("../assets/addcircle.png")}
           />
           <Text style={[styles.blc, styles.blcTypo]}>Add more songs</Text>
         </Pressable>
         <View style={styles.song1Parent}>
           <Text style={[styles.song1, styles.song1Typo]}>Song 1</Text>
-          <View style={[styles.inputField, styles.inputFieldLayout]}>
-            <View style={styles.inputFieldChild} />
-            <Text style={[styles.blinker, styles.song1Typo]}>Miller</Text>
-            <Image
-              style={styles.eyeIcon}
-              contentFit="cover"
-              source={require("../assets/eye4.png")}
-            />
-          </View>
+          <InputField2
+            blinker="Miller"
+            eye={require("../assets/eye4.png")}
+            blinkerMarginTop={16}
+          />
           <View
             style={[styles.fileUploadStatus, styles.fileUploadStatusSpaceBlock]}
           >
@@ -60,7 +57,12 @@ const UploadMusicAlbumSongAdded = () => {
                     <View
                       style={[styles.progressBarBg, styles.progressPosition]}
                     />
-                    <View style={styles.progressbaratom} />
+                    <View
+                      style={[
+                        styles.progressbaratom,
+                        styles.progressbaratomPosition1,
+                      ]}
+                    />
                   </View>
                 </View>
               </View>
@@ -80,7 +82,7 @@ const UploadMusicAlbumSongAdded = () => {
         <View style={styles.song1Parent}>
           <Text style={[styles.song1, styles.song1Typo]}>Song 2</Text>
           <View style={[styles.inputField, styles.inputFieldLayout]}>
-            <View style={styles.inputFieldChild} />
+            <View style={[styles.inputFieldChild, styles.iconLayout]} />
             <Text style={[styles.blinker, styles.song1Typo]}>Shoko</Text>
             <Image
               style={styles.eyeIcon}
@@ -133,15 +135,11 @@ const UploadMusicAlbumSongAdded = () => {
         </View>
         <View style={styles.song1Parent}>
           <Text style={[styles.song1, styles.song1Typo]}>Song 3</Text>
-          <View style={[styles.inputField, styles.inputFieldLayout]}>
-            <View style={styles.inputFieldChild} />
-            <Text style={[styles.blinker, styles.song1Typo]}>Skelewu</Text>
-            <Image
-              style={styles.eyeIcon}
-              contentFit="cover"
-              source={require("../assets/eye4.png")}
-            />
-          </View>
+          <InputField2
+            blinker="Skelewu"
+            eye={require("../assets/eye4.png")}
+            blinkerMarginTop={16}
+          />
           <View
             style={[styles.fileUploadStatus, styles.fileUploadStatusSpaceBlock]}
           >
@@ -197,7 +195,7 @@ const UploadMusicAlbumSongAdded = () => {
         <View style={styles.song1Parent}>
           <Text style={[styles.song1, styles.song1Typo]}>Song 4</Text>
           <View style={[styles.inputField, styles.inputFieldLayout]}>
-            <View style={styles.inputFieldChild} />
+            <View style={[styles.inputFieldChild, styles.iconLayout]} />
             <Text style={[styles.blinker, styles.song1Typo]}>Run</Text>
             <Image
               style={styles.eyeIcon}
@@ -260,7 +258,7 @@ const UploadMusicAlbumSongAdded = () => {
         <View style={[styles.headerChild, styles.headerPosition]} />
         <Pressable style={styles.pressable} onPress={() => navigation.goBack()}>
           <Image
-            style={styles.icon}
+            style={[styles.icon, styles.iconLayout]}
             contentFit="cover"
             source={require("../assets/241.png")}
           />
@@ -329,10 +327,6 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
-  inputFieldLayout: {
-    width: 335,
-    marginTop: 16,
-  },
   fileUploadStatusSpaceBlock: {
     padding: Padding.p_base,
     borderRadius: Border.br_mini,
@@ -354,13 +348,26 @@ const styles = StyleSheet.create({
     height: 8,
     position: "absolute",
   },
+  progressbaratomPosition1: {
+    left: "0%",
+    right: "0%",
+    position: "absolute",
+  },
+  inputFieldLayout: {
+    width: 335,
+    marginTop: 16,
+  },
+  iconLayout: {
+    height: "100%",
+    width: "100%",
+  },
   progressbaratomPosition: {
     right: "34.06%",
     width: "65.94%",
+    left: "0%",
     top: 8,
     borderRadius: Border.br_1215xl,
     height: 8,
-    left: "0%",
     position: "absolute",
   },
   button1Position: {
@@ -417,7 +424,7 @@ const styles = StyleSheet.create({
   blc: {
     marginLeft: 8,
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   addMore: {
@@ -435,16 +442,81 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.mobileBodyCopy,
     color: Color.white,
   },
+  iconContainer: {
+    backgroundColor: Color.colorMediumspringgreen_100,
+  },
+  filenamepng: {
+    color: Color.white,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontWeight: "600",
+  },
+  frame1: {
+    justifyContent: "space-between",
+    alignSelf: "stretch",
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  progressBarBg: {
+    backgroundColor: Color.text0,
+  },
+  progressbaratom: {
+    backgroundColor: Color.success50,
+    top: 8,
+    left: "0%",
+    right: "0%",
+    borderRadius: Border.br_1215xl,
+    height: 8,
+    width: "100%",
+  },
+  progressBarContainer: {
+    height: 8,
+    alignSelf: "stretch",
+  },
+  progressBar: {
+    borderRadius: Border.br_5xs,
+    alignSelf: "stretch",
+    marginTop: 16,
+  },
+  frame: {
+    marginLeft: 16,
+    flex: 1,
+  },
+  iconContainerParent: {
+    alignSelf: "stretch",
+    flexDirection: "row",
+  },
+  uploadSuccessfulParent: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  text: {
+    color: Color.white,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
+    fontWeight: "600",
+  },
+  frame2: {
+    justifyContent: "space-between",
+    alignSelf: "stretch",
+    marginTop: 16,
+    flexDirection: "row",
+  },
+  fileUploadStatus: {
+    marginTop: 16,
+    width: 335,
+    overflow: "hidden",
+  },
+  song1Parent: {
+    marginTop: 32,
+  },
   inputFieldChild: {
     top: "0%",
     bottom: "0%",
-    backgroundColor: Color.colorGray_400,
     left: "0%",
     right: "0%",
-    borderRadius: Border.br_5xs,
-    height: "100%",
     position: "absolute",
-    width: "100%",
+    borderRadius: Border.br_5xs,
+    backgroundColor: Color.colorGray_400,
+    height: "100%",
   },
   blinker: {
     marginTop: -12,
@@ -471,73 +543,6 @@ const styles = StyleSheet.create({
     height: 52,
     marginTop: 16,
   },
-  iconContainer: {
-    backgroundColor: "rgba(34, 197, 94, 0.24)",
-  },
-  filenamepng: {
-    color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
-    fontWeight: "600",
-  },
-  frame1: {
-    justifyContent: "space-between",
-    alignSelf: "stretch",
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  progressBarBg: {
-    backgroundColor: Color.text0,
-  },
-  progressbaratom: {
-    backgroundColor: Color.success50,
-    top: 8,
-    borderRadius: Border.br_1215xl,
-    height: 8,
-    left: "0%",
-    right: "0%",
-    position: "absolute",
-    width: "100%",
-  },
-  progressBarContainer: {
-    height: 8,
-    alignSelf: "stretch",
-  },
-  progressBar: {
-    alignSelf: "stretch",
-    borderRadius: Border.br_5xs,
-    marginTop: 16,
-  },
-  frame: {
-    marginLeft: 16,
-    flex: 1,
-  },
-  iconContainerParent: {
-    alignSelf: "stretch",
-    flexDirection: "row",
-  },
-  uploadSuccessfulParent: {
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  text: {
-    color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
-    fontWeight: "600",
-  },
-  frame2: {
-    justifyContent: "space-between",
-    alignSelf: "stretch",
-    marginTop: 16,
-    flexDirection: "row",
-  },
-  fileUploadStatus: {
-    marginTop: 16,
-    width: 335,
-    overflow: "hidden",
-  },
-  song1Parent: {
-    marginTop: 32,
-  },
   iconContainer1: {
     backgroundColor: Color.colorOrange_100,
   },
@@ -548,17 +553,17 @@ const styles = StyleSheet.create({
     backgroundColor: Color.warningDefault,
   },
   iconContainer2: {
-    backgroundColor: "rgba(249, 50, 50, 0.24)",
+    backgroundColor: Color.colorTomato_100,
   },
   progressBarBg2: {
-    backgroundColor: "rgba(255, 247, 247, 0.5)",
+    backgroundColor: Color.colorSnow,
   },
   progressbaratom2: {
     backgroundColor: Color.errorDefault,
   },
   text2: {
     color: Color.warningDefault,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   arrowsclockwiseIcon: {
@@ -589,7 +594,7 @@ const styles = StyleSheet.create({
     color: Color.primary,
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
   },
@@ -607,9 +612,7 @@ const styles = StyleSheet.create({
     backgroundColor: Color.colorGray_1300,
   },
   icon: {
-    height: "100%",
     overflow: "hidden",
-    width: "100%",
   },
   pressable: {
     top: 40,

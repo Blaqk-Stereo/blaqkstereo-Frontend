@@ -220,7 +220,7 @@ const styles = StyleSheet.create({
   },
   saveBankAccount: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
   },
   button: {

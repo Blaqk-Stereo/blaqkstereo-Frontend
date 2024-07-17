@@ -3,6 +3,7 @@ import { StyleSheet, View, Text, Pressable } from "react-native";
 import { Image } from "expo-image";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { useNavigation, ParamListBase } from "@react-navigation/native";
+import InputField2 from "../components/InputField2";
 import { FontFamily, FontSize, Color, Border, Padding } from "../GlobalStyles";
 
 const UploadMusicSingle7 = () => {
@@ -14,15 +15,11 @@ const UploadMusicSingle7 = () => {
         style={styles.inputFieldParent}
         onPress={() => navigation.navigate("UploadMusicSingle10")}
       >
-        <View style={styles.inputLayout}>
-          <View style={styles.inputFieldChild} />
-          <Text style={styles.blinker}>Enter the title of this song</Text>
-          <Image
-            style={[styles.eyeIcon, styles.iconLayout]}
-            contentFit="cover"
-            source={require("../assets/eye4.png")}
-          />
-        </View>
+        <InputField2
+          blinker="Enter the title of this song"
+          eye={require("../assets/eye4.png")}
+          blinkerMarginTop="unset"
+        />
         <View style={styles.upload}>
           <View style={styles.rectangle4} />
           <View style={[styles.galleryAddParent, styles.noPosition]}>
@@ -41,17 +38,17 @@ const UploadMusicSingle7 = () => {
             </View>
           </View>
         </View>
-        <View style={[styles.inputField1, styles.inputLayout]}>
-          <View style={styles.inputFieldChild} />
+        <View style={styles.inputField}>
+          <View style={[styles.inputFieldChild, styles.vectorIconPosition]} />
           <Text style={styles.blinker}>Add featured artists</Text>
-          <Text style={[styles.blinker2, styles.blinkerTypo]}>
+          <Text style={[styles.blinker1, styles.blinkerTypo]}>
             (Use a comma to add new artist)
           </Text>
         </View>
-        <View style={[styles.inputField1, styles.inputLayout]}>
-          <View style={styles.inputFieldChild} />
+        <View style={styles.inputField}>
+          <View style={[styles.inputFieldChild, styles.vectorIconPosition]} />
           <Text style={styles.blinker}>Enter IRSC Code</Text>
-          <Text style={[styles.blinker4, styles.blinkerTypo]}>
+          <Text style={[styles.blinker3, styles.blinkerTypo]}>
             (If available)
           </Text>
         </View>
@@ -63,9 +60,9 @@ const UploadMusicSingle7 = () => {
           </Text>
           <View style={styles.toggle}>
             <Image
-              style={[styles.vectorIcon, styles.iconLayout]}
+              style={[styles.vectorIcon, styles.vectorIconPosition]}
               contentFit="cover"
-              source={require("../assets/vector1.png")}
+              source={require("../assets/vector.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.pressableLayout]}
@@ -98,23 +95,23 @@ const UploadMusicSingle7 = () => {
 };
 
 const styles = StyleSheet.create({
-  iconLayout: {
-    maxHeight: "100%",
-    maxWidth: "100%",
-    position: "absolute",
-    overflow: "hidden",
-  },
   noPosition: {
     top: "50%",
+    left: "50%",
     position: "absolute",
   },
   sizeShouldBeTypo: {
     textAlign: "center",
     fontFamily: FontFamily.mobileBodyCopy,
   },
-  inputLayout: {
-    height: 52,
-    width: 335,
+  vectorIconPosition: {
+    left: "0%",
+    bottom: "0%",
+    right: "0%",
+    top: "0%",
+    height: "100%",
+    position: "absolute",
+    width: "100%",
   },
   blinkerTypo: {
     fontSize: FontSize.size_3xs,
@@ -135,7 +132,7 @@ const styles = StyleSheet.create({
     width: 24,
   },
   noTypo: {
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   nextTypo: {
@@ -154,43 +151,12 @@ const styles = StyleSheet.create({
     top: 40,
     position: "absolute",
   },
-  inputFieldChild: {
-    borderRadius: Border.br_5xs,
-    backgroundColor: Color.colorGray_400,
-    left: "0%",
-    bottom: "0%",
-    right: "0%",
-    top: "0%",
-    height: "100%",
-    position: "absolute",
-    width: "100%",
-  },
-  blinker: {
-    left: 16,
-    textAlign: "left",
-    color: Color.primary0,
-    fontFamily: FontFamily.mobileBodyCopy,
-    lineHeight: 24,
-    fontSize: FontSize.mobileH6HeadingSubHead_size,
-    top: "50%",
-    marginTop: -12,
-    position: "absolute",
-  },
-  eyeIcon: {
-    height: "46.15%",
-    width: "6.99%",
-    top: "26.92%",
-    right: "4.69%",
-    bottom: "26.92%",
-    left: "88.33%",
-    display: "none",
-  },
   rectangle4: {
     borderRadius: Border.br_mini,
+    backgroundColor: Color.colorGray_400,
     left: 0,
     top: 0,
     height: 264,
-    backgroundColor: Color.colorGray_400,
     width: 335,
     position: "absolute",
   },
@@ -225,46 +191,58 @@ const styles = StyleSheet.create({
     height: 264,
     width: 335,
   },
-  blinker2: {
+  inputFieldChild: {
+    borderRadius: Border.br_5xs,
+    backgroundColor: Color.colorGray_400,
+  },
+  blinker: {
+    left: 16,
+    textAlign: "left",
+    color: Color.primary0,
+    marginTop: -12,
+    fontFamily: FontFamily.mobileBodyCopy,
+    lineHeight: 24,
+    fontSize: FontSize.mobileH6HeadingSubHead_size,
+    top: "50%",
+    position: "absolute",
+  },
+  blinker1: {
     right: 34,
   },
-  inputField1: {
+  inputField: {
+    height: 52,
     marginTop: 16,
+    width: 335,
   },
-  blinker4: {
+  blinker3: {
     right: 152,
   },
   containsExplicitContent: {
-    color: Color.white,
     textAlign: "left",
+    color: Color.white,
     fontFamily: FontFamily.mobileBodyCopy,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
   vectorIcon: {
-    left: "0%",
-    bottom: "0%",
-    right: "0%",
-    top: "0%",
-    maxHeight: "100%",
     maxWidth: "100%",
-    height: "100%",
-    width: "100%",
+    maxHeight: "100%",
+    overflow: "hidden",
   },
   vectorIcon1: {
     left: 4,
-    top: "50%",
-    position: "absolute",
     marginTop: -12,
     width: 24,
+    top: "50%",
+    position: "absolute",
   },
   no: {
     marginTop: -7,
     marginLeft: 3,
+    textAlign: "left",
     fontSize: FontSize.btnSmallNormal_size,
     color: Color.white,
     left: "50%",
-    textAlign: "left",
     top: "50%",
     position: "absolute",
   },
@@ -287,7 +265,7 @@ const styles = StyleSheet.create({
   },
   next: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   button: {

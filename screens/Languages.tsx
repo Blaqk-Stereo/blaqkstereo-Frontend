@@ -38,7 +38,7 @@ const Languages = () => {
             <Image
               style={styles.addCircleIcon}
               contentFit="cover"
-              source={require("../assets/addcircle.png")}
+              source={require("../assets/addcircle1.png")}
             />
             <Text style={[styles.blc, styles.blcTypo]}>Add new bank</Text>
           </Pressable>
@@ -51,7 +51,7 @@ const Languages = () => {
                   <Image
                     style={styles.addCircleIcon}
                     contentFit="cover"
-                    source={require("../assets/bank.png")}
+                    source={require("../assets/bank1.png")}
                   />
                 </View>
                 <View
@@ -170,7 +170,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   parentFlexBox: {
@@ -224,7 +224,7 @@ const styles = StyleSheet.create({
   filenamepng: {
     color: Color.warningDefault,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   filenamepngWrapper: {

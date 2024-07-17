@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
   },
   verificationCode: {
     fontSize: FontSize.mobileH4HeadingSection_size,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     color: Color.white,
     lineHeight: 24,
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
     color: Color.primary,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "center",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
   },

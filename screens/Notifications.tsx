@@ -290,7 +290,7 @@ const styles = StyleSheet.create({
   },
   older: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     textAlign: "left",
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
