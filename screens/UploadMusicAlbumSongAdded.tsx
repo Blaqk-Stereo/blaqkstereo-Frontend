@@ -19,7 +19,7 @@ const UploadMusicAlbumSongAdded = () => {
           <Image
             style={styles.addCircleIcon}
             contentFit="cover"
-            source={require("../assets/addcircle.png")}
+            source={require("../assets/addcircle1.png")}
           />
           <Text style={[styles.blc, styles.blcTypo]}>Add more songs</Text>
         </Pressable>
@@ -423,7 +423,7 @@ const styles = StyleSheet.create({
   },
   blc: {
     marginLeft: 8,
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
@@ -440,13 +440,13 @@ const styles = StyleSheet.create({
   },
   song1: {
     fontFamily: FontFamily.mobileBodyCopy,
-    color: Color.white,
+    color: Color.gray0White,
   },
   iconContainer: {
     backgroundColor: Color.colorMediumspringgreen_100,
   },
   filenamepng: {
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
@@ -490,7 +490,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   text: {
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
@@ -523,7 +523,7 @@ const styles = StyleSheet.create({
     top: "50%",
     left: 16,
     fontFamily: FontFamily.mobileBodyCopy,
-    color: Color.white,
+    color: Color.gray0White,
     position: "absolute",
   },
   eyeIcon: {
@@ -602,7 +602,7 @@ const styles = StyleSheet.create({
     bottom: 24,
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     justifyContent: "center",
     alignItems: "center",
     borderRadius: Border.br_81xl,
@@ -629,7 +629,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     left: "50%",
     textAlign: "center",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
     position: "absolute",
   },
@@ -646,7 +646,7 @@ const styles = StyleSheet.create({
     borderColor: Color.primary30,
   },
   stepGroupHorizontalItem: {
-    borderColor: Color.white,
+    borderColor: Color.gray0White,
     width: 126,
     zIndex: 1,
   },
@@ -655,7 +655,7 @@ const styles = StyleSheet.create({
   },
   stepbaseitem: {
     padding: Padding.p_9xs,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     borderRadius: Border.br_1215xl,
     justifyContent: "center",
     flexDirection: "row",
@@ -666,7 +666,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   stepTitle: {
-    color: Color.white,
+    color: Color.gray0White,
   },
   complete: {
     zIndex: 2,
@@ -682,7 +682,7 @@ const styles = StyleSheet.create({
     elevation: 0,
     shadowOpacity: 1,
     borderColor: Color.primary0,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
   },
   stepTitle1: {
     color: Color.primary0,

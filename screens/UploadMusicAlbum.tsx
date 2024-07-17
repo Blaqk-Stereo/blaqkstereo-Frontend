@@ -217,7 +217,7 @@ const styles = StyleSheet.create({
     height: 32,
   },
   uploadYourImage: {
-    color: Color.white,
+    color: Color.gray0White,
     textAlign: "center",
   },
   sizeShouldBe: {
@@ -263,7 +263,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
     opacity: 0.5,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     marginLeft: -167.5,
     justifyContent: "center",
     left: "50%",
@@ -292,7 +292,7 @@ const styles = StyleSheet.create({
     top: 40,
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
-    color: Color.white,
+    color: Color.gray0White,
     left: "50%",
     lineHeight: 24,
     position: "absolute",
@@ -314,7 +314,7 @@ const styles = StyleSheet.create({
     marginLeft: -125,
   },
   stepGroupHorizontalItem: {
-    borderColor: Color.white,
+    borderColor: Color.gray0White,
     width: 45,
     zIndex: 1,
   },
@@ -331,7 +331,7 @@ const styles = StyleSheet.create({
     elevation: 0,
     shadowOpacity: 1,
     borderColor: Color.primary0,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
   },
   stepTitle: {
     color: Color.primary0,

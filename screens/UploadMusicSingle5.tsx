@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
   },
   gbTypo: {
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     lineHeight: 24,
   },
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   textClr: {
-    color: Color.white,
+    color: Color.gray0White,
     textAlign: "center",
     lineHeight: 24,
   },
@@ -133,7 +133,7 @@ const styles = StyleSheet.create({
   button: {
     bottom: 24,
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
     width: 335,
@@ -195,7 +195,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: FontSize.mobileH6HeadingSubHead_size,
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
@@ -226,7 +226,7 @@ const styles = StyleSheet.create({
     marginLeft: -36.5,
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
-    color: Color.white,
+    color: Color.gray0White,
     textAlign: "center",
     lineHeight: 24,
     fontSize: FontSize.mobileH5HeadingComponent_size,

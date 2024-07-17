@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "left",
     width: 335,
-    color: Color.white,
+    color: Color.gray0White,
     position: "absolute",
   },
   headerChild: {
@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
-    color: Color.white,
+    color: Color.gray0White,
     position: "absolute",
   },
   parent: {

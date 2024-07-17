@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
   button: {
     top: 316,
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     width: 335,
     flexDirection: "row",
     justifyContent: "center",
@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
   howMuchWould: {
     width: 295,
     textAlign: "center",
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
     fontSize: FontSize.mobileH5HeadingComponent_size,
@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     fontFamily: FontFamily.mobileH2HeadingDefault,
     textAlign: "right",
-    color: Color.white,
+    color: Color.gray0White,
     top: "50%",
   },
   rectangle2: {
@@ -161,7 +161,7 @@ const styles = StyleSheet.create({
     right: "47.37%",
     bottom: "13%",
     left: "47.37%",
-    borderColor: Color.white,
+    borderColor: Color.gray0White,
     borderRightWidth: 1,
   },
   blinkingCursor: {
@@ -199,7 +199,7 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     fontSize: FontSize.mobileH5HeadingComponent_size,
     top: 40,
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
   },
   enterAmount: {

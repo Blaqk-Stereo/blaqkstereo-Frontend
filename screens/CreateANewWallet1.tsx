@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     textAlign: "left",
     fontFamily: FontFamily.mobileBodyCopy,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
   },
   inputSpaceBlock: {
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "center",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
     alignItems: "center",
   },
@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
   button: {
     bottom: 432,
     paddingHorizontal: 0,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     borderRadius: Border.br_81xl,
     paddingVertical: Padding.p_sm,
     flexDirection: "row",
@@ -178,7 +178,7 @@ const styles = StyleSheet.create({
   step1Child: {
     left: 6,
     width: 166,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
   },
   step1Item: {
     left: 172,
@@ -190,16 +190,16 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     fontFamily: FontFamily.btnSmallNormal,
     textAlign: "center",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
   },
   badgeBasic: {
     left: 0,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
   },
   badgeBasic1: {
     marginLeft: -8.5,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     left: "50%",
   },
   badgeBasic2: {

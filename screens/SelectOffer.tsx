@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
   },
   cusdFlexBox: {
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
   },
   buttonFlexBox: {
     justifyContent: "center",
@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
     lineHeight: 34,
     fontWeight: "700",
     fontFamily: FontFamily.mobileH2HeadingDefault,
-    color: Color.white,
+    color: Color.gray0White,
   },
   clipPathGroup: {
     height: 15,
@@ -181,7 +181,7 @@ const styles = StyleSheet.create({
     width: 303,
   },
   cusd1515: {
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileBodyCopy,
     textAlign: "left",
     lineHeight: 24,
@@ -206,7 +206,7 @@ const styles = StyleSheet.create({
   },
   bestValue: {
     fontSize: FontSize.btnSmallNormal_size,
-    color: Color.white,
+    color: Color.gray0White,
   },
   bestValueWrapper: {
     marginLeft: -46.5,
@@ -227,7 +227,7 @@ const styles = StyleSheet.create({
   },
   frameGroup: {
     backgroundColor: Color.colorGray_300,
-    borderColor: Color.white,
+    borderColor: Color.gray0White,
   },
   dc96b9c6c6740326beff60TransfiIcon: {
     height: 12,
@@ -264,7 +264,7 @@ const styles = StyleSheet.create({
   },
   button: {
     bottom: 24,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     paddingHorizontal: Padding.p_99xl,
     paddingVertical: Padding.p_sm,
     justifyContent: "center",
@@ -293,7 +293,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     left: "50%",
     lineHeight: 24,
-    color: Color.white,
+    color: Color.gray0White,
   },
   selectOffer: {
     flex: 1,

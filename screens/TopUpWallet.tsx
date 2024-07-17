@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     borderStyle: "solid",
   },
   orClr: {
-    color: Color.white,
+    color: Color.gray0White,
     textAlign: "center",
     lineHeight: 24,
   },
@@ -144,7 +144,7 @@ const styles = StyleSheet.create({
   },
   button: {
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     justifyContent: "center",
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.btnSmallNormal_size,
     marginLeft: 4,
     fontFamily: FontFamily.mobileBodyCopy,
-    color: Color.white,
+    color: Color.gray0White,
   },
   frameItem: {
     width: 158,
@@ -207,7 +207,7 @@ const styles = StyleSheet.create({
     marginLeft: -29.5,
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
-    color: Color.white,
+    color: Color.gray0White,
     textAlign: "center",
     lineHeight: 24,
     fontSize: FontSize.mobileH5HeadingComponent_size,

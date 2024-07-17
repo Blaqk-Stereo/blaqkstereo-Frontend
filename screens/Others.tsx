@@ -329,7 +329,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
   },
   iconLayout: {
@@ -346,7 +346,7 @@ const styles = StyleSheet.create({
   },
   yourProfile: {
     marginLeft: 16,
-    color: Color.white,
+    color: Color.gray0White,
     textAlign: "left",
     lineHeight: 24,
     fontFamily: FontFamily.mobileH5HeadingComponent,
@@ -423,7 +423,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.mobileBodyCopy,
     marginTop: 4,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
-    color: Color.white,
+    color: Color.gray0White,
     textAlign: "left",
     lineHeight: 24,
   },

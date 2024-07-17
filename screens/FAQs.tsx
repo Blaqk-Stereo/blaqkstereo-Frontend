@@ -185,7 +185,7 @@ const styles = StyleSheet.create({
   },
   howCanI: {
     width: 299,
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
     textAlign: "left",
@@ -240,7 +240,7 @@ const styles = StyleSheet.create({
     left: 59,
     fontSize: FontSize.mobileH5HeadingComponent_size,
     top: 0,
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
     textAlign: "center",

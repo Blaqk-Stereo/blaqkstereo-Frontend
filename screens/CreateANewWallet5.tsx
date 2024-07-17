@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   buttonFlexBox: {
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     fontFamily: FontFamily.mobileH2HeadingDefault,
     textAlign: "center",
-    color: Color.white,
+    color: Color.gray0White,
   },
   youCanNow: {
     display: "flex",
@@ -189,7 +189,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     marginTop: 16,
     width: 295,
-    color: Color.white,
+    color: Color.gray0White,
   },
   localCurrencyAmounts: {
     fontSize: FontSize.btnSmallNormal_size,

@@ -64,7 +64,7 @@ const UploadMusicSingle6 = () => {
             <Image
               style={styles.iconLayout}
               contentFit="cover"
-              source={require("../assets/addcircle.png")}
+              source={require("../assets/addcircle1.png")}
             />
             <Text style={[styles.blc, styles.blcTypo]}>Add more credits</Text>
           </View>
@@ -239,7 +239,7 @@ const styles = StyleSheet.create({
     width: 335,
     borderRadius: Border.br_81xl,
     justifyContent: "center",
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     left: "50%",
     marginLeft: -167.5,
     position: "absolute",
@@ -299,7 +299,7 @@ const styles = StyleSheet.create({
   },
   blc: {
     marginLeft: 8,
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
@@ -343,7 +343,7 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     top: 40,
     textAlign: "center",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
     left: "50%",
     position: "absolute",
@@ -361,7 +361,7 @@ const styles = StyleSheet.create({
     borderColor: Color.primary30,
   },
   stepGroupHorizontalItem: {
-    borderColor: Color.white,
+    borderColor: Color.gray0White,
     width: 207,
     zIndex: 1,
   },
@@ -374,11 +374,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     flexDirection: "row",
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     overflow: "hidden",
   },
   stepTitle: {
-    color: Color.white,
+    color: Color.gray0White,
   },
   complete: {
     zIndex: 2,
@@ -398,7 +398,7 @@ const styles = StyleSheet.create({
     elevation: 0,
     shadowOpacity: 1,
     borderColor: Color.primary0,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     borderWidth: 1,
   },
   stepTitle2: {

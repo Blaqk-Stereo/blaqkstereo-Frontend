@@ -27,7 +27,7 @@ export const FontSize = {
 export const Color = {
   primary: "#000",
   secondaryDefault: "#aa0a57",
-  white: "#fff",
+  gray0White: "#fff",
   primary0: "#d4d4d4",
   colorLightgray_100: "#d2d2d2",
   primary20: "#7f7f7f",
@@ -94,8 +94,8 @@ export const Padding = {
   p_8xs: 5,
   p_34xl: 53,
   p_33xl: 52,
-  p_7xs: 6,
   p_29xl: 48,
+  p_7xs: 6,
 };
 /* border radiuses */
 export const Border = {
@@ -112,12 +112,12 @@ export const Border = {
   br_1215xl: 1234,
   br_104xl: 123,
   br_3xs: 10,
-  br_31xl: 50,
-  br_101xl: 120,
   br_sm: 14,
+  br_101xl: 120,
+  br_13xl: 32,
+  br_31xl: 50,
   br_9xs: 4,
   br_17xl_5: 37,
   br_18xl: 37,
-  br_13xl: 32,
   br_4xl: 23,
 };

@@ -136,7 +136,7 @@ const styles = StyleSheet.create({
   },
   gbFlexBox: {
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
   },
   frame2SpaceBlock: {
     marginTop: 16,
@@ -209,7 +209,7 @@ const styles = StyleSheet.create({
     left: "50%",
     marginLeft: -167.5,
     justifyContent: "center",
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     position: "absolute",
   },
   filearrowupIcon: {
@@ -264,10 +264,10 @@ const styles = StyleSheet.create({
   },
   gb: {
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
   },
   text: {
-    color: Color.white,
+    color: Color.gray0White,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "center",
     fontFamily: FontFamily.mobileH6HeadingSubHead,
@@ -301,7 +301,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
     top: 40,
-    color: Color.white,
+    color: Color.gray0White,
     textAlign: "center",
     lineHeight: 24,
     fontSize: FontSize.mobileH5HeadingComponent_size,
@@ -322,7 +322,7 @@ const styles = StyleSheet.create({
     zIndex: 0,
   },
   stepGroupHorizontalItem: {
-    borderColor: Color.white,
+    borderColor: Color.gray0White,
     width: 45,
     zIndex: 1,
   },
@@ -339,7 +339,7 @@ const styles = StyleSheet.create({
     elevation: 0,
     shadowOpacity: 1,
     borderColor: Color.primary0,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     padding: Padding.p_9xs,
     borderWidth: 1,
   },

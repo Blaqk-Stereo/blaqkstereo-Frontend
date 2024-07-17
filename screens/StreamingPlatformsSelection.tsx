@@ -194,7 +194,7 @@ const styles = StyleSheet.create({
     textAlign: "left",
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
-    color: Color.white,
+    color: Color.gray0White,
   },
   blaqkStereoMusic: {
     color: Color.primary0,
@@ -211,7 +211,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.btnSmallNormal_size,
     textAlign: "center",
     marginTop: 4,
-    color: Color.white,
+    color: Color.gray0White,
   },
   groupParent: {
     alignItems: "center",
@@ -244,7 +244,7 @@ const styles = StyleSheet.create({
   button: {
     bottom: 44,
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     justifyContent: "center",
     paddingHorizontal: Padding.p_xl,
     paddingVertical: Padding.p_8xs,
@@ -266,7 +266,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
   },
   checkboxfselectedIcon: {
     width: 16,

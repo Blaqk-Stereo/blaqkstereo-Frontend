@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
     textAlign: "center",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
   },
   celoDollarCusdIcon: {
@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
     color: Color.primary,
   },
   nairaParent: {
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     paddingHorizontal: Padding.p_34xl,
     marginLeft: 1,
   },
@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
     width: 295,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "center",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
   },
   localCurrencyAmounts: {
@@ -146,7 +146,7 @@ const styles = StyleSheet.create({
     width: 295,
   },
   close: {
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
     fontSize: FontSize.btnSmallNormal_size,
   },

@@ -190,7 +190,7 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
   },
   stepbaseitemBorder: {
@@ -241,7 +241,7 @@ const styles = StyleSheet.create({
   blinker: {
     left: 16,
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileBodyCopy,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -296,7 +296,7 @@ const styles = StyleSheet.create({
     height: 32,
   },
   uploadYourImage: {
-    color: Color.white,
+    color: Color.gray0White,
   },
   supportedFormatsPng: {
     lineHeight: 16,
@@ -334,7 +334,7 @@ const styles = StyleSheet.create({
     bottom: 24,
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     borderRadius: Border.br_81xl,
     marginLeft: -167.5,
     justifyContent: "center",
@@ -382,7 +382,7 @@ const styles = StyleSheet.create({
   stepGroupHorizontalItem: {
     width: 45,
     zIndex: 1,
-    borderColor: Color.white,
+    borderColor: Color.gray0White,
     height: 1,
     borderTopWidth: 1,
     borderStyle: "solid",
@@ -404,7 +404,7 @@ const styles = StyleSheet.create({
     elevation: 0,
     shadowOpacity: 1,
     borderColor: Color.primary0,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
   },
   stepTitle: {
     color: Color.primary0,
@@ -469,13 +469,13 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
   yesAddThemWrapper: {
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
   },
   noUploadSongs: {
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "center",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
@@ -483,7 +483,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     paddingVertical: Padding.p_5xs,
     paddingHorizontal: Padding.p_81xl,
-    borderColor: Color.white,
+    borderColor: Color.gray0White,
     borderStyle: "solid",
   },
   prompt: {

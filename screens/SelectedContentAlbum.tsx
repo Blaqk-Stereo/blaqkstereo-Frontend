@@ -380,7 +380,7 @@ const styles = StyleSheet.create({
     marginTop: -12,
     textAlign: "center",
     lineHeight: 24,
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     left: "50%",
@@ -422,7 +422,7 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
@@ -449,7 +449,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     marginTop: 4,
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
   },
   releaseId: {
     textAlign: "left",
@@ -472,7 +472,7 @@ const styles = StyleSheet.create({
   blc1: {
     lineHeight: 24,
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
   },
   totalEarning: {
     marginTop: 4,
@@ -511,7 +511,7 @@ const styles = StyleSheet.create({
   topTracks: {
     fontSize: FontSize.mobileH5HeadingComponent_size,
     fontWeight: "500",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
     textAlign: "left",
   },
@@ -522,7 +522,7 @@ const styles = StyleSheet.create({
   mine: {
     textAlign: "center",
     lineHeight: 24,
-    color: Color.white,
+    color: Color.gray0White,
   },
   kListens: {
     color: Color.colorGray_1100,
@@ -558,7 +558,7 @@ const styles = StyleSheet.create({
   text3: {
     fontSize: FontSize.mobileH5HeadingComponent_size,
     fontWeight: "500",
-    color: Color.white,
+    color: Color.gray0White,
     textAlign: "left",
   },
   youtubeMusicParent: {
@@ -599,7 +599,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontSize: FontSize.mobileH5HeadingComponent_size,
     fontWeight: "500",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
   },
   text8: {

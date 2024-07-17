@@ -54,13 +54,13 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     position: "absolute",
   },
   textFlexBox: {
     textAlign: "center",
     lineHeight: 24,
-    color: Color.white,
+    color: Color.gray0White,
   },
   blinkerTypo: {
     fontFamily: FontFamily.mobileH6HeadingSubHead,
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     borderRadius: Border.br_3xs,
     width: 327,
     height: 4,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     left: "50%",
     top: 10,
     position: "absolute",
@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH4HeadingSection_size,
     textAlign: "center",
     lineHeight: 24,
-    color: Color.white,
+    color: Color.gray0White,
   },
   enterThe6Digit: {
     fontFamily: FontFamily.mobileBodyCopy,
@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
     fontWeight: "600",
   },
   inputField: {
@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
     paddingVertical: Padding.p_sm,
     borderRadius: Border.br_81xl,
     flexDirection: "row",
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
   },
   createANewWallet3: {
     backgroundColor: Color.primary,

@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
   cancelFlexBox: {
     textAlign: "center",
     lineHeight: 24,
-    color: Color.white,
+    color: Color.gray0White,
   },
   frameParentSpaceBlock: {
     marginTop: 24,
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     color: Color.primary,
   },
   withdrawToBankWrapper: {
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     paddingVertical: Padding.p_5xs,
     borderRadius: Border.br_81xl,
     paddingHorizontal: Padding.p_81xl,
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
     marginTop: 24,
   },
   withdrawToMinipay: {
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     fontSize: FontSize.mobileH6HeadingSubHead_size,

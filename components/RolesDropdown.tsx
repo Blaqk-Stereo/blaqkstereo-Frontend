@@ -35,7 +35,7 @@ const RolesDropdown = ({ onClose }: RolesDropdownType) => {
 const styles = StyleSheet.create({
   composerTypo: {
     textAlign: "center",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     fontFamily: FontFamily.mobileBodyCopy,

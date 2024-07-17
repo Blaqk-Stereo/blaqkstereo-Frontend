@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
     lineHeight: 34,
     fontWeight: "700",
     fontFamily: FontFamily.mobileH2HeadingDefault,
-    color: Color.white,
+    color: Color.gray0White,
   },
   availBal46080: {
     color: Color.primary0,
@@ -177,7 +177,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
     textAlign: "left",
     lineHeight: 24,
-    color: Color.white,
+    color: Color.gray0White,
   },
   author1: {
     alignItems: "flex-end",
@@ -240,7 +240,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   button: {
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     paddingHorizontal: Padding.p_99xl,
     width: 303,
     justifyContent: "center",
@@ -257,7 +257,7 @@ const styles = StyleSheet.create({
     top: 0,
     left: 28,
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
     position: "absolute",
   },
   questionParent: {
@@ -283,7 +283,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
     textAlign: "center",
     fontFamily: FontFamily.mobileBodyCopy,
-    color: Color.white,
+    color: Color.gray0White,
   },
   buttonParent: {
     zIndex: 3,

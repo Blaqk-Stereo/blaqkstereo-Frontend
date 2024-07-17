@@ -125,7 +125,7 @@ const StatsForNewUsers = () => {
 
 const styles = StyleSheet.create({
   allStoresClr: {
-    color: Color.white,
+    color: Color.gray0White,
     textAlign: "left",
   },
   buttonLayout1: {
@@ -206,7 +206,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   button: {
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     paddingHorizontal: Padding.p_99xl,
     paddingVertical: Padding.p_xs,
     borderRadius: Border.br_81xl,
@@ -252,7 +252,7 @@ const styles = StyleSheet.create({
   uploadMusic1: {
     lineHeight: 24,
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
@@ -318,7 +318,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH4HeadingSection_size,
     lineHeight: 24,
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
@@ -331,7 +331,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     lineHeight: 24,
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
   },
   arrowRightIcon: {
     width: 16,

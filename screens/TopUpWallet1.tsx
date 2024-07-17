@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
   },
   depositTypo: {
     fontWeight: "500",
-    color: Color.white,
+    color: Color.gray0White,
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
     lineHeight: 24,
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
   },
   button: {
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     justifyContent: "center",
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
   or: {
     fontSize: FontSize.btnSmallNormal_size,
     marginLeft: 4,
-    color: Color.white,
+    color: Color.gray0White,
     textAlign: "center",
     fontFamily: FontFamily.mobileBodyCopy,
     lineHeight: 24,
@@ -236,7 +236,7 @@ const styles = StyleSheet.create({
     marginLeft: -29.5,
     fontFamily: FontFamily.mobileH5HeadingComponent,
     fontWeight: "500",
-    color: Color.white,
+    color: Color.gray0White,
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
     lineHeight: 24,

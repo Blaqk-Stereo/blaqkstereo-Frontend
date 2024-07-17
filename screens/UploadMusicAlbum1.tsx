@@ -194,7 +194,7 @@ const styles = StyleSheet.create({
   blinker: {
     left: 16,
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileBodyCopy,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -250,7 +250,7 @@ const styles = StyleSheet.create({
     height: 32,
   },
   uploadYourImage: {
-    color: Color.white,
+    color: Color.gray0White,
   },
   sizeShouldBe: {
     lineHeight: 16,
@@ -295,7 +295,7 @@ const styles = StyleSheet.create({
     borderRadius: Border.br_81xl,
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     marginLeft: -167.5,
     justifyContent: "center",
     left: "50%",
@@ -325,7 +325,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
     left: "50%",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
     position: "absolute",
   },
@@ -341,7 +341,7 @@ const styles = StyleSheet.create({
     zIndex: 0,
   },
   stepGroupHorizontalItem: {
-    borderColor: Color.white,
+    borderColor: Color.gray0White,
     width: 45,
     zIndex: 1,
   },
@@ -358,7 +358,7 @@ const styles = StyleSheet.create({
     elevation: 0,
     shadowOpacity: 1,
     borderColor: Color.primary0,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
   },
   stepTitle: {
     color: Color.primary0,

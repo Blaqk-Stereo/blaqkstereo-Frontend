@@ -259,7 +259,7 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     fontSize: FontSize.mobileH5HeadingComponent_size,
     lineHeight: 24,
-    color: Color.white,
+    color: Color.gray0White,
   },
   headerPosition: {
     height: 74,
@@ -294,7 +294,7 @@ const styles = StyleSheet.create({
   janeDoe: {
     width: 87,
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 34,
     letterSpacing: -1,
     fontSize: FontSize.mobileH3HeadingPage_size,
@@ -306,13 +306,13 @@ const styles = StyleSheet.create({
     marginTop: 4,
     lineHeight: 24,
     fontFamily: FontFamily.mobileBodyCopy,
-    color: Color.white,
+    color: Color.gray0White,
   },
   joined01Aug: {
     marginTop: 4,
     fontFamily: FontFamily.mobileBodyCopy,
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
   },
   editProfile: {
     color: Color.primary,
@@ -322,7 +322,7 @@ const styles = StyleSheet.create({
   },
   editProfileWrapper: {
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     alignItems: "center",
     paddingHorizontal: Padding.p_base,
     paddingVertical: Padding.p_11xs,
@@ -342,7 +342,7 @@ const styles = StyleSheet.create({
   },
   artistProfiles: {
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 34,
     letterSpacing: -1,
     fontSize: FontSize.mobileH3HeadingPage_size,

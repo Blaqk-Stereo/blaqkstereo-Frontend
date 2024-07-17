@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
   newRoyaltyPayments: {
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
-    color: Color.white,
+    color: Color.gray0White,
   },
   bitoggle2OnIcon: {
     width: 38,

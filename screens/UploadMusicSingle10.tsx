@@ -106,12 +106,12 @@ const UploadMusicSingle10 = () => {
             <Image
               style={[styles.vectorIcon, styles.layoutPosition]}
               contentFit="cover"
-              source={require("../assets/vector.png")}
+              source={require("../assets/vector2.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/vector2.png")}
+              source={require("../assets/vector21.png")}
             />
             <Text style={[styles.yes, styles.yesTypo]}>Yes</Text>
           </View>
@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
   davidoTypo: {
     fontFamily: FontFamily.mobileBodyCopy,
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
   },
   iconLayout: {
     height: 24,
@@ -234,7 +234,7 @@ const styles = StyleSheet.create({
     height: 32,
   },
   uploadYourImage: {
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
@@ -290,7 +290,7 @@ const styles = StyleSheet.create({
   },
   davido: {
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
@@ -305,7 +305,7 @@ const styles = StyleSheet.create({
   },
   blinker2: {
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileBodyCopy,
     top: "50%",
     position: "absolute",
@@ -356,7 +356,7 @@ const styles = StyleSheet.create({
   button: {
     marginLeft: -167.5,
     bottom: 24,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
     justifyContent: "center",
@@ -387,7 +387,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
     lineHeight: 24,
-    color: Color.white,
+    color: Color.gray0White,
     left: "50%",
   },
   uploadMusicsingle: {

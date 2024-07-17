@@ -62,12 +62,12 @@ const UploadMusicSingle7 = () => {
             <Image
               style={[styles.vectorIcon, styles.vectorIconPosition]}
               contentFit="cover"
-              source={require("../assets/vector.png")}
+              source={require("../assets/vector2.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.pressableLayout]}
               contentFit="cover"
-              source={require("../assets/vector1.png")}
+              source={require("../assets/vector11.png")}
             />
             <Text style={[styles.no, styles.noTypo]}>No</Text>
           </View>
@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
     height: 32,
   },
   uploadYourImage: {
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "center",
@@ -219,7 +219,7 @@ const styles = StyleSheet.create({
   },
   containsExplicitContent: {
     textAlign: "left",
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileBodyCopy,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -241,7 +241,7 @@ const styles = StyleSheet.create({
     marginLeft: 3,
     textAlign: "left",
     fontSize: FontSize.btnSmallNormal_size,
-    color: Color.white,
+    color: Color.gray0White,
     left: "50%",
     top: "50%",
     position: "absolute",
@@ -272,7 +272,7 @@ const styles = StyleSheet.create({
     marginLeft: -167.5,
     bottom: 24,
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     justifyContent: "center",
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
@@ -300,7 +300,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
     lineHeight: 24,
-    color: Color.white,
+    color: Color.gray0White,
     left: "50%",
   },
   uploadMusicsingle: {

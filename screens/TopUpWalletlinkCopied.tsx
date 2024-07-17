@@ -196,7 +196,7 @@ const styles = StyleSheet.create({
   },
   or: {
     marginLeft: 4,
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileBodyCopy,
     lineHeight: 24,
     fontSize: FontSize.btnSmallNormal_size,
@@ -240,7 +240,7 @@ const styles = StyleSheet.create({
     top: "50%",
     marginTop: -12,
     position: "absolute",
-    color: Color.white,
+    color: Color.gray0White,
     fontFamily: FontFamily.mobileBodyCopy,
   },
   copySuccessIcon: {
@@ -283,7 +283,7 @@ const styles = StyleSheet.create({
   },
   button: {
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
     marginTop: 24,
@@ -321,7 +321,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
     lineHeight: 24,
-    color: Color.white,
+    color: Color.gray0White,
   },
   topUpWalletlinkCopied: {
     flex: 1,

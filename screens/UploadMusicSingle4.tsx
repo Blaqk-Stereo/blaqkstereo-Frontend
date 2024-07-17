@@ -118,12 +118,12 @@ const UploadMusicSingle4 = () => {
             <Image
               style={[styles.vectorIcon, styles.iconLayout1]}
               contentFit="cover"
-              source={require("../assets/vector.png")}
+              source={require("../assets/vector2.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.iconLayout]}
               contentFit="cover"
-              source={require("../assets/vector2.png")}
+              source={require("../assets/vector21.png")}
             />
             <Text style={styles.yes}>Yes</Text>
           </View>
@@ -295,7 +295,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   blinker: {
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     fontFamily: FontFamily.mobileBodyCopy,
@@ -331,7 +331,7 @@ const styles = StyleSheet.create({
     height: 32,
   },
   uploadYourImage: {
-    color: Color.white,
+    color: Color.gray0White,
   },
   sizeShouldBe: {
     lineHeight: 16,
@@ -380,7 +380,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
   },
   davido: {
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     fontFamily: FontFamily.mobileBodyCopy,
@@ -472,7 +472,7 @@ const styles = StyleSheet.create({
     bottom: 16,
     paddingHorizontal: 0,
     paddingVertical: Padding.p_sm,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     justifyContent: "center",
     alignItems: "center",
     borderRadius: Border.br_81xl,
@@ -501,7 +501,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "center",
     left: "50%",
-    color: Color.white,
+    color: Color.gray0White,
     lineHeight: 24,
     position: "absolute",
   },
@@ -517,7 +517,7 @@ const styles = StyleSheet.create({
     zIndex: 0,
   },
   stepGroupHorizontalItem: {
-    borderColor: Color.white,
+    borderColor: Color.gray0White,
     width: 126,
     zIndex: 1,
   },
@@ -527,7 +527,7 @@ const styles = StyleSheet.create({
   stepbaseitem: {
     padding: Padding.p_9xs,
     borderRadius: Border.br_1215xl,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     justifyContent: "center",
     flexDirection: "row",
     alignItems: "center",
@@ -537,7 +537,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   stepTitle: {
-    color: Color.white,
+    color: Color.gray0White,
   },
   complete: {
     zIndex: 2,
@@ -553,7 +553,7 @@ const styles = StyleSheet.create({
     elevation: 0,
     shadowOpacity: 1,
     borderColor: Color.primary0,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
   },
   stepTitle1: {
     color: Color.primary0,

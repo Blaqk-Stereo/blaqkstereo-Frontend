@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
   },
   single: {
     marginLeft: 16,
-    color: Color.white,
+    color: Color.gray0White,
     fontSize: FontSize.mobileH5HeadingComponent_size,
   },
   frameChild: {
@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
   button: {
     top: 736,
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     justifyContent: "center",
     paddingHorizontal: Padding.p_99xl,
     paddingVertical: Padding.p_sm,
@@ -193,7 +193,7 @@ const styles = StyleSheet.create({
     marginLeft: -78.5,
     fontWeight: "500",
     fontFamily: FontFamily.mobileH5HeadingComponent,
-    color: Color.white,
+    color: Color.gray0White,
     fontSize: FontSize.mobileH5HeadingComponent_size,
     left: "50%",
     textAlign: "center",

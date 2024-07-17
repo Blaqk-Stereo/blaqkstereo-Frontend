@@ -177,7 +177,7 @@ const styles = StyleSheet.create({
   },
   payYearlyTypo: {
     marginTop: 9,
-    color: Color.white,
+    color: Color.gray0White,
     fontSize: FontSize.size_3xs,
     textAlign: "center",
     fontFamily: FontFamily.mobileBodyCopy,
@@ -191,7 +191,7 @@ const styles = StyleSheet.create({
   },
   descriptionLayout: {
     lineHeight: 24,
-    color: Color.white,
+    color: Color.gray0White,
   },
   parentLayout: {
     height: 24,
@@ -316,7 +316,7 @@ const styles = StyleSheet.create({
   actiondefault: {
     borderRadius: Border.br_81xl,
     borderStyle: "solid",
-    borderColor: Color.white,
+    borderColor: Color.gray0White,
     borderWidth: 1,
     width: 304,
     paddingHorizontal: Padding.p_31xl,

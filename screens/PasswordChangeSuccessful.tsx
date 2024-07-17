@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     lineHeight: 34,
     fontWeight: "700",
     fontFamily: FontFamily.mobileH2HeadingDefault,
-    color: Color.white,
+    color: Color.gray0White,
     textAlign: "left",
   },
   yourPreferencesHas: {
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
   },
   button: {
     borderRadius: Border.br_81xl,
-    backgroundColor: Color.white,
+    backgroundColor: Color.gray0White,
     flexDirection: "row",
     paddingHorizontal: Padding.p_99xl,
     paddingVertical: Padding.p_sm,
