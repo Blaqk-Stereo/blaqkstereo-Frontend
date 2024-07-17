@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
   },
   cusdTypo: {
     marginLeft: 4,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     fontWeight: "700",
-    fontFamily: FontFamily.mobileH1HeadingDisplay,
+    fontFamily: FontFamily.mobileH2HeadingDefault,
     textAlign: "center",
     color: Color.white,
   },
@@ -191,7 +191,7 @@ const styles = StyleSheet.create({
   },
   letsGo: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,

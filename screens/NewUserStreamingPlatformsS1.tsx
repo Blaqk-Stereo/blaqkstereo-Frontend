@@ -38,7 +38,7 @@ const NewUserStreamingPlatformsS1 = () => {
             <Image
               style={styles.frameChild}
               contentFit="cover"
-              source={require("../assets/group-3592314.png")}
+              source={require("../assets/group-35923.png")}
             />
             <Text style={[styles.amazonMusic, styles.musicSpaceBlock]}>
               Apple Music
@@ -236,7 +236,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH3HeadingPage_size,
     letterSpacing: -1,
     lineHeight: 34,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "left",
   },
@@ -282,7 +282,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   button: {
@@ -326,7 +326,7 @@ const styles = StyleSheet.create({
     marginLeft: -6,
     fontSize: FontSize.size_3xs,
     fontWeight: "700",
-    fontFamily: FontFamily.mobileH1HeadingDisplay,
+    fontFamily: FontFamily.mobileH2HeadingDefault,
     left: "50%",
     textAlign: "left",
     color: Color.white,

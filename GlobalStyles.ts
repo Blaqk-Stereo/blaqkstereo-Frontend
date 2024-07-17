@@ -2,8 +2,8 @@
 export const FontFamily = {
   mobileH5HeadingComponent: "Rubik-Medium",
   mobileBodyCopy: "Rubik-Regular",
-  mobileH3HeadingPage: "Rubik-SemiBold",
-  mobileH1HeadingDisplay: "Rubik-Bold",
+  mobileH6HeadingSubHead: "Rubik-SemiBold",
+  mobileH2HeadingDefault: "Rubik-Bold",
   rubikLight: "Rubik-Light",
   btnSmallNormal: "Poppins-Bold",
   rubikMediumItalic: "Rubik-MediumItalic",
@@ -38,10 +38,10 @@ export const Color = {
   colorGray_400: "#1a1a1a",
   colorGray_500: "#0d0d0d",
   colorGray_900: "rgba(22, 22, 22, 0.8)",
+  colorGray_1400: "rgba(255, 255, 255, 0.6)",
   colorGray_700: "rgba(0, 0, 0, 0)",
   colorGray_1100: "rgba(255, 255, 255, 0.72)",
   colorGray_1500: "rgba(0, 0, 0, 0.8)",
-  colorGray_1400: "rgba(255, 255, 255, 0.6)",
   colorGray_600: "rgba(255, 255, 255, 0.68)",
   colorGray_1300: "rgba(0, 0, 0, 0.72)",
   colorTextPrimary: "rgba(255, 255, 255, 0.93)",
@@ -69,9 +69,9 @@ export const Color = {
   text0: "#f1f1f1",
   brand5: "#eef2ff",
   destructive5: "#fff1f2",
-  colorMediumaquamarine: "rgba(65, 209, 157, 0.1)",
-  colorMediumseagreen: "#0cc993",
   gray60: "#475569",
+  colorMediumseagreen: "#0cc993",
+  colorMediumaquamarine: "rgba(65, 209, 157, 0.1)",
 };
 /* Paddings */
 export const Padding = {
@@ -92,10 +92,10 @@ export const Padding = {
   p_2xs: 11,
   p_xs: 12,
   p_8xs: 5,
-  p_29xl: 48,
   p_34xl: 53,
   p_33xl: 52,
   p_7xs: 6,
+  p_29xl: 48,
 };
 /* border radiuses */
 export const Border = {
@@ -112,12 +112,12 @@ export const Border = {
   br_1215xl: 1234,
   br_104xl: 123,
   br_3xs: 10,
-  br_4xl: 23,
+  br_31xl: 50,
+  br_101xl: 120,
+  br_sm: 14,
+  br_9xs: 4,
   br_17xl_5: 37,
   br_18xl: 37,
-  br_sm: 14,
-  br_101xl: 120,
-  br_31xl: 50,
-  br_9xs: 4,
   br_13xl: 32,
+  br_4xl: 23,
 };

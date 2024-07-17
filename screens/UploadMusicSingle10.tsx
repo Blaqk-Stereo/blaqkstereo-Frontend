@@ -15,7 +15,7 @@ const UploadMusicSingle10 = () => {
       <View style={styles.inputFieldParent}>
         <InputField2
           blinker="Rodo"
-          eye={require("../assets/eye5.png")}
+          eye={require("../assets/eye51.png")}
           blinkerMarginTop="unset"
         />
         <View style={styles.upload}>
@@ -199,7 +199,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },
   yesTypo: {
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   nextTypo: {
@@ -350,7 +350,7 @@ const styles = StyleSheet.create({
   },
   next: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   button: {

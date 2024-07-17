@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     width: 295,
   },
   blcTypo: {
-    fontFamily: FontFamily.mobileH1HeadingDisplay,
+    fontFamily: FontFamily.mobileH2HeadingDefault,
     fontWeight: "700",
     lineHeight: 34,
     letterSpacing: -1,
@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
   proceed: {
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
     textAlign: "left",
     lineHeight: 24,

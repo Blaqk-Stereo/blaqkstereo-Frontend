@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
   },
   save: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },

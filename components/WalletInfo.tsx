@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
   },
   cusdTypo: {
     marginLeft: 4,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "center",

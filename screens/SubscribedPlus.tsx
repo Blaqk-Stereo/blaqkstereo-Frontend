@@ -26,7 +26,7 @@ const SubscribedPlus = () => {
         <Image
           style={styles.subscribedplusChild}
           contentFit="cover"
-          source={require("../assets/ellipse-95.png")}
+          source={require("../assets/ellipse-951.png")}
         />
         <View style={[styles.subscribedplusItem, styles.headerPosition]} />
         <FrameComponent7
@@ -38,12 +38,12 @@ const SubscribedPlus = () => {
             <Image
               style={[styles.frameChild, styles.frameChildLayout]}
               contentFit="cover"
-              source={require("../assets/rectangle-191.png")}
+              source={require("../assets/rectangle-19.png")}
             />
             <Image
               style={styles.titleTextIcon}
               contentFit="cover"
-              source={require("../assets/titletext.png")}
+              source={require("../assets/titletext1.png")}
             />
           </View>
           <View style={styles.groupChild} />
@@ -308,7 +308,7 @@ const styles = StyleSheet.create({
   },
   addNewPlaylist: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     textAlign: "left",
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     lineHeight: 24,

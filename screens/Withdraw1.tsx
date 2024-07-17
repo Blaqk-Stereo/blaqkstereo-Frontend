@@ -162,7 +162,7 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     fontWeight: "700",
-    fontFamily: FontFamily.mobileH1HeadingDisplay,
+    fontFamily: FontFamily.mobileH2HeadingDefault,
     top: "50%",
     position: "absolute",
   },
@@ -230,7 +230,7 @@ const styles = StyleSheet.create({
   },
   continue: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
   },
   button: {

@@ -360,7 +360,7 @@ const styles = StyleSheet.create({
   no: {
     marginTop: -7,
     marginLeft: 3,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     fontSize: FontSize.btnSmallNormal_size,
     color: Color.white,
@@ -508,7 +508,7 @@ const styles = StyleSheet.create({
   next: {
     color: Color.primary,
     fontSize: FontSize.mobileH5HeadingComponent_size,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "center",
     lineHeight: 24,

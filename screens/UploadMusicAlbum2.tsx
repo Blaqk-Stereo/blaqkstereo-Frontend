@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
   },
   continueTypo: {
     color: Color.primary,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "center",
     lineHeight: 24,
@@ -472,7 +472,7 @@ const styles = StyleSheet.create({
     backgroundColor: Color.white,
   },
   noUploadSongs: {
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "center",
     color: Color.white,

@@ -22,7 +22,7 @@ const UploadMusicSingle9 = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-15.png")}
+            source={require("../assets/group-151.png")}
           />
         </View>
         <View style={[styles.publicParent, styles.parentFlexBox]}>
@@ -30,7 +30,7 @@ const UploadMusicSingle9 = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-151.png")}
+            source={require("../assets/group-1512.png")}
           />
         </View>
         <View style={[styles.privateParent, styles.parentFlexBox]}>
@@ -38,7 +38,7 @@ const UploadMusicSingle9 = () => {
           <Image
             style={styles.frameChild}
             contentFit="cover"
-            source={require("../assets/group-15.png")}
+            source={require("../assets/group-151.png")}
           />
         </View>
       </View>
@@ -151,7 +151,7 @@ const styles = StyleSheet.create({
   continue: {
     color: Color.primary,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
     fontSize: FontSize.mobileH6HeadingSubHead_size,
@@ -172,7 +172,7 @@ const styles = StyleSheet.create({
     color: Color.white,
     fontSize: FontSize.mobileH5HeadingComponent_size,
     textAlign: "left",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     lineHeight: 24,
   },

@@ -224,7 +224,7 @@ const Others = () => {
           <Image
             style={styles.blaqkStereowhite300x1}
             contentFit="cover"
-            source={require("../assets/blaqk-stereowhite300x-17.png")}
+            source={require("../assets/blaqk-stereowhite300x-15.png")}
           />
           <Text style={[styles.v10, styles.v10FlexBox]}>v1.0</Text>
         </View>
@@ -326,7 +326,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   accountTypo: {
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     textAlign: "left",
     color: Color.white,

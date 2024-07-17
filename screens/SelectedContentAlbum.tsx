@@ -24,7 +24,7 @@ const SelectedContentAlbum = () => {
         <Image
           style={styles.bgIcon}
           contentFit="cover"
-          source={require("../assets/bg2.png")}
+          source={require("../assets/bg1.png")}
         />
         <Image
           style={[styles.selectedContentalbumChild, styles.navPosition]}
@@ -361,7 +361,7 @@ const styles = StyleSheet.create({
   textTypo1: {
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     lineHeight: 24,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   text3Typo: {
@@ -381,7 +381,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     lineHeight: 24,
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     left: "50%",
     position: "absolute",
@@ -423,7 +423,7 @@ const styles = StyleSheet.create({
     lineHeight: 34,
     textAlign: "left",
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
   },
   album: {

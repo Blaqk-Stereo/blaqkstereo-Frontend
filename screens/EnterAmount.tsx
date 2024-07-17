@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
   proceed: {
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
     textAlign: "left",
     lineHeight: 24,
@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     fontWeight: "700",
-    fontFamily: FontFamily.mobileH1HeadingDisplay,
+    fontFamily: FontFamily.mobileH2HeadingDefault,
     textAlign: "right",
     color: Color.white,
     top: "50%",

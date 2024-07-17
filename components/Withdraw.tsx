@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     width: 287,
   },
   withdrawTypo: {
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     fontSize: FontSize.mobileH6HeadingSubHead_size,
     textAlign: "center",
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
   },
   withdrawToMinipay: {
     color: Color.white,
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     fontWeight: "600",
     fontSize: FontSize.mobileH6HeadingSubHead_size,
   },

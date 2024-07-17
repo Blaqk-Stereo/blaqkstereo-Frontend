@@ -481,7 +481,7 @@ const styles = StyleSheet.create({
   },
   addToAlbum: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
     textAlign: "center",
     fontSize: FontSize.mobileH6HeadingSubHead_size,

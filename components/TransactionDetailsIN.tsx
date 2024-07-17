@@ -151,7 +151,7 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     lineHeight: 34,
     fontWeight: "700",
-    fontFamily: FontFamily.mobileH1HeadingDisplay,
+    fontFamily: FontFamily.mobileH2HeadingDefault,
     color: Color.white,
   },
   availBal46080: {
@@ -234,7 +234,7 @@ const styles = StyleSheet.create({
   },
   downloadReceipt: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
     marginLeft: 10,
     lineHeight: 24,

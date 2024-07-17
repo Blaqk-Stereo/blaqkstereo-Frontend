@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
     color: Color.white,
   },
   blcTypo: {
-    fontFamily: FontFamily.mobileH1HeadingDisplay,
+    fontFamily: FontFamily.mobileH2HeadingDefault,
     fontWeight: "700",
     lineHeight: 34,
     letterSpacing: -1,
@@ -213,7 +213,7 @@ const styles = StyleSheet.create({
   },
   blc: {
     right: 16,
-    fontFamily: FontFamily.mobileH1HeadingDisplay,
+    fontFamily: FontFamily.mobileH2HeadingDefault,
     fontWeight: "700",
     lineHeight: 34,
     letterSpacing: -1,
@@ -263,7 +263,7 @@ const styles = StyleSheet.create({
   },
   continue: {
     fontWeight: "600",
-    fontFamily: FontFamily.mobileH3HeadingPage,
+    fontFamily: FontFamily.mobileH6HeadingSubHead,
     color: Color.primary,
     textAlign: "center",
   },
